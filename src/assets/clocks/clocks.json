@@ -16,5 +16,14 @@
 		"color": "#FD7777",
 		"value": 2,
 		"max": 6
+	},
+	{
+		"type": "Groceries",
+		"result": "Food",
+		"name": "The Kitchen",
+		"description": "The pantry is empty, please buy 6 whole potatos.",
+		"color": "#bb7dbb",
+		"value": 5,
+		"max": 6
 	}
 ]
