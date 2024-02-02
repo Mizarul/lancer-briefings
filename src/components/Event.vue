@@ -4,7 +4,10 @@
 			<h1>{{ event.location }} // {{ event.time }}</h1>
 			<h2>{{ event.title }}</h2>
 		</div>
-		<img class="thumbnail" :src="event.thumbnail" />
+		<img :src="event.thumbnail" />
+		<div class="preview">
+			{{ getPreview }}
+		</div>
 		<a @click.prevent="eventModal">Read More</a>
 	</div>
 </template>
