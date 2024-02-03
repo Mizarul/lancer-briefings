@@ -25,6 +25,7 @@
 	--mission-partial: rgba(88, 34, 102, 1);
 	--mission-success: #226662;
 	--mission-failure: rgba(176, 45, 45, 1);
+	--mission-wildcard: rgba(255, 51, 153, 1);
   --primary-logo:#0C3C40;
   --secondary-logo: #146464;
   /* Pilot Roster Text */
@@ -535,6 +536,9 @@ section .section-header h1 {
 }
 .mission .failure {
 	background-color: var(--mission-failure);
+}
+.mission .wildcard {
+	background-color: var(--mission-wildcard);
 }
 .mission.active {
 	background-color: var(--highlight-active);
