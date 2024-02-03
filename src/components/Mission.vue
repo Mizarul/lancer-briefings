@@ -33,7 +33,7 @@ export default {
       if (this.mission.status === "partial-success") return "Partial\nSuccess";
       if (this.mission.status === "success") return "Mission\nSuccess";
       if (this.mission.status === "failure") return "Mission\nFailure";
-      if (this.mission.status === "*") return "Mission\n" + this.mission.status;
+      if (this.mission.status === '*') return "Mission\n" + this.mission.status;
 	  
     },
     isActive() {
