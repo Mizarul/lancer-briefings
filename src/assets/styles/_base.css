@@ -525,9 +525,6 @@ section .section-header h1 {
 	height: 32px;
 	padding-left: 0.5em;
 }
-.mission .status h3{
-	background-color: var(--mission-start);
-}
 .mission .start {
 	background-color: var(--mission-start);
 }
