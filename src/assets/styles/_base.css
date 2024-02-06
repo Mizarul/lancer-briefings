@@ -540,9 +540,6 @@ section .section-header h1 {
 .mission .wildcard {
 	background-color: var(--mission-wildcard);
 }
-.mission .peepeetest {
-	background-color: var(--mission-failure);
-}
 .mission.active {
 	background-color: var(--highlight-active);
 }
