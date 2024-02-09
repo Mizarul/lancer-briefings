@@ -150,7 +150,7 @@
           {{ activeMech.mechtype }}
         </div>
       </div>
-      <img :src="pilot.activeMech.cloud_portrait" class="portrait">
+      <img :src="activeMech.cloud_portrait" class="portrait">
     </div>
   </div>
 </template>
