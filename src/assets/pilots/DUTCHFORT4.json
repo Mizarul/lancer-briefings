@@ -14,7 +14,7 @@
     "background": "Mechanic",
     "resistances": [],
     "mechs": [
-        {
+        /*{
             "id": "b5670e7f-7867-4781-970c-192706b97704",
             "name": "Space Cowboy",
             "notes": "",
@@ -232,7 +232,7 @@
                 }
             ],
             "active_loadout_index": 0
-        },
+        },*/
         {
             "id": "3ee328dd-e18d-4e26-8709-a9d09651fc3a",
             "name": "You'll Make It Through This",
