@@ -452,6 +452,12 @@ section .section-header h1 {
 	-webkit-clip-path: polygon(0 0, 400px 0, 452px 100%, 0% 100%);
 	margin-right: 1em;
 }
+.clipped-medium-backward-lore {
+	width: 452px;
+	clip-path: polygon(0 0, 400px 0, 452px 100%, 0% 100%);
+	-webkit-clip-path: polygon(0 0, 400px 0, 452px 100%, 0% 100%);
+	margin-right: 1em;
+}
 .clipped-medium-backward-pilot {
 	width: 452px;
 	clip-path: polygon(0 0, 400px 0, 452px 100%, 0% 100%);
