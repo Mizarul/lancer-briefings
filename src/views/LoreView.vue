@@ -12,7 +12,7 @@
 				<Lore
 				  v-for="item in lore"
 				  :key="item.title"
-				  :Lore="item"
+				  :lore="item"
 				  :animate="animate" />
 			</div>
 		</div>
