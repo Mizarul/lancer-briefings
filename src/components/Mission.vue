@@ -3,6 +3,7 @@
     <div class="name">
       <h1>Mission // {{ mission.slug }}</h1>
       <h2>{{ mission.name }}</h2>
+	  /*ADD h3 HERE SO WE CAN JUST READ IT AS TEXT AND NOT A CLASS DEFINITION*/
     </div>
     <div class="status" :class="mission.status">
       {{ missionStatus }}
