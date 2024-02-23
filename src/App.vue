@@ -176,7 +176,7 @@ export default {
 				lore["time"] = content.split("\n")[2];
 				lore["thumbnail"] = content.split("\n")[3];
 				lore["content"] = content.split("\n").splice(4).join("\n");
-				this.lores = [...this.lores, lore];
+				this.lore = [...this.lore, lore];
 			});
 		},
 	},

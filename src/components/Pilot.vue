@@ -129,7 +129,7 @@
         <div class="gear">
           <h1>Pilot Gear</h1>
           <h2>{{ pilotInfo.loadout.gear[2].flavorName }}</h2>
-        </div>
+      </div>
       </div>
     </div>
     </div>
