@@ -10,7 +10,7 @@
 		<div class="section-content-container">
 			<div class="lore-list-container">
 				<Lore
-				  v-for="item in lores"
+				  v-for="item in lore"
 				  :key="item.title"
 				  :Lore="item"
 				  :animate="animate" />
@@ -33,7 +33,7 @@ export default {
 			type: Boolean,
 			required: true,
 		},
-		lores: {
+		lore: {
 			type: Array,
 			required: true,
 		},
