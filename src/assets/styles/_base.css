@@ -1097,56 +1097,6 @@ section .section-header h1 {
 	margin-left: -18px;
 }
 
-.lore-modal {
-	position: relative;
-}
-
-.lore-modal .pilot-header-container {
-	display: flex;
-}
-.lore-modal div .section-header {
-	background-color: var(--primary-color);
-	border-color: var(--primary-color);
-	height: 52px;
-	display: inline-flex;
-	gap: 15px;
-	padding-left: 16px;
-	margin-top: -38px !important;
-}
-.lore-modal div .section-header h1 {
-	font-size: 26px;
-	margin: 0%;
-	align-self: center;
-	font-family: "Big Shoulders Display", cursive;
-	font-weight: 800;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-}
-.lore-modal .rhombus-back {
-	transform: skew(0.785398rad) !important;
-	background-color: var(--primary-color);
-	border-color: var(--primary-color);
-	width: 40px;
-	height: 52px;
-	display: inline-block;
-	position: relative;
-	left: -10px;
-	top: -38px;
-}
-.lore-modal div.lore {
-	background-color: var(--secondary-color);
-	border: 1px solid var(--primary-color);
-	margin-top: -38px;
-	width: 888px;
-	height: 662px;
-}
-
-.lore-modal div.lore div.markdown {
-	height: 600px;
-	width: 888px;
-	margin-left: -18px;
-}
-
 .o-modal__overlay {
 	bottom: 0;
 	left: 0;
@@ -1408,12 +1358,6 @@ div.markdown ol li {
 	height: 350px;
 }
 #events .markdown {
-	height: 666px;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	border-bottom: none;
-}
-#lore .markdown {
 	height: 666px;
 	padding-top: 1em;
 	padding-bottom: 1em;

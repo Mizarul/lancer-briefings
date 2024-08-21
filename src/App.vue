@@ -12,7 +12,6 @@
 			:pilots="pilots"
 			:clocks="clocks"
 			:reserves="reserves"
-			:lore="lore"
 		/>
 	</div>
 	<svg
@@ -64,7 +63,6 @@ export default {
 			pilots: [],
 			reserves: [],
 			bonds: [],
-			lore: [],
 		};
 	},
 	created() {
@@ -74,7 +72,6 @@ export default {
 		this.importClocks(import.meta.glob("@/assets/clocks/*.json"));
 		this.importReserves(import.meta.glob("@/assets/reserves/*.json"));
 		this.importPilots(import.meta.glob("@/assets/pilots/*.json"));
-		this.importLore(import.meta.glob("@/assets/lore/*.md", { as: "raw" }));
 	},
 	mounted() {
 		this.$router.push("/status");
@@ -164,19 +161,6 @@ export default {
 					reserve["callsign"] = pilot.callsign.toUpperCase();
 					this.reserves = [...this.reserves, reserve];
 				});
-			});
-		},
-		async importLore(files) {
-			let filePromises = Object.keys(files).map(path => files[path]());
-			let fileContents = await Promise.all(filePromises);
-			fileContents.forEach(content => {
-				let lore = {};
-				lore["title"] = content.split("\n")[0];
-				lore["location"] = content.split("\n")[1];
-				lore["time"] = content.split("\n")[2];
-				lore["thumbnail"] = content.split("\n")[3];
-				lore["content"] = content.split("\n").splice(4).join("\n");
-				this.lore = [...this.lore, lore];
 			});
 		},
 	},
