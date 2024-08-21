@@ -1211,7 +1211,6 @@ section .section-header h1 {
 	flex-direction: row;
 	row-gap: 10px;
 	margin: 1em auto;
-	width: calc(100% / 3);
 }
 
 .pilot .clock-body {
@@ -1268,7 +1267,6 @@ section .section-header h1 {
 	color: var(--text-markdown-p);
 	margin: 0.2em;
 	text-align: left;
-	width: calc(100% / 3 * 2);
 }
 
 
