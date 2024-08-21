@@ -36,18 +36,6 @@
 				<div class="clock-summary">
 					{{ clock.description }}
 				</div>
-				<o-icon
-				  pack="mdi"
-				  class="icon transition"
-				  ref="arrow"
-				  icon="chevron-up"
-				  size="large"
-				  v-bind:style="{ transform: `rotate(${$props.deg}deg)` }" />
-			</div>
-			<div
-			  v-if="isActive"
-			  class="clock-summary">
-				{{ clock.description }}
 			</div>
 		</div>
 	</div>
