@@ -1,29 +1,9 @@
 <template>
 	<div class="clock-container" @click="toggleActive">
 		<div
-		  v-if="$props.clock.type == 'Story'"
 		  :class="$props.clock.type.toLowerCase()">
 			<div class="clock-header">
 				<h2 class="clock-subtitle">{{ $props.clock.type }} // {{ $props.clock.result }}</h2>
-				<h1 class="clock-title">{{ $props.clock.name }}</h1>
-			</div>
-			<div class="clock-body">
-				<div class="clock">
-					<DoughnutChart
-					  :chartData="testData"
-					  :options="options"
-					  class="chart" />
-				</div>
-				<div class="clock-summary">
-					{{ clock.description }}
-				</div>
-			</div>
-		</div>
-		<div
-		  v-if="$props.clock.type != 'Story'"
-		  :class="$props.clock.type.toLowerCase()">
-			<div class="clock-header">
-				<h2 class="clock-subtitle">{{ $props.clock.type }}</h2>
 				<h1 class="clock-title">{{ $props.clock.name }}</h1>
 			</div>
 			<div class="clock-body">
