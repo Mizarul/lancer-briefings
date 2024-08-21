@@ -10,7 +10,6 @@
 	},
 	{
 		"type": "Rapport",
-		"result": "Positive",
 		"name": "Rhine Lab LLC",
 		"description": "[Insert info here] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam sem mi, vitae pharetra lorem dictum consectetur.",
 		"color": "#FD7777",
