@@ -1,1 +1,0 @@
-- Pilots get their columns auto adjusted in the middle, make it static instead
