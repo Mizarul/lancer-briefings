@@ -1218,9 +1218,6 @@ section .section-header h1 {
 	margin: 0em auto;
 }
 
-.story .clock {
-	width: calc(100% / 3);
-}
 
 .pilot .clock {
 	width: calc(100% / 7);
@@ -1274,9 +1271,6 @@ section .section-header h1 {
 	width: calc(100% / 3 * 2);
 }
 
-.story .clock-summary {
-	width: calc(100% / 3 * 2);
-}
 
 div.markdown {
 	padding-left: 1em;
