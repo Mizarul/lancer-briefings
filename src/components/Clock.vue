@@ -22,6 +22,10 @@
 		<div
 		  v-if="$props.clock.type != 'Story'"
 		  :class="$props.clock.type.toLowerCase()">
+			<div class="clock-header">
+				<h2 class="clock-subtitle">{{ $props.clock.type }}</h2>
+				<h1 class="clock-title">{{ $props.clock.name }}</h1>
+			</div>
 			<div class="clock-body">
 				<div class="clock">
 					<DoughnutChart
@@ -29,23 +33,22 @@
 					  :options="options"
 					  class="chart" />
 				</div>
-				<div class="clock-header">
-					<h2 class="clock-subtitle">{{ $props.clock.type }}</h2>
-					<h1 class="clock-title">{{ $props.clock.name }}</h1>
+				<div class="clock-summary">
+					{{ clock.description }}
 				</div>
-				<o-icon
+				<!--<o-icon
 				  pack="mdi"
 				  class="icon transition"
 				  ref="arrow"
 				  icon="chevron-up"
 				  size="large"
-				  v-bind:style="{ transform: `rotate(${$props.deg}deg)` }" />
+				  v-bind:style="{ transform: `rotate(${$props.deg}deg)` }" />-->
 			</div>
-			<div
+			<!--<div
 			  v-if="isActive"
 			  class="clock-summary">
 				{{ clock.description }}
-			</div>
+			</div>-->
 		</div>
 	</div>
 </template>
