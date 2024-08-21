@@ -18,7 +18,7 @@
 		"max": 10
 	},
 	{
-		"type": "Groceries",
+		"type": "Story",
 		"result": "Food",
 		"name": "The Kitchen",
 		"description": "The pantry is empty, please buy 6 whole potatos.",
