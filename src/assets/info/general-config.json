@@ -5,24 +5,20 @@
   "defaultTitle": "MSMC |",
   "icon": "/faction-logos/msmc.svg",
   "header": {
-    "planet": "Hercynia",
+    "planet": "Nisipul Acasă",
     "year": "5014u",
-    "system": "Ardennes-3",
-    "gate": "Atlas-Quanokrim",
-    "ring": "Atlas-Line",
-    "headerTitle": "Mirrorsmoke",
+    "system": "Eos-1",
+    "gate": "Bai-Ulgan",
+    "ring": "Esege-Malan",
+    "headerTitle": "Hills of Debt",
     "headerSubtitle": "Mercenary Company",
-    "subheaderTitle": "Crisis Response",
-    "subheaderSubtitle": "Delta-Echo-Echo-Zulu"
+    "subheaderTitle": "Support Request",
+    "subheaderSubtitle": "IMMEDIATE"
   },
   "pilotSpecialInfo": {
-    "APOLLO": {
-      "age": "32u",
-      "pob": "Evergreen"
-    },
-    "RAI-DEN": {
-      "age": "48u",
-      "pob": "Gaia"
+    "CENUSA": {
+      "age": "50",
+      "pob": "Nisipul Acasă"
     }
   }
 }
