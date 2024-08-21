@@ -1270,9 +1270,6 @@ section .section-header h1 {
 	color: var(--text-markdown-p);
 	margin: 0.2em;
 	text-align: left;
-}
-
-.story .clock-summary {
 	width: calc(100% / 3 * 2);
 }
 
