@@ -2,7 +2,7 @@
   "initialSlug": "001",
   "planetPath": "/planet.webm",
   "animate": true,
-  "defaultTitle": "MSMC |",
+  "defaultTitle": "FOHTC |",
   "icon": "/faction-logos/union.svg",
   "header": {
     "planet": "Ibreliv IV",
@@ -12,7 +12,7 @@
     "ring": "Karakoram",
     "headerTitle": "Five Open Hands",
     "headerSubtitle": "Two Castles",
-    "subheaderTitle": "Support Request",
+    "subheaderTitle": "Investigation Request",
     "subheaderSubtitle": "IMMEDIATE"
   },
   "pilotSpecialInfo": {
