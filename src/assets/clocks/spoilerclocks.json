@@ -1,0 +1,19 @@
+,
+	{
+		"type": "Rapport",
+		"result": "Status",
+		"name": "IPS",
+		"description": "[Insert info here] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam sem mi, vitae pharetra lorem dictum consectetur.",
+		"color": "#7DBBBB",
+		"value": 5,
+		"max": 10
+	},
+	{
+		"type": "Rapport",
+		"result": "Status",
+		"name": "Rhine Lab LLC",
+		"description": "[Insert info here] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam sem mi, vitae pharetra lorem dictum consectetur.",
+		"color": "#FD7777",
+		"value": 5,
+		"max": 10
+	}
