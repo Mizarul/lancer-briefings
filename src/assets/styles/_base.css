@@ -666,7 +666,9 @@ section .section-header h1 {
 	/* cursor: pointer; */
 }
 
-.pilot-wrapper .pilot-column,
+.pilot-wrapper .pilot-column{
+	display: block;
+}
 .pilot-wrapper .gear-column,
 .pilot-wrapper .bonds-column,
 .pilot-wrapper .mech-column {
