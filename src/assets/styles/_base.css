@@ -994,6 +994,7 @@ section .section-header h1 {
 	object-fit: contain;
 	object-position: center;
 	overflow: hidden;
+	display: flex;
 }
 .mech-modal.portrait .mech-header-container {
 	display: flex;
