@@ -127,6 +127,11 @@ export default {
         item = item || {id: "", flavorName: ""}
         const mountObj = this.weaponsData.find((obj) => { return item.id === obj.id }) || null
         item.flavorName = mountObj?.name || "ERR: DATA NOT FOUND";
+        const mountLock = mount.lock;
+        const mountLockIsArray = Array.isArray(mountLock) && mountLock.length > 0;
+        if (mountLockIsArray) {
+          item.flavorName = "LOCKED"
+        }
 
         switch (type) {
           case 'Main':
