@@ -27,6 +27,7 @@ export default defineConfig({
       "@massif/ssmr-data",
       "@massif/dustgrave-data",
       "@massif/ows-data",
+      "../assets/lcp/Core_Mk_2",
     ],
   },
   build: {
