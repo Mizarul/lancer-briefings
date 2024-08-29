@@ -24,6 +24,7 @@ export default defineConfig({
       "@massif/wallflower-data",
       "@massif/long-rim-data",
       "@massif/osr-data",
+      "@massif/ssmr-data",
     ],
   },
   build: {

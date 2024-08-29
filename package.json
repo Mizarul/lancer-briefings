@@ -17,6 +17,7 @@
 		"@massif/long-rim-data": "^1.2.2",
 		"@massif/wallflower-data": "^2.1.0",
 		"@massif/osr-data": "^1.2.0",
+		"@massif/ssmr-data": "^1.7.0",
 		"remove-markdown": "^0.5.0",
 		"typeit": "^8.7.0",
 		"vue": "^3.2.37",
