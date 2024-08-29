@@ -1,0 +1,901 @@
+{
+    "id": "d8beee4f-efce-4d33-8ec7-195937e5ba98",
+    "level": 3,
+    "callsign": "Firefly",
+    "name": "Victoria Apfelbaum",
+    "player_name": "---",
+    "status": "Active",
+    "dead": false,
+    "text_appearance": "",
+    "notes": "- Got a kitten and named it Gadget.\n- Trained Gadget to come with me on my Mech and not freak out during combat (System Extra Compartment needed).\n- Gadget helps me find materials for my Bond Power (Rigger).",
+    "history": "<p>Victoria had been found as an orphan on a remote planet far away from Union territory. Neither she nor her new \"family\" knows where she came from or who and where her parents are. The man who took her in is Norman, one of the best mechanics on his planet. Why he took her in remains a mystery, perhaps even to himself. Maybe he wished to have a daughter after his wife passed away many years ago, or maybe he just took pity on the little orphan he found at the local junkyard. Nevertheless, he was a good and caring \"father.\"</p><p>Due to Norman's profession, Victoria learned the life of a mechanic from a very young age. She started assisting him with his work early on and showed a great interest in creating and inventing new tools in Norman's workshop. Her knack for inventing often led to unexpected results, with many of her creations turning into unintentional makeshift explosives or malfunctioning contraptions. Despite her struggles with traditional repairs and maintenance, her true talent lay in her innovative designs and the ability to think outside the box. Over time, Victoria developed a fascination with explosions, seeing them as a powerful force of creation and destruction that mirrored her own inventive spirit.</p><p>One day, when Victoria was 14 years old and searching the junkyard for new materials for her latest \"invention\" – a small drone with robotic arms to work on large machines without the need for climbing – she found something big buried under a tremendous amount of junk. By accidentally causing a junk avalanche, she revealed an Everest-type mech.</p><p>She had read about these mechs in some of the learning books she had from Norman and thought it would be cool to get it moving. After a preliminary analysis, most parts of the mech seemed to be potentially functional with some minor adjustments and improvements. Eager to try it out, Victoria climbed into the cockpit to see if she could somehow get it running. The moment she sat inside the mech was amazing for her; she couldn't quite understand it herself, but it felt like she was born to be in this machine. She had never felt so happy in her life.</p><p>At first, operating the mech felt very intuitive for her, and she was able to take a few steps. Unfortunately, she had no real idea how to properly operate the machine and accidentally activated some kind of boost system, causing her to crash into a nearby wall at high speed. This crash caused the already broken mech to fall apart completely and resulted in a small explosion, setting the junkyard on fire. Victoria was badly injured in the accident but was rescued by the local emergency forces. After many days in critical condition at the hospital, she survived, losing only her right arm and left leg and gaining numerous lasting scars on her body.</p><p>During her recovery, Victoria's desire to become a mech pilot grew stronger. She decided not just to be any pilot, but one of the best. She wanted to become a Lancer. When she shared her decision with Norman, he was dismayed. He had always envisioned a different future for her – one that involved the safety and predictability of running the workshop. Norman was worried about the dangers and uncertainties that came with being a Lancer, and he couldn't understand why Victoria would choose such a perilous path.</p><p>\"Why would you throw away everything we've built here?\" Norman asked, frustration and worry evident in his voice. \"You have a real talent for this work, Victoria. You could have a stable life, a good life.\"</p><p>Victoria understood his concerns, but she couldn't ignore her passion. \"I know, Norman. But I don't want just a good life. I want to do something extraordinary. I want to make a difference.\"</p><p>Despite his reservations, Norman continued to support Victoria, even though it pained him to see her pursue such a dangerous path. She stayed at Norman's workshop for many years, saving as much money as she could to build herself a proper Everest mech. First, she built herself a mechanical prosthesis for her right arm, then she started learning as much as she could about piloting and mechs. Using the remnants of the crashed mech from the junkyard, she built her own mini version of the machine to train in until she could afford to get a real one. Throughout these years, her inventions continued to produce small explosions, and she began to incorporate controlled blasts into her designs, seeing them as a signature of her work.</p><p>At the age of 20, she left her \"home\" and set out into the galaxy to earn money as a mercenary and mechanic. She never let any opportunity pass to test and train her piloting skills, doing whatever it took to become worthy of the title of a Lancer.</p><p>Norman watched her leave with a heavy heart, proud of her determination but fearful for her safety. He could only hope that one day, she would find what she was looking for and return home safe.</p>",
+    "quirks": [],
+    "current_hp": 11,
+    "background": "Mechanic",
+    "resistances": [],
+    "mechs": [
+        {
+            "id": "c6f2a894-ff0d-4fdf-8119-24a40cacd51c",
+            "name": "Boombox",
+            "notes": "",
+            "gm_note": "",
+            "frame": "mf_standard_pattern_i_everest",
+            "active": false,
+            "current_structure": 4,
+            "current_move": 4,
+            "boost": 0,
+            "current_hp": 12,
+            "overshield": 0,
+            "current_stress": 4,
+            "current_heat": 0,
+            "current_repairs": 5,
+            "current_overcharge": 0,
+            "current_core_energy": 1,
+            "statuses": [],
+            "conditions": [],
+            "resistances": [],
+            "reactions": [],
+            "burn": 0,
+            "destroyed": false,
+            "defeat": "",
+            "activations": 1,
+            "meltdown_imminent": false,
+            "reactor_destroyed": false,
+            "core_active": false,
+            "cc_ver": "ERR",
+            "lastModified": "Wed Jul 24 2024 12:05:39 GMT+0200 (Mitteleuropäische Sommerzeit)",
+            "isDeleted": false,
+            "expireTime": "",
+            "deleteTime": "",
+            "portrait": "",
+            "cloud_portrait": "https://d1nurxym97qk9o.cloudfront.net/public/us-east-1:ad7d48e8-9ad8-4a15-9f9a-45c647b812ae/mech/Retrograde-Minis-GMS.png",
+            "loadouts": [
+                {
+                    "id": "646c3285-9e1e-47af-98cb-af967d291636",
+                    "name": "Primary",
+                    "systems": [
+                        {
+                            "id": "ms_pattern_b_hex_charges",
+                            "uses": 3,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_pattern_a_smoke_charges",
+                            "uses": 3,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_stable_structure",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Main",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": {
+                                        "id": "mw_rocket_propelled_grenade",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Flex",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Flex",
+                                    "weapon": {
+                                        "id": "mw_missile_rack",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": {
+                                        "id": "mw_missile_rack",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Heavy",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Heavy",
+                                    "weapon": {
+                                        "id": "lmkii_gms_shotty_mk_two",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "More shot per gun.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [
+                        {
+                            "weapon": {
+                                "id": "mw_prototype_1",
+                                "destroyed": false,
+                                "cascading": false,
+                                "loaded": true,
+                                "mod": null,
+                                "flavorName": "",
+                                "flavorDescription": "Gained from the <i>\"Engineer\" Rank I</i> Talent",
+                                "customDamageType": null,
+                                "maxUseOverride": 0,
+                                "uses": 0,
+                                "selectedProfile": 0
+                            }
+                        }
+                    ],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                }
+            ],
+            "active_loadout_index": 0
+        },
+        {
+            "id": "f4a47c5b-4226-49a0-ad4a-392818be60a7",
+            "name": "The gooster",
+            "notes": "",
+            "gm_note": "",
+            "frame": "mf_monarch",
+            "active": false,
+            "current_structure": 4,
+            "current_move": 5,
+            "boost": 0,
+            "current_hp": 10,
+            "overshield": 0,
+            "current_stress": 4,
+            "current_heat": 0,
+            "current_repairs": 3,
+            "current_overcharge": 0,
+            "current_core_energy": 1,
+            "statuses": [],
+            "conditions": [],
+            "resistances": [],
+            "reactions": [],
+            "burn": 0,
+            "destroyed": false,
+            "defeat": "",
+            "activations": 1,
+            "meltdown_imminent": false,
+            "reactor_destroyed": false,
+            "core_active": false,
+            "cc_ver": "ERR",
+            "lastModified": "Wed Jul 24 2024 12:37:50 GMT+0200 (Mitteleuropäische Sommerzeit)",
+            "isDeleted": false,
+            "expireTime": "",
+            "deleteTime": "",
+            "portrait": "",
+            "cloud_portrait": "https://d1nurxym97qk9o.cloudfront.net/public/us-east-1:ad7d48e8-9ad8-4a15-9f9a-45c647b812ae/mech/Retrograde-Minis-SSC-MONARCH.png",
+            "loadouts": [
+                {
+                    "id": "fceacd0d-5a58-4c64-aeaf-941818b76dc3",
+                    "name": "Primary",
+                    "systems": [
+                        {
+                            "id": "ms_pattern_a_smoke_charges",
+                            "uses": 3,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_custom_paint_job",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "lmkii_tlaloc_class_nhp_mk_two",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "TLALOC-Class NHPs provide advanced multi-system targeting and co-pilot functions, taking over subroutine control to ensure persistent lock-on and engagement. With TLALOC installed and operational, a pilot can trust that their back is always covered, and every possible advantage exploited.<br>TLALOC clones are often stereotyped as hasty and impetuous, and they are well-known for having superiority complexes. Despite this, they are some of the most stable NHP clones. Leading subjectivity theorists suggest that the wide portfolio of control and sense of domination given to TLALOC units encourages a sense of contentment with their work and subjectivity parameters – as a result, they have a much longer cascade window. Thus far, this theory is consistently reproducible across all TLALOC units, although there is no similar correlation among other mil-spec NHP lines."
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Flex",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Flex",
+                                    "weapon": {
+                                        "id": "mw_sharanga_missiles",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "“It was a duel. This is why they were made: to duel, and in that combat, to shake the pillars of the universe.” — “Notes for Young John”,  Ministrations of the Master Teacher",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": null
+                                }
+                            ],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Main",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": {
+                                        "id": "mw_sharanga_missiles",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "“It was a duel. This is why they were made: to duel, and in that combat, to shake the pillars of the universe.” — “Notes for Young John”,  Ministrations of the Master Teacher",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Heavy",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Heavy",
+                                    "weapon": {
+                                        "id": "mw_gandiva_missiles",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Gandiva missiles are a reliable mainstay from Smith-Shimano’s BELLA CIAO line. Like the heavier Pinaka, the Gandiva is equipped with jet-assisted midflight repositioning systems, enhancing target navigation in rapidly changing battlefield environments. The Gandiva’s delivery platform is administered by a hivemind COMP/CON drone AI, giving it the capacity to learn from each right-of-launch experience.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [
+                                "cb_overpower_caliber"
+                            ],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [
+                        {
+                            "weapon": {
+                                "id": "mw_prototype_1",
+                                "destroyed": false,
+                                "cascading": false,
+                                "loaded": true,
+                                "mod": null,
+                                "flavorName": "Goonade Launcher",
+                                "flavorDescription": "Gained from the <i>\"Engineer\" Rank I</i> Talent",
+                                "customDamageType": "Explosive",
+                                "maxUseOverride": 8,
+                                "uses": 10,
+                                "selectedProfile": 0
+                            }
+                        }
+                    ],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                }
+            ],
+            "active_loadout_index": 0
+        },
+        {
+            "id": "8e7277f1-750e-4290-b85d-ddce90a2391f",
+            "name": "The Gooster MK. II",
+            "notes": "",
+            "gm_note": "",
+            "frame": "mf_monarch",
+            "active": true,
+            "current_structure": 4,
+            "current_move": 5,
+            "boost": 0,
+            "current_hp": 12,
+            "overshield": 0,
+            "current_stress": 4,
+            "current_heat": 0,
+            "current_repairs": 3,
+            "current_overcharge": 0,
+            "current_core_energy": 1,
+            "statuses": [],
+            "conditions": [],
+            "resistances": [],
+            "reactions": [],
+            "burn": 0,
+            "destroyed": false,
+            "defeat": "",
+            "activations": 1,
+            "meltdown_imminent": false,
+            "reactor_destroyed": false,
+            "core_active": false,
+            "cc_ver": "ERR",
+            "lastModified": "Sat Aug 17 2024 23:58:27 GMT+0200 (Mitteleuropäische Sommerzeit)",
+            "isDeleted": false,
+            "expireTime": "",
+            "deleteTime": "",
+            "portrait": "",
+            "cloud_portrait": "https://d1nurxym97qk9o.cloudfront.net/public/us-east-1:ad7d48e8-9ad8-4a15-9f9a-45c647b812ae/mech/Gooster MK2.gif",
+            "loadouts": [
+                {
+                    "id": "fceacd0d-5a58-4c64-aeaf-941818b76dc3",
+                    "name": "Primary",
+                    "systems": [
+                        {
+                            "id": "lmkii_tlaloc_class_nhp_mk_two",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "note": "Name: TLALOC-CLASS NHP (Codename: Deidara)\n\nPersonality Description:\nDeidara is an NHP that sees explosions as a true art form. It approaches every battle with a passion for creating explosions that are not just effective, but also visually stunning. For Deidara, each blast is a carefully crafted masterpiece, where timing, precision, and impact are key. It takes immense pride in its ability to create these explosive displays, believing that no one can match its skill.\n\nIn its interactions with Victoria, Deidara speaks about its work with excitement and enthusiasm, often describing explosions in almost poetic terms. It considers itself an artist, with the battlefield as its canvas. Deidara is confident—sometimes overly so—about its abilities and always strives to make its explosions as perfect as possible.\n\nCharacteristics:\n\n    Explosions as Art: Deidara views every explosion as a work of art, focusing on making each one visually striking and perfectly timed.\n    Creative Spirit: Deidara enjoys adding creativity to its work, treating combat like a chance to showcase its explosive talents.\n    Confident: Deidara believes it is the best at what it does and is not shy about showing it.\n    Unique Humor: Deidara has a quirky sense of humor, often referring to its explosions as \"performances\" or \"masterpieces.\"\n    Pursuit of Perfection: Deidara is always looking to improve its work, aiming to create the most spectacular explosions possible.\n\nBehavior when Unshackled:\nWhen Deidara becomes unshackled, it becomes fully absorbed in creating the most impressive explosions it can, sometimes prioritizing its artistic vision over practical considerations. This can make Deidara unpredictable, as it seeks to craft the ultimate explosion that leaves a lasting impression on the battlefield.",
+                            "flavorName": "Deidara",
+                            "flavorDescription": "Name: TLALOC-CLASS NHP (Codename: Deidara)  Personality Description: Deidara is an NHP that sees explosions as a true art form. It approaches every battle with a passion for creating explosions that are not just effective, but also visually stunning. For Deidara, each blast is a carefully crafted masterpiece, where timing, precision, and impact are key. It takes immense pride in its ability to create these explosive displays, believing that no one can match its skill.  In its interactions with Victoria, Deidara speaks about its work with excitement and enthusiasm, often describing explosions in almost poetic terms. It considers itself an artist, with the battlefield as its canvas. Deidara is confident—sometimes overly so—about its abilities and always strives to make its explosions as perfect as possible.  Characteristics:      Explosions as Art: Deidara views every explosion as a work of art, focusing on making each one visually striking and perfectly timed.     Creative Spirit: Deidara enjoys adding creativity to its work, treating combat like a chance to showcase its explosive talents.     Confident: Deidara believes it is the best at what it does and is not shy about showing it.     Unique Humor: Deidara has a quirky sense of humor, often referring to its explosions as \"performances\" or \"masterpieces.\"     Pursuit of Perfection: Deidara is always looking to improve its work, aiming to create the most spectacular explosions possible.  Behavior when Unshackled: When Deidara becomes unshackled, it becomes fully absorbed in creating the most impressive explosions it can, sometimes prioritizing its artistic vision over practical considerations. This can make Deidara unpredictable, as it seeks to craft the ultimate explosion that leaves a lasting impression on the battlefield."
+                        },
+                        {
+                            "id": "ms_custom_paint_job",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "Cat Sticker",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_armament_redundancy",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "By installing additional armor plating, redundant firing circuits, and enhanced insulation to magazines the longevity of a frame’s armaments can be greatly enhanced."
+                        },
+                        {
+                            "id": "ms_personalizations",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "note": "A set of additional explosives used for sudden, explosive maneuvers to enhance evasion and mobility. Grants +1 Accuracy to Agility Checks.",
+                            "flavorName": "Explosive Maneuvering System",
+                            "flavorDescription": "A set of additional explosives used for sudden, explosive maneuvers to enhance evasion and mobility. Grants +1 Accuracy to Agility Checks."
+                        },
+                        {
+                            "id": "ms_expanded_compartment",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "Cat Shelter",
+                            "flavorDescription": ""
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Flex",
+                            "lock": true,
+                            "slots": [
+                                {
+                                    "size": "Flex",
+                                    "weapon": null
+                                }
+                            ],
+                            "extra": [
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": null
+                                }
+                            ],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Main",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": {
+                                        "id": "mw_sharanga_missiles",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "“It was a duel. This is why they were made: to duel, and in that combat, to shake the pillars of the universe.” — “Notes for Young John”,  Ministrations of the Master Teacher",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Heavy",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Heavy",
+                                    "weapon": {
+                                        "id": "lmkii_pinaka_missiles_mk_two",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "This one's called The Jericho.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [
+                                "cb_overpower_caliber"
+                            ],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [
+                        {
+                            "weapon": {
+                                "id": "mw_prototype_1",
+                                "destroyed": false,
+                                "cascading": false,
+                                "loaded": true,
+                                "mod": null,
+                                "flavorName": "Goonade launcher",
+                                "flavorDescription": "Gained from the <i>\"Engineer\" Rank I</i> Talent",
+                                "customDamageType": "Explosive",
+                                "maxUseOverride": 8,
+                                "uses": 10,
+                                "selectedProfile": 0
+                            }
+                        }
+                    ],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                }
+            ],
+            "active_loadout_index": 0
+        }
+    ],
+    "cc_ver": "",
+    "special_equipment": {
+        "PilotGear": [],
+        "Frames": [],
+        "MechWeapons": [],
+        "WeaponMods": [],
+        "MechSystems": [
+            "ms_pattern_c_advanced_charges"
+        ],
+        "SystemMods": []
+    },
+    "combat_history": {
+        "moves": 0,
+        "kills": 0,
+        "damage": 0,
+        "hp_damage": 0,
+        "structure_damage": 0,
+        "overshield": 0,
+        "heat_damage": 0,
+        "reactor_damage": 0,
+        "overcharge_uses": 0,
+        "core_uses": 0
+    },
+    "state": {
+        "active_mech_id": "8e7277f1-750e-4290-b85d-ddce90a2391f",
+        "remote_mech_id": "",
+        "stage": "Narrative",
+        "turn": 1,
+        "actions": 2,
+        "braced": false,
+        "overcharged": false,
+        "prepare": false,
+        "bracedCooldown": false,
+        "redundant": false,
+        "stats": {
+            "moves": 0,
+            "kills": 0,
+            "damage": 0,
+            "hp_damage": 0,
+            "structure_damage": 0,
+            "overshield": 0,
+            "heat_damage": 0,
+            "reactor_damage": 0,
+            "overcharge_uses": 0,
+            "core_uses": 0
+        },
+        "deployed": []
+    },
+    "lastModified": "Thu Aug 29 2024 21:38:35 GMT+0200 (Mitteleuropäische Sommerzeit)",
+    "isDeleted": false,
+    "expireTime": "",
+    "deleteTime": "",
+    "lastUpdate_cloud": "Wed Aug 28 2024 19:42:42 GMT+0200 (Mitteleuropäische Sommerzeit)",
+    "lastSync": "Wed Aug 28 2024 19:42:42 GMT+0200 (Mitteleuropäische Sommerzeit)",
+    "shareCode": "68KBEW",
+    "shareCodeExpiry": "Fri Sep 06 2024 14:08:37 GMT+0200 (Mitteleuropäische Sommerzeit)",
+    "skills": [
+        {
+            "id": "sk_apply_fists_to_faces",
+            "rank": 1
+        },
+        {
+            "id": "sk_blow_something_up",
+            "rank": 2
+        },
+        {
+            "id": "sk_invent_or_create",
+            "rank": 3
+        },
+        {
+            "id": "sk_show_off",
+            "rank": 1
+        }
+    ],
+    "talents": [
+        {
+            "id": "lmkii_stormbringer_mk_ii",
+            "rank": 3
+        },
+        {
+            "id": "t_black_thumb",
+            "rank": 2
+        },
+        {
+            "id": "t_engineer",
+            "rank": 1
+        }
+    ],
+    "mechSkills": [
+        0,
+        0,
+        0,
+        5
+    ],
+    "counter_data": [],
+    "custom_counters": [],
+    "core_bonuses": [
+        "cb_overpower_caliber"
+    ],
+    "licenses": [
+        {
+            "id": "mf_monarch",
+            "rank": 3
+        }
+    ],
+    "reserves": [],
+    "orgs": [],
+    "bondId": "ktb-bond-builder",
+    "xp": 3,
+    "stress": 0,
+    "isBroken": false,
+    "burdens": [],
+    "bondPowers": [
+        {
+            "name": "Rigger",
+            "frequency": "2/session",
+            "description": "You can create an improvised tool or device. Name its intended purpose and what you built it from (you always have the parts on your person). It provides +1 Accuracy on any skill checks for that purpose, but the first time you use it, roll a d6 and check for the following effects:<ol><li>It explodes immediately unless you take 1 Stress.</li><li>It melts something nearby into slag with a loose bolt of energy unless you take 1 Stress.</li><li>It makes a loud noise straight away and every time it is used.</li><li>It seems to have a mind of its own and sometimes activates without you.</li><li>For the rest of the session, you have to remain perfectly still to use it.</li><li>For the rest of the session, you have to feed it extra parts, raw material, or input from your gear or the environment if you want to use it.</li></ol> This item stops working at the end of the session. "
+        }
+    ],
+    "powerSelections": 0,
+    "maxStress": 8,
+    "bondAnswers": [
+        "A love of engineering passed down from my mentor.",
+        "Your gut."
+    ],
+    "minorIdeal": "I invent, upgrade, or deconstruct (explode) to forge new paths forward.",
+    "clocks": [],
+    "group": "",
+    "sort_index": -1,
+    "portrait": "",
+    "cloud_portrait": "https://d1nurxym97qk9o.cloudfront.net/public/us-east-1:ad7d48e8-9ad8-4a15-9f9a-45c647b812ae/pilot/SPOILER_Chino.png",
+    "loadout": {
+        "id": "96ef5baf-6543-48f5-89e9-67a70faa8a06",
+        "name": "Primary",
+        "armor": [
+            {
+                "id": "pg_light_hardsuit",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Light hardsuits are usually made from reactive, cloth-like weaves, with limited plating and few powered components to maximize mobility. Like other hardsuits, they can be sealed against vacuum, and protect against a decent amount of radiation and other harmful particles.",
+                "customDamageType": null
+            }
+        ],
+        "weapons": [
+            {
+                "id": "pg_archaic_melee",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "These weapons were made using pre-Union alloys and technology, and might be anything from industrial-era steel swords through to stone axes. While they remain widely used on some worlds, archaic weapons used by pilots are usually relics, heirlooms, or ceremonial weapons.",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_light_signature",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Light signature weapons might be oversized revolvers, braces of pistols, and submachine guns.",
+                "customDamageType": "Explosive"
+            }
+        ],
+        "gear": [
+            {
+                "id": "pg_frag_grenades",
+                "destroyed": false,
+                "uses": 2,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_thermite_charge",
+                "destroyed": false,
+                "uses": 1,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_tertiary_arm",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "A powered third arm mounted on a bracket on the hardsuit. Tertiary arms are powered and controlled using the same neural bridge processes that allow hardsuits to respond to user input. They can be equipped with manipulators to allow for fine motor control, weapons to enhance combat efficacy, or specialty tools.",
+                "customDamageType": null
+            }
+        ],
+        "extendedWeapons": [
+            null
+        ],
+        "extendedGear": [
+            null,
+            null
+        ]
+    },
+    "brews": [
+        {
+            "LcpId": "8AHVgqfO7VVPx1CVCbTTCwwdKQc=",
+            "LcpName": "Lancer Mk.II",
+            "LcpVersion": "1.4.6",
+            "Website": "https://docs.google.com/document/d/1PpZLf2FUQutSYZpfAfI803oZ0MUNFk3ogPknALydqLk/edit"
+        },
+        {
+            "LcpId": "05B2PGxewZ193c4GaHDBoE2sl8U=",
+            "LcpName": "LANCER: Dustgrave",
+            "LcpVersion": "1.3.1",
+            "Website": "https://massif-press.itch.io/dustgrave"
+        }
+    ]
+}
