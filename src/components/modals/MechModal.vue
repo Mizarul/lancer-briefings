@@ -123,14 +123,12 @@ export default {
       this.activeLoadout = this.mech.loadouts[activeLoadoutIdx]
     },
     getMechMounts() {
-      var resolveMountSlots = (type, item, idx, arr) => {
+      var resolveMountSlots = (type, lock, item, idx, arr) => {
         item = item || {id: "", flavorName: ""}
         const mountObj = this.weaponsData.find((obj) => { return item.id === obj.id }) || null
         item.flavorName = mountObj?.name || "ERR: DATA NOT FOUND";
-        const mountLock = mount.lock;
-        const mountLockIsArray = Array.isArray(mountLock) && mountLock.length > 0;
-        if (mountLockIsArray) {
-          item.flavorName = "LOCKED"
+        if (lock == true) {
+          item.flavorName = "LOCKED";
         }
 
         switch (type) {
@@ -155,13 +153,13 @@ export default {
         const mountSlots = mount.slots
         const mountSlotsIsArray = Array.isArray(mountSlots) && mountSlots.length > 0
         if (mountSlotsIsArray) {
-          mountSlots.forEach((slot, index, array) => resolveMountSlots(mount.mount_type, slot.weapon, index, array));
+          mountSlots.forEach((slot, index, array) => resolveMountSlots(mount.mount_type, mount.lock, slot.weapon, index, array));
         }
 
         const mountExtras = mount.extra
         const mountExtrasIsArray = Array.isArray(mountExtras) && mountExtras.length > 0
         if (mountExtrasIsArray) {
-          mountExtras.forEach((extra, index, array) => resolveMountSlots(mount.mount_type, extra.weapon, index, array));
+          mountExtras.forEach((extra, index, array) => resolveMountSlots(mount.mount_type, false, extra.weapon, index, array));
         }
       })
     },
