@@ -94,7 +94,7 @@
                             "lock": false,
                             "slots": [
                                 {
-                                    "size": "Flex",
+                                    "size": "Main",
                                     "weapon": {
                                         "id": "mw_mortar",
                                         "destroyed": false,
