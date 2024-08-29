@@ -128,7 +128,10 @@ export default {
         const mountObj = this.weaponsData.find((obj) => { return item.id === obj.id }) || null
         item.flavorName = mountObj?.name || "ERR: DATA NOT FOUND";
         if (lock == true) {
-          item.flavorName = "LOCKED";
+          item.flavorName = "MOUNT LOCKED";
+        }
+        if (lock == "extra") {
+          item.flavorName = mountObj?.name || "MOUNT LOCKED";
         }
 
         switch (type) {
@@ -159,7 +162,7 @@ export default {
         const mountExtras = mount.extra
         const mountExtrasIsArray = Array.isArray(mountExtras) && mountExtras.length > 0
         if (mountExtrasIsArray) {
-          mountExtras.forEach((extra, index, array) => resolveMountSlots(mount.mount_type, false, extra.weapon, index, array));
+          mountExtras.forEach((extra, index, array) => resolveMountSlots(extra.size, "extra", extra.weapon, index, array));
         }
       })
     },
