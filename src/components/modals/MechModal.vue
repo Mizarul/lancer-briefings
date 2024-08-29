@@ -24,7 +24,7 @@
           </div>
           <div v-if="auxMounts.length > 0" class="gear-row mech-mount">
             <div v-for="auxMounts in auxMounts" class="aux-mount">
-              <h1>Flex Mount</h1>
+              <h1>Auxiliary Mount</h1>
               <h2>{{ auxMounts.flavorName }}</h2>
             </div>
           </div>
