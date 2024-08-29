@@ -22,6 +22,12 @@
               <h2>{{ flexMount.flavorName }}</h2>
             </div>
           </div>
+          <div v-if="auxMounts.length > 0" class="gear-row mech-mount">
+            <div v-for="auxMounts in auxMounts" class="aux-mount">
+              <h1>Flex Mount</h1>
+              <h2>{{ auxMounts.flavorName }}</h2>
+            </div>
+          </div>
           <div v-if="heavyMounts.length > 0" class="gear-row mech-mount">
             <div v-for="heavyMount in heavyMounts" class="heavy-mount">
               <h1>Heavy Mount</h1>
@@ -94,6 +100,7 @@ export default {
       activeLoadout: {},
       mainMounts: [],
       flexMounts: [],
+      auxMounts: [],
       heavyMounts: [],
       mechSystems: [],
     }
@@ -128,9 +135,9 @@ export default {
           case 'Flex':
             this.flexMounts = [...this.flexMounts, item];
             break;
-          // case "Auxiliary":
-          //   this.mainMounts = [...this.mainMounts, item];
-          //   break;
+          case "Auxiliary":
+            this.auxMounts = [...this.auxMounts, item];
+            break;
           case 'Heavy':
             this.heavyMounts = [...this.heavyMounts, item];
             break;
