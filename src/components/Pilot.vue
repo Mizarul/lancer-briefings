@@ -168,7 +168,9 @@ import dustgraveData from '@massif/dustgrave-data'
 import owsData from '@massif/ows-data'
 
 //Homebrew imports
-import mk2Data from '../assets/lcp/Core_Mk_2'
+import mk2WeaponData from '../assets/lcp/Core_Mk_2/weapons.json'
+import mk2SystemData from '../assets/lcp/Core_Mk_2/systems.json'
+import mk2FrameData from '../assets/lcp/Core_Mk_2/frames.json'
 
 import TypeIt from "typeit";
 
@@ -208,10 +210,10 @@ export default {
       return `/mechs/${this.pilot.callsign}.webp`
     },
     mechWeapons() {
-      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...osrData.weapons, ...ssmrData.weapons, ...dustgraveData.weapons, ...owsData.weapons, ...mk2Data.weapons]
+      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...osrData.weapons, ...ssmrData.weapons, ...dustgraveData.weapons, ...owsData.weapons, ...mk2WeaponData]
     },
     mechSystems() {
-      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...osrData.systems, ...ssmrData.systems, ...dustgraveData.systems, ...owsData.systems, ...mk2Data.systems]
+      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...osrData.systems, ...ssmrData.systems, ...dustgraveData.systems, ...owsData.systems, ...mk2SystemData]
     },
     mechManufacturerIcon() {
       if (this.activeMech.manufacturer)
@@ -271,7 +273,7 @@ export default {
         this.pilot.mechs[0] ? this.activeMech = this.pilot.mechs[0] : lancerData.frames.find((obj) => { return obj.id === 'missing_frame' })
       }
 
-      const knownFrames = [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames, ...ssmrData.frames, ...dustgraveData.frames, ...owsData.frames, ...mk2Data.frames]
+      const knownFrames = [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames, ...ssmrData.frames, ...dustgraveData.frames, ...owsData.frames, ...mk2FrameData]
       let frame = knownFrames.find((obj) => {
         return obj.id === this.activeMech.frame
       })
