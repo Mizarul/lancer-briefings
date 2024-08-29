@@ -724,7 +724,6 @@ section .section-header h1 {
 	display: flex;
 	flex-direction: column;
 	flex-grow: 0.65;
-	min-width: 635px;
 }
 
 .segmented-progressbar {
@@ -766,6 +765,7 @@ section .section-header h1 {
 .pilot-wrapper .bonds-column {
 	display: flex;
 	flex-direction: row;
+	min-width: 635px;
 }
 
 .burden-body {
