@@ -11,21 +11,9 @@
           <h1>Name or Legal Alias</h1>
           <h2>{{ pilotInfo.name }}</h2>
         </div>
-        <div
-          v-if="pilotInfo.age || pilotInfo.pob"
-          class="age-pob">
-          <div
-            v-if="pilotInfo.pob.length > 0"
-            class="pob">
-            <h1>Place of Birth</h1>
-            <h2>{{ pilot.pob }}</h2>
-          </div>
-          <div
-            v-if="pilotInfo.age.length > 0"
-            class="age">
-            <h1>Subjective Age</h1>
-            <h2>{{ pilot.age }}</h2>
-          </div>
+        <div class="background">
+          <h1>Background</h1>
+          <h2>{{ pilotInfo.background }}</h2>
         </div>
       </div>
     </div>
