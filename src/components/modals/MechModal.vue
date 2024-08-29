@@ -131,7 +131,10 @@ export default {
           item.flavorName = "MOUNT LOCKED";
         }
         if (lock == "extra") {
-          item.flavorName = mountObj?.name || "MOUNT LOCKED";
+          item.flavorName = mountObj?.name || "skip";
+          if (item.flavorName == "skip") {
+            type = "Skip";
+          }
         }
 
         switch (type) {
@@ -146,6 +149,8 @@ export default {
             break;
           case 'Heavy':
             this.heavyMounts = [...this.heavyMounts, item];
+            break;
+          case 'Skip':
             break;
           default:
             this.mainMounts = [...this.mainMounts, item];
