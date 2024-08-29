@@ -26,6 +26,7 @@ export default defineConfig({
       "@massif/osr-data",
       "@massif/ssmr-data",
       "@massif/dustgrave-data",
+      "@massif/ows-data",
     ],
   },
   build: {
