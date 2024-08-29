@@ -765,7 +765,7 @@ section .section-header h1 {
 .pilot-wrapper .bonds-column {
 	display: flex;
 	flex-direction: row;
-	min-width: 635px;
+	max-width: 650px;
 }
 
 .burden-body {
