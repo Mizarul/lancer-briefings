@@ -691,8 +691,8 @@ section .section-header h1 {
 }
 
 .pilot-wrapper img.portrait {
-	width: 100%;
-	height: 100%;
+	width: 150px;
+	height: 150px;
 	object-fit: contain;
 	object-position: center;
 	overflow: hidden;
