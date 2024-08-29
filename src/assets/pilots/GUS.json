@@ -137,9 +137,9 @@
                             "lock": false,
                             "slots": [
                                 {
-                                    "size": "Heavy",
+                                    "size": "Superheavy",
                                     "weapon": {
-                                        "id": "lmkii_plasma_thrower_mk_two",
+                                        "id": "mw_plasma_thrower",
                                         "destroyed": false,
                                         "cascading": false,
                                         "loaded": true,
