@@ -667,7 +667,9 @@ section .section-header h1 {
 }
 
 .pilot-wrapper .pilot-column{
-	display: block;
+	display: flex;
+	flex-direction: row;
+	column-gap: 0.5em;
 }
 .pilot-wrapper .gear-column,
 .pilot-wrapper .bonds-column,
