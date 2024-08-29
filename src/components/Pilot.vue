@@ -160,7 +160,7 @@ import 'external-svg-loader'
 import lancerData from '@massif/lancer-data'
 import ktbData from '@massif/ktb-data'
 import nrfawData from 'lancer-nrfaw-data'
-import longrimData from 'lancer-longrim-data'
+import longrimData from '@massif/long-rim-data'
 
 import TypeIt from "typeit";
 
