@@ -1,0 +1,28 @@
+[
+    {
+        "id": "lmkii_full_subjectivity_suite_mk_two",
+        "name": "FULL SUBJECTIVITY SUITE MK. II",
+        "source": "SSC",
+        "description": "<i>Version TWO</i>",
+        "effect": "You gain +2 Evasion. This does not stack with the FULL SUBJECTIVITY SUITE Core Bonus. 1/Round, before the dice are rolled, declare that you treat the roll of the d20 as a 10 before applying accuracy/difficulty and other modifiers.",
+        "bonuses": [
+            {
+                "id": "evasion",
+                "val": 2
+            }
+        ],
+        "synergies": [
+            {
+                "locations": ["weapon"],
+                "detail": "1/Round, before the dice are rolled, declare that you treat the roll of the d20 as a 10 before applying accuracy/difficulty and other modifiers."
+            }
+        ]
+    },
+    {
+        "id": "lmkii_briareos_frame_mk_two",
+        "name": "BRIAREOS FRAME MK. II",
+        "source": "IPS-N",
+        "description": "<i>Version TWO</i>",
+        "effect": "As long as your mech has no more than 1 Structure, you gain Resistance to all damage. When it’s reduced to 0 HP and 0 Structure, it is not destroyed: instead, you must make a structure damage check each time it takes damage. While in this state, your mech cannot regain HP until you rest or perform a Full Repair, at which point your mech can be repaired normally. You may increase the final value of one d6 on your Structure check by 1."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "id": "tg_pull",
+        "name": "Pull {VAL}",
+        "description": "On a hit, the user may choose to pull their target 1 spaces in a straight line directly towards the point of origin (e.g., the attacking mech or the center of a Blast). Multiple Pull effects stack with each other. This means that an attack made with a Pull 1 weapon and a talent that grants Pull 1 counts as having Pull 2. Pull and Knockback may be used to cancel out each other."
+    },
+    {
+        "id": "tg_alt_cmkii",
+        "name": "Alt",
+        "description": "These weapons cannot be mounted on the same frame as a different weapon from the same License Level with this tag under any circumstances."
+    }
+]

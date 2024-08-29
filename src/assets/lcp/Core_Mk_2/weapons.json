@@ -1,0 +1,711 @@
+[
+    {
+        "id": "lmkii_tactical_knife_mk_two",
+        "name": "TACTICAL KNIFE MK. II",
+        "mount": "Auxiliary",
+        "type": "Melee",
+        "damage": [{"type": "Kinetic", "val": "1d3+2"}],
+        "range": [{"type": "Threat", "val": 1}],
+        "tags": [{"id": "tg_thrown", "val": 3}],
+        "source": "GMS",
+        "license": "GMS",
+        "license_level": 0,
+        "description": ""
+    },
+    {
+        "id": "lmkii_segment_knife_mk_two",
+        "name": "SEGMENT KNIFE MK. II",
+        "mount": "Auxiliary",
+        "type": "Melee",
+        "damage": [{"type": "Energy", "val": "1d3+2"}],
+        "range": [{"type": "Threat", "val": 1}],
+        "tags": [{"id": "tg_overkill"}],
+        "source": "GMS",
+        "license": "GMS",
+        "license_level": 0,
+        "description": ""
+    },
+    {
+        "id": "lmkii_gms_shotty_mk_two",
+        "name": "SHOTGUN MK. II",
+        "mount": "Main",
+        "type": "CQB",
+        "damage": [{"type": "Kinetic", "val": "2d3"}],
+        "range": [{"type": "Range", "val": 5}, {"type": "Threat", "val": 3}],
+        "tags": [{"id": "tg_knockback", "val": 2}],
+        "source": "GMS",
+        "license": "GMS",
+        "license_level": 0,
+        "description": "More shot per gun."
+    },
+    {
+        "id": "lmkii_tactical_melee_mk_two",
+        "name": "TACTICAL MELEE MK. II",
+        "mount": "Main",
+        "type": "Melee",
+        "damage": [{"type": "Kinetic", "val": "1d6+4"}],
+        "range": [{"type": "Threat", "val": 2}],
+        "tags": [{"id": "tg_reliable", "val": 2}],
+        "source": "GMS",
+        "license": "GMS",
+        "license_level": 0,
+        "description": ""
+    },
+    {
+        "id": "lmkii_charged_blade_mk_two",
+        "name": "CHARGED BLADE MK. II",
+        "mount": "Main",
+        "type": "Melee",
+        "damage": [{"type": "Energy", "val": "1d3+4"}],
+        "range": [{"type": "Threat", "val": 2}],
+        "tags": [{"id": "tg_ap"}, {"id": "tg_overkill"}],
+        "source": "GMS",
+        "license": "GMS",
+        "license_level": 0,
+        "description": ""
+    },
+    {
+        "id": "lmkii_heavy_melee_mk_two",
+        "name": "HEAVY MELEE MK. II",
+        "mount": "Heavy",
+        "type": "Melee",
+        "damage": [{"type": "Kinetic", "val": "2d6+3"}],
+        "range": [{"type": "Threat", "val": 2}],
+        "tags": [{"id": "tg_accurate"}, {"id": "tg_reliable", "val": 3}],
+        "source": "GMS",
+        "license": "GMS",
+        "license_level": 0,
+        "description": "Terrifying."
+    },
+    {
+        "id": "lmkii_heavy_charged_blade_mk_two",
+        "name": "HEAVY CHARGED BLADE MK. II",
+        "mount": "Heavy",
+        "type": "Melee",
+        "damage": [{"type": "Energy", "val": "2d3+6"}],
+        "range": [{"type": "Threat", "val": 2}],
+        "tags": [{"id": "tg_ap"}, {"id": "tg_overkill"}, {"id": "tg_reliable", "val": 1}],
+        "source": "GMS",
+        "license": "GMS",
+        "license_level": 0,
+        "description": ""
+    },
+    {
+        "id": "lmkii_amr_mk_two",
+        "name": "ANTI-MATERIEL RIFLE MK. II",
+        "mount": "Heavy",
+        "type": "Rifle",
+        "damage": [{"type": "Kinetic", "val": "4d3+1"}],
+        "range": [{"type": "Range", "val": 20}],
+        "tags": [{"id": "tg_ap"}, {"id": "tg_accurate"}, {"id": "tg_loading"}, {"id": "tg_ordnance"}],
+        "source": "GMS",
+        "license": "GMS",
+        "license_level": 0,
+        "description": "Ghost 1 in position."
+    },
+    {
+        "id": "lmkii_howitzer_mk_two",
+        "name": "HOWITZER MK. II",
+        "mount": "Heavy",
+        "type": "Cannon",
+        "damage": [{"type": "Explosive", "val": "1d6+4"}],
+        "range": [{"type": "Range", "val": 20}, {"type": "Blast", "val": 2}],
+        "tags": [{"id": "tg_inaccurate"}, {"id": "tg_loading"}, {"id": "tg_arcing"}, {"id": "tg_ordnance"}],
+        "source": "GMS",
+        "license": "GMS",
+        "license_level": 0,
+        "description": "Here comes the..."
+    },
+    {
+        "id": "lmkii_cyclone_pulse_mk_two",
+        "name": "CYCLONE PULSE RIFLE MK. II",
+        "mount": "Superheavy",
+        "type": "Rifle",
+        "damage": [{"type": "Kinetic", "val": "3d6+3"}],
+        "range": [{"type": "Range", "val": 15}],
+        "tags": [{"id": "tg_accurate"},{"id": "tg_loading"},{"id": "tg_reliable","val": 8}],
+        "source": "GMS",
+        "license": "GMS",
+        "license_level": 0,
+        "description": "CPR MK. II, now with more Fuck You."
+    },
+    {
+        "id": "lmkii_tempest_charged_blade_mk_two",
+        "name": "TEMPEST CHARGED BLADE MK. II",
+        "mount": "Superheavy",
+        "type": "Melee",
+        "damage": [{"type": "Kinetic", "val": "4d6+5"}],
+        "range": [{"type": "Threat", "val": 2}],
+        "tags": [{"id": "tg_ap"}, {"id": "tg_knockback", "val": 2}],
+        "source": "GMS",
+        "license": "GMS",
+        "license_level": 0,
+        "description": ""
+    },
+    {
+        "id": "lmkii_plasma_thrower_mk_two",
+        "name": "PLASMA THROWER MK. II",
+        "mount": "Superheavy",
+        "type": "CQB",
+        "damage": [{"type": "Energy", "val": 2}, {"type": "Burn", "val": 7}],
+        "range": [{"type": "Cone", "val": 7}, {"type": "Line", "val": 10}],
+        "tags": [{"id": "tg_heat_self", "val": 4}],
+        "source": "HA",
+        "license": "GENGHIS",
+        "license_level": 3,
+        "effect": "Can be fired as Cone 7 <i>or</i> Line 10",
+        "on_attack": "White-hot flames continue to burn in 5 free spaces of your choice within the affected area, lasting for the rest of the scene. When characters start their turn in one of these spaces or enter one for the first time in a round, they take 4 Burn damage.",
+        "description": "Now with More Fire"
+    },
+    {
+        "id": "lmkii_armageddon_supercapacitor_projector",
+        "name": "ARMAGEDDON SUPERCAPACITOR PROJECTOR",
+        "mount": "Superheavy",
+        "type": "Spool",
+        "damage": [{"type": "Explosive", "val": "1d6+3/charge", "override": true}],
+        "range": [{"type": "Range", "val": 30}, {"type": "Blast", "val": 2}],
+        "tags": [{"id": "tg_arcing"}, {"id": "tg_ordnance"}, {"id": "tg_heat_self", "val": "2/charge"}],
+        "effect": "This weapon's profile is determined by the number of Charges it carries. It begins with 1 Charge and can be fired as a Full Action if it has 2 or more Charges. If you are Immobilized when your turn ends, you gain an additional 1 Charge, up to a maximum 4. Armageddon Supercapacitor Projector gains an additional +1d6+3 Explosive and 20AP automatic damage to Objects and Terrain for each charge, and resets to 1 Charge after each attack. This weapon does not need a clear path to the target.",
+        "counters": [
+            {
+                "id": "lmkii_cooler_apocalypse_die",
+                "name": "ARMAGEDDON DIE",
+                "max": 4,
+                "min": 1,
+                "default_value": 1
+            }
+        ]
+    },
+    {
+        "id": "lmkii_flak_launcher",
+        "name": "FLAK LAUNCHER MK. II",
+        "mount": "Main",
+        "type": "Launcher",
+        "damage": [{"type": "Explosive","val": "1d3"}],
+        "range": [{"type": "Range","val": 15}],
+        "tags": [{"id": "tg_arcing"}, {"id": "tg_heat_self", "val": 2}],
+        "on_attack": "Create a Blast 1 cloud centered on your target. This cloud lasts until the start of your next turn. Any character that starts its turn in this cloud or passes through it for the first time must make an Engineering save or take 3 AP Explosive Damage. If the character is flying, regardless of if it makes the save, it must immediately land and is unable to fly until the end of its next turn.",
+        "source": "HA",
+        "license": "BARBAROSSA",
+        "license_level": 2,
+        "description": "Shoo, fly, don’t bother me."
+    },
+    {
+        "id": "lmkii_siege_cannon_mk_two",
+        "name": "SIEGE CANNON MK. II",
+        "mount": "Superheavy",
+        "type": "Cannon",
+        "source": "HA",
+        "license": "BARBAROSSA",
+        "license_level": 3,
+        "profiles": [
+            {
+                "name": "Siege Mode",
+                "range": [{"type": "Range", "val": 30}, {"type": "Blast", "val": 3}],
+                "damage": [{"type": "Explosive", "val": "2d6+4"}],
+                "on_attack": "Choose to fire in either siege mode or direct fire mode. This weapon deals AP damage to objects and terrain.",
+                "tags": [{"id": "tg_arcing"}, {"id": "tg_ordnance"}, {"id": "tg_loading"}, {"id": "tg_heat_self", "val": 4}]
+            },
+            {
+                "name": "Direct Fire Mode",
+                "range": [{"type": "Range", "val": 20}],
+                "damage": [{"type": "Explosive", "val": "3d6+4"}],
+                "on_attack": "Choose to fire in either siege mode or direct fire mode. This weapon deals AP damage to objects and terrain.",
+                "tags": [{"id": "tg_heat_self", "val": 3}, {"id": "tg_knockback", "val": 2}]
+            }
+        ],
+        "description": "The original lacked true power. Now it has Power."
+    },
+    {
+        "id": "lmkii_shatterhead_missiles_mk_two",
+        "name": "SHATTERHEAD MISSILE ARRAY MK. II",
+        "mount": "Heavy",
+        "type": "Launcher",
+        "sp": 1,
+        "damage": [{"type": "Energy", "val": "1d6"}, {"type": "Heat", "val": 2}],
+        "range": [{"type": "Range", "val": 15}, {"type": "Blast", "val": 1}],
+        "tags": [{"id": "tg_arcing"}],
+        "on_attack": "This weapon does not attack you or allied characters caught in its area of effect; instead, it disperses an energy field that throws off targeting systems, giving them soft cover until the end of their next turn.",
+        "source": "HA",
+        "license": "SALADIN MK. II",
+        "license_level": 2,
+        "description": "Lord Felwinter of the Nessus Makteba pioneered the development of the Shatterhead Missile Array with Harrison Armory to create an all-use system. For allies and designated targets, the Shatterhead Missiles create a scintillating interference field. For hostiles, the field burns armor and mechanisms."
+    },
+    {
+        "id": "lmkii_tachyon_lance_mk_two",
+        "name": "TACHYON LANCE MK. II",
+        "mount": "Superheavy",
+        "type": "Cannon",
+        "damage": [{"type": "Energy","val": "1d6+4"},{"type":"Burn", "val": 8}],
+        "range": [{"type": "Line","val": 50}],
+        "tags": [{"id": "tg_ordnance"}, {"id": "tg_heat_self", "val": 4}],
+        "source": "HA",
+        "license": "SHERMAN",
+        "license_level": 3,
+        "effect": "This weapon ignores any and all effects of Cover.",
+        "on_attack": "If you’re in the Danger Zone, create a cone 3 backblast of burning plasma in the opposite direction to the attack. Characters within the affected area must succeed on an Engineering save or take 4 burn and 2 heat. Until the start of your next turn, the affected area provides soft cover.",
+        "description": "Now its actually an FTL particle cannon."
+    },
+    {
+        "id": "lmkii_torch_mk_two",
+        "name": "TORCH MK. II",
+        "mount": "Main",
+        "type": "Melee",
+        "damage": [{"type": "Energy", "val": "1d6+1"}, {"type": "Burn", "val": 4}],
+        "range": [{"type": "Threat", "val": 1}],
+        "tags": [{"id": "tg_ap"}, {"id": "tg_overkill"}, {"id": "tg_heat_self", "val": 2}],
+        "source": "HA",
+        "license": "TOKUGAWA",
+        "license_level": 2,
+        "effect": "This weapon gains +1 Threat for every 2 Heat your mech currently has to a maximum of +5.",
+        "description": "The Torch is a potent weapon: a heavy crescent-bladed plasma cutter, powered straight from a chassis’ reactor. Torches generally project as axes, though their blades can be changed to a range of other shapes. A common weapon in CQB theaters, the torch has lately become a status symbol among officers, carried by many alongside a smaller auxiliary weapon."
+    },
+    {
+        "id": "lmkii_nanobot_whip_mk_two",
+        "name": "NANOBOT WHIP MK. II",
+        "mount": "Heavy",
+        "type": "Melee",
+        "sp": 2,
+        "damage": [{"type": "Kinetic", "val": "1d6+4"}],
+        "range": [{"type": "Threat", "val": 3}],
+        "tags": [{"id": "tg_smart"}],
+        "source": "HORUS",
+        "license": "BALOR",
+        "license_level": 3,
+        "effect": "For every Accuracy you would add to the attack roll of this weapon, it instead gains +2 bonus damage in place of Accuracy.",
+        "on_hit": "Pull your target to a free space adjacent to you, or as close as possible, and Grapple them.",
+        "description": "Using swarm-coding and legion directives, HORUS collectivists created a framework to organize a swarm of nanites into a whip-like weapon. Nanobot whips can retract into their base blister for stowing, detach in melee combat to restrain nearby enemies, and return to their base unit when summoned."
+    },
+    {
+        "id": "lmkii_ghast_nexus_mk_two",
+        "name": "GHAST NEXUS MK. II",
+        "mount": "Heavy",
+        "type": "Nexus",
+        "tags": [{"id": "tg_smart"},{"id": "tg_seeking"}],
+        "sp": 1,
+        "range": [{"type": "Range","val": 10}],
+        "damage": [{"type": "Explosive","val": "1d6+3"}],
+        "effect": "This weapon may be used to attack as normal, or deployed as a Drone.<br><br><b>The Drone's Edef is 10 or your frame's Edef, whichever is higher.</b>",
+        "deployables": [
+            {
+                "name": "Ghast Drone",
+                "type": "Drone",
+                "activation": "Free",
+                "recall": "Quick",
+                "redeploy": "Quick",
+                "size": 0.5,
+                "hp": "5+{grit}",
+                "armor": 2,
+                "edef": 10,
+                "sensor_range": 8,
+                "evasion": 10,
+                "detail": "This Ghast nexus can be deployed to a free space within Sensors and line of sight as a free action, where it becomes a hovering drone. Once deployed, you may still use it for Skirmish and Barrage attacks as though it is still a weapon, but with line of sight and Range traced from its location. This benefit applies to all other Nexuses on your frame. <br>Treat targets within Ghast's Sensors as being within your frame's Sensors.<br>You may move Ghast nexus 4 spaces as a free action before or after Skirmishing or Barraging with it. You may recall Ghast Nexus as a quick action. <br>Until recalled or destroyed, it remains deployed until the end of the scene. If destroyed, it follows the rules for destroyed Drones and can’t be used until repaired."
+            }
+        ],
+        "source": "HORUS",
+        "license": "HYDRA",
+        "license_level": 2,
+        "description": "Release the GHAST."
+    },
+    {
+        "id": "lmkii_annihilation_nexus_mk_two",
+        "name": "ANNIHILATION NEXUS MK. II",
+        "mount": "Superheavy",
+        "type": "Nexus",
+        "damage": [{"type": "Energy", "val": "1d6+3"}],
+        "range": [{"type": "Burst", "val": 2}],
+        "tags": [{"id": "tg_ap"},{"id": "tg_smart"}],
+        "source": "HORUS",
+        "license": "HYDRA",
+        "license_level": 3,
+        "on_hit": "Targets hit count as Drones under your control for the purposes of your abilities that target Drones until the end of their next turn. They are still considered Hostile Enemy Combatants.",
+        "on_attack": "You can make a second attack with this weapon at the start of your next turn as a protocol. This secondary attack can’t deal bonus damage, doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors.",
+        "actions": [
+            {
+                "name": "Annihilation Nexus Secondary Attack",
+                "activation": "Protocol",
+                "detail": "If you made an attack with the Annihilation Nexus on your last turn, you can make a second attack with this weapon. This secondary attack can’t deal bonus damage, doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors."
+            }
+        ],
+        "description": "Now more befitting of a HYDRA."
+    },
+    {
+        "id": "lmkii_arc_projector",
+        "name": "ARC PROJECTOR MK. II",
+        "mount": "Heavy",
+        "type": "CQB",
+        "damage": [{"type": "Energy", "val": "1d6+2"}],
+        "range": [{"type": "Range", "val": 5}],
+        "tags": [{"id": "tg_heat_self", "val": 2}],
+        "source": "HORUS",
+        "license": "MANTICORE",
+        "license_level": 2,
+        "on_hit": "You may also make a secondary attack against a different character within range 3 of the first target. You can continue making secondary attacks on hits, as long as there are new, valid targets within range, up to 3 additional attacks including the first, and secondary attacks can’t deal bonus damage. Characters can’t be hit more than once with the same firing of this weapon.",
+        "description": ""
+    },
+    {
+        "id": "lmkii_lancaster_mk_two_integrated",
+        "name": "'DOGHOUSE' DRONE HIVE",
+        "mount": "Main",
+        "type": "Nexus",
+        "range": [{"type": "Range", "val": 8}],
+        "tags": [{"id": "tg_seeking"}],
+        "on_attack": "On Attack: Depending on what you target, applying the following options:<br><br><b>Ally:</b> You or your target may spend 1 Repair to restore half your target’s HP.<br><br><b>Enemy:</b> The enemy must make a Systems save, on a failure they take 2 Burn and the next time you target an ally, they gain 1+Grit Overshield<br><br><b>Wreck:</b> You charge this weapon. While Charged, the next time you use this weapon on an ally, they gain 4+Grit Overshield"
+    },
+    {
+        "id": "lmkii_chain_axe_mk_two",
+        "name": "CHAIN AXE MK. II",
+        "mount": "Main",
+        "type": "Melee",
+        "damage": [{"type": "Kinetic", "val": "1d6+3"}],
+        "range": [{"type": "Threat", "val": 2}],
+        "tags": [{"id": "tg_reliable", "val": 3}, {"id": "tg_alt_cmkii"}],
+        "source": "IPS-N",
+        "license": "BLACKBEARD",
+        "license_level": 1,
+        "on_crit": "Your target becomes Shredded until the end of the next turn.",
+        "description": ""
+    },
+    {
+        "id": "lmkii_heavy_chain_axe",
+        "name": "HEAVY CHAIN AXE",
+        "mount": "Heavy",
+        "type": "Melee",
+        "damage": [{"type": "Kinetic", "val": "2d3+5"}],
+        "range": [{"type": "Threat", "val": 1}],
+        "tags": [{"id": "tg_alt_cmkii"}],
+        "source": "IPS-N",
+        "license": "BLACKBEARD",
+        "license_level": 1,
+        "on_crit": "Target becomes Shredded until the end of their next turn.",
+        "description": ""
+    },
+    {
+        "id": "lmkii_nanocarbon_sword_mk_two",
+        "name": "NANOCARBON SWORD MK. II",
+        "mount": "Heavy",
+        "type": "Melee",
+        "damage": [{"type": "Kinetic", "val": "1d6+6"}],
+        "range": [{"type": "Threat", "val": 2}],
+        "tags": [{"id": "tg_reliable", "val": 3}],
+        "source": "IPS-N",
+        "license": "BLACKBEARD",
+        "license_level": 2,
+        "effect": "Against targets you have damaged this scene, this weapon gains the AP tag and its reliable value increases by 5.",
+        "description": "IPS-N’s nanocarbon sword is a new spin on an old classic. Embedded nanosensors along the blade capture a full spectrum of data and transfer it to omninet storage banks for after-action review. Meanwhile, onboard software interprets the live feedback and adjusts the molecular composition of the blade edge in real time."
+    },
+    {
+        "id": "lmkii_cutter_plasma_torch_mk_two",
+        "name": "CUTTER MKII PLASMA TORCH",
+        "mount": "Auxiliary",
+        "type": "Melee",
+        "damage": [{"type": "Energy", "val": 1}, {"type": "Heat", "val": 1}, {"type": "Burn", "val": 1}],
+        "range": [{"type": "Threat", "val": 1}],
+        "tags": [{"id": "tg_heat_self", "val": 1}],
+        "source": "IPS-N",
+        "license": "LANCASTER",
+        "license_level": 3,
+        "effect": "This weapon deals 20AP energy to objects, cover, terrain, and the environment.",
+        "description": "Plasma cutters were tools first: simple blades built to toggle and sustain a plasma sheath, making it easier to cut metal. Repeated ad hoc use of cutters as personal defense weapons against pirate boarding parties convinced IPS-N of the need for a mil-spec variant of the civilian tool – the Cutter, now in its second generation. The Cutter MkII feeds directly from the mech’s power core, with a port to attach power packs in case of cord severance. Although the cutting edge can be shortened to a knife length, its most popular setting is the “cutlass”, a medium-length option perfect for balancing reach and maneuverability in close quarters."
+    },
+    {
+        "id": "lmkii_war_pike",
+        "name": "WAR PIKE MK. II",
+        "mount": "Main",
+        "type": "Melee",
+        "damage": [{"type": "Kinetic", "val": "1d6+3"}],
+        "range": [{"type": "Threat", "val": 3}],
+        "tags": [{"id": "tg_knockback", "val": 3}, {"id": "tg_thrown", "val": 5}],
+        "source": "IPS-N",
+        "license": "NELSON",
+        "license_level": 1,
+        "description": "A war pike is a simple weapon – a long haft, topped with a dense, slim point, meant to puncture armor. Early designs were derivative of mining pylons, but the modern war pike is a sturdy, balanced, and reliable weapon that’s perfect for a charge."
+    },
+    {
+        "id": "lmkii_power_knuckles",
+        "name": "POWER KNUCKLES MK. II",
+        "mount": "Auxiliary",
+        "type": "Melee",
+        "damage": [{"type": "Explosive", "val": "1d3+2"}],
+        "range": [{"type": "Threat", "val": 1}],
+        "tags": [{"id": "tg_alt_cmkii"}],
+        "on_crit": "Your target must succeed on a Hull Save of be knocked Prone.",
+        "source": "IPS-N",
+        "license": "NELSON",
+        "license_level": 3,
+        "description": "IPS-N’s line of power knuckles are another popular purchase for pilots who prefer to fight up close. Taking the form of anything from shaped studs to hyperdense knuckles, or a series of magnetically accelerated micro-rams, power knuckles amplify the already incredible hitting power of a mech."
+    },
+    {
+        "id": "lmkii_jet_punch",
+        "name": "JET-PUNCH",
+        "mount": "Heavy",
+        "type": "Melee",
+        "damage": [{"type": "Kinetic", "val": "1d6+4"}],
+        "range": [{"type": "Threat", "val": 1}],
+        "tags": [{"id": "tg_thrown", "val": 5}, {"id": "tg_pull", "val": 4}, {"id": "tg_alt_cmkii"}],
+        "on_attack": "Boost up to half your Speed.",
+        "source": "IPS-N",
+        "license": "NELSON",
+        "license_level": 3,
+        "description": ""
+    },
+    {
+        "id": "lmkii_kinetic_hammer_mk_two",
+        "name": "KINETIC HAMMER MK. II",
+        "mount": "Heavy",
+        "type": "Melee",
+        "damage": [{"type": "Kinetic", "val": "3d6+4"}],
+        "range": [{"type": "Threat", "val": 1}],
+        "tags": [{"id": "tg_inaccurate"},{"id": "tg_reliable", "val": 5}],
+        "source": "IPS-N",
+        "license": "RALEIGH",
+        "license_level": 3,
+        "description": "A kinetic hammer is a simple tool, but a brutal one. Made up of a supermassive head fused to a long haft, the hammer carries enough force to create massively traumatic pressure waves upon landing a successful blow."
+    },
+    {
+        "id": "lmkii_catalytic_hammer_mk_two",
+        "name": "CATALYTIC HAMMER MK. II",
+        "mount": "Main",
+        "type": "Melee",
+        "damage": [{"type": "Kinetic", "val": "1d3+5"}],
+        "range": [{"type": "Threat", "val": 2}],
+        "tags": [{"id": "tg_ap"}, {"id": "tg_loading"}],
+        "source": "IPS-N",
+        "license": "TORTUGA",
+        "license_level": 2,
+        "on_crit": "Your target must succeed on a Hull save or become Stunned until the end of the next turn.",
+        "description": "Modified originally from blast-mining equipment, the catalytic hammer (colloquially, the “pilebunker”) has since been refined into a formidable melee weapon. When fired, a charge propels the hammer – a solid cylinder with a spike on one end – through a short barrel, impacting with enormous kinetic force. Standard hammer heads are smooth to allow for easy extraction from targets, but they can be detached and replaced if retrieval is impossible. Any installation of a catalytic hammer necessitates superstructure reinforcement to allow for sufficient energy dispersal."
+    },
+    {
+        "id": "lmkii_impact_lance_mk_two",
+        "name": "IMPACT LANCE MK. II",
+        "mount": "Main",
+        "type": "Melee",
+        "damage": [{"type": "Energy", "val": "1d6+3"}],
+        "range": [{"type": "Threat", "val": 3}],
+        "tags": [{"id": "tg_ap"}],
+        "source": "IPS-N",
+        "license": "VLAD",
+        "license_level": 1,
+        "on_attack": "You also attack all characters in a Line between you and your target. You take 1 heat for each target past the first.",
+        "description": "The impact lance is a mil-spec variant of a common mining tool: the single-use chemical survey laser. IPS-N’s military variant mounts a series of impact lances on a mech’s brachial or thoracic carriages, leaving its manipulators free to field other weapons and systems. It can be wired directly into a chassis’ core, or charged with disposable chemical batteries.<br>The lance array fires for a microsecond, burning through its stored charge to produce an intense burst of light that stabs out in a tight, pulsed beam capable of searing through meters of hardened bulkhead."
+    },
+    {
+        "id": "lmkii_combat_drill_mk_two",
+        "name": "COMBAT DRILL MK. II",
+        "mount": "Superheavy",
+        "type": "Melee",
+        "damage": [{"type": "Kinetic", "val": "3d6"},{"type": "Energy", "val": "1d6"}],
+        "range": [{"type": "Threat", "val": 2}],
+        "tags": [{"id": "tg_indestructible"},{"id": "tg_ap"},{"id": "tg_overkill"}],
+        "source": "IPS-N",
+        "license": "VLAD",
+        "license_level": 3,
+        "effect": "When attacking a character that is Prone, Immobilized, or Stunned, this weapon’s Overkill tag does an extra +1d6 bonus damage each time it activates. This can activate indefinitely if the new bonus die result is a 1, triggering Overkill again.",
+        "description": "GIGA. DURILL. BUREAKAH!"
+    },
+    {
+        "id": "lmkii_pinaka_missiles_mk_two",
+        "name": "PINAKA MISSILES MK. II",
+        "mount": "Superheavy",
+        "type": "Launcher",
+        "damage": [{"type": "Explosive", "val": "2d6+4"}],
+        "range": [{"type": "Range", "val": 20},{"type": "Blast", "val": 1}],
+        "tags": [{"id": "tg_arcing"},{"id": "tg_heat_self", "val": 1}],
+        "source": "SSC",
+        "license": "MONARCH",
+        "license_level": 3,
+        "effect": "Attacks with this weapon create up to two blast 1 areas, which cannot overlap.<br>You may also delay the impact of attacks made with this weapon. Choose 14 hexes or 18 spaces (whether they're adjacent or not is irrelevant, as long as they're within Range 20 of you when you fire the weapon), which become visible to all characters: the  missiles land at the end of the next round, after all characters have acted. These attacks all gain the Seeking tag.",
+        "actions": [
+            {
+                "name": "Swap Modular Head",
+                "activation": "Protocol",
+                "detail": "You may swap this weapon's damage type between Explosive, Kinetic and Energy for the next firing."
+            }
+        ],
+        "description": "This one's called The Jericho."
+    },
+    {
+        "id": "lmkii_fold_knife",
+        "name": "FOLD KNIFE MK. II",
+        "mount": "Auxiliary",
+        "type": "Melee",
+        "damage": [{"type": "Kinetic", "val": "1d3+1"}],
+        "range": [{"type": "Threat", "val": 1}],
+        "tags": [{"id": "tg_accurate"}],
+        "source": "SSC",
+        "license": "MOURNING CLOAK",
+        "license_level": 1,
+        "on_crit": "You may teleport 2 spaces in any direction after the attack resolves.",
+        "description": ">//[Am I alone here?]<br>>//[[No. There is only an absence of you. It is very busy here, but you cannot see it]]<br>— DHIYED fragment tablet 1.3"
+    },
+    {
+        "id": "lmkii_variable_sword",
+        "name": "VARIABLE SWORD MK. II",
+        "mount": "Main",
+        "type": "Melee",
+        "damage": [{"type": "Kinetic", "val": 5}],
+        "range": [{"type": "Threat", "val": 3}],
+        "tags": [{"id": "tg_accurate"}],
+        "source": "SSC",
+        "license": "MOURNING CLOAK",
+        "license_level": 3,
+        "on_crit": "Deal +3 bonus damage.",
+        "description": "The variable sword is a Smith-Shimano hallmark: a length of razor-sharp molecular wire attached to a handle and locked in place by a magnetic field, variable swords are invisible to the naked eye until they cut into their target. Designed in the early days of interstellar travel, variable swords were meant to allow for the precise gathering of samples, while also reducing the overall burden on a mech’s core."
+    },
+    {
+        "id": "lmkii_kraul_impaler",
+        "name": "Kraul Impaler",
+        "mount": "Main",
+        "type": "CQB",
+        "damage": [{"type": "Kinetic", "val": "1d6+1"}],
+        "range": [{"type": "Range", "val": 5}, {"type": "Threat", "val": 3}],
+        "tags": [{"id": "tg_inaccurate"}],
+        "source": "SSC",
+        "license": "ATLAS MK. II",
+        "license_level": 1,
+        "on_hit": "Your target is impaled by this weapon’s harpoon-like projectile. Any time after your target takes any action or movement during their next turn, you can reel in the line and boost as a reaction, moving toward that target by the most direct route possible. They must then pass a HULL save or be knocked PRONE; succeed or fail, this effect ends. The line snaps if your target teleports.",
+        "description": ""
+    },
+    {
+        "id": "lmkii_terashima_blade_mk_two",
+        "name": "TERASHIMA BLADE MK. II",
+        "mount": "Main",
+        "type": "Melee",
+        "sp": 2,
+        "tags": [{"id":"tg_unique"}],
+        "source": "SSC",
+        "license": "ATLAS MK. II",
+        "license_level": 3,
+        "effect": "This weapon counts as a Heavy Weapon for the purposes of wordings similar to Heavy Gunner - but it is still a Main Melee otherwise (no Executioner etc.).<br><br>You may begin any fight in any of this weapon's stances and may take a stance or shift between stances as a protocol. Once you have taken a stance, you remain in it until you take a new stance, this weapon is destroyed, or you are STUNNED or JAMMED. You can also drop a stance as a free action.",
+        "actions": [
+            {
+                "name": "Change Stance",
+                "activation": "Protocol",
+                "detail": "Change this weapon's stance."
+            },
+            {
+                "name": "Drop Stance",
+                "activation": "Free",
+                "detail": "Drop this weapon's stance."
+            }
+        ],
+        "profiles":[
+            {
+                "name": "No Stance",
+                "damage": [{"type":"Kinetic", "val":"1d6"}],
+                "range": [{"type":"Threat", "val":1}]
+            },
+            {
+                "name": "Troll Stance",
+                "damage": [{"type":"Kinetic", "val":"1d6+3"}],
+                "range": [{"type":"Threat", "val":1}],
+                "tags": [{"id":"tg_inaccurate"}, {"id":"tg_ap"}]
+            },
+            {
+                "name": "Storm Stance",
+                "damage": [{"type":"Kinetic", "val":"1d6"}],
+                "range": [{"type":"Threat", "val":1}],
+                "effect": "You gain the Storm Stance Reaction.",
+                "actions": [
+                    {
+                        "activation":"Reaction",
+                        "name":"Storm Stance Reaction",
+                        "frequency":"1/round",
+                        "trigger":"After hitting with this weapon while in Storm Stance.",
+                        "detail":"You may immediately deal 1 + Grit AP damage to all characters within Threat of this weapon."
+                    }
+                ]
+            },
+            {
+                "name": "Lord's Stance",
+                "damage": [{"type":"Kinetic", "val":"1d6"}],
+                "range": [{"type":"Threat", "val":1}],
+                "effect": "You gain Immunity to Successful Saves. You cannot make ranged or tech attacks, but any ranged attack against you that misses deflects off your sword, dealing 2 damage (same type as the attack) to a character of your choice in range 3 and line of sight from you. Any melee attack that misses you forces the attacker to pass a HULL save or be knocked PRONE."
+            },
+            {
+                "name": "Wind Stance",
+                "damage": [{"type":"Kinetic", "val":"1d6"}],
+                "range": [{"type":"Threat", "val":2}],
+                "effect": "After attacking with this weapon, hit or miss, you may move 3 spaces in any direction, ignoring engagement and reactions.",
+                "tags": [{"id":"tg_reliable", "val":3}, {"id":"tg_knockback", "val":3}]
+            },
+            {
+                "name": "No Stance (Heavy Mount)",
+                "damage": [{"type":"Kinetic", "val":"2d6"}],
+                "range": [{"type":"Threat", "val":2}]
+            },
+            {
+                "name": "Troll Stance (Heavy Mount)",
+                "damage": [{"type":"Kinetic", "val":"2d6+3"}],
+                "range": [{"type":"Threat", "val":2}],
+                "tags": [{"id":"tg_inaccurate"}, {"id":"tg_ap"}]
+            },
+            {
+                "name": "Storm Stance (Heavy Mount)",
+                "damage": [{"type":"Kinetic", "val":"2d6"}],
+                "range": [{"type":"Threat", "val":2}],
+                "effect": "You gain the Storm Stance Reaction.",
+                "actions": [
+                    {
+                        "activation":"Reaction",
+                        "name":"Storm Stance Reaction (Heavy Mount)",
+                        "frequency":"1/round",
+                        "trigger":"After hitting with this weapon while in Storm Stance.",
+                        "detail":"You may immediately deal 1d3 + Grit AP damage to all characters within Threat of this weapon"
+                    }
+                ]
+            },
+            {
+                "name": "Lord's Stance (Heavy Mount)",
+                "damage": [{"type":"Kinetic", "val":"2d6"}],
+                "range": [{"type":"Threat", "val":2}],
+                "effect": "You gain Immunity to Successful Saves. You cannot make ranged or tech attacks, but any ranged attack against you that misses deflects off your sword, dealing 1d3+2 damage (same type as the attack) to a character of your choice in range 3 and line of sight from you. Any melee attack that misses you forces the attacker to pass a HULL save or be knocked PRONE."
+            },
+            {
+                "name": "Wind Stance (Heavy Mount)",
+                "damage": [{"type":"Kinetic", "val":"2d6"}],
+                "range": [{"type":"Threat", "val":3}],
+                "effect": "After attacking with this weapon, hit or miss, you may move 3 spaces in any direction, ignoring engagement and reactions.",
+                "tags": [{"id":"tg_reliable","val":3}, {"id":"tg_knockback", "val":3}]
+            }
+        ],
+        "description": "Forged in the fire of a corralled star in the Constellation, each of these blades bears a unique name and history defined by its users. Terashima blades are perfectly balanced and tempered, scalable from personal use up to Schedule 3. When combined with the weapon and sensor suites of a frame, they have been proven fast and durable enough to deflect weapons fire. Each blade crafted by the Terashima enclave is an heirloom produced once and delivered via conventional travel – their loss is considered an indescribable humiliation for the owner and an incredible triumph by the one who has taken it. The Terashima enclave keeps the casting mold of each blade it produces and displays them in their central hall alongside records of their known histories."
+    },
+    {
+        "id": "lmkii_d_d_288_mk_two",
+        "name": "D/D 288 MK. II",
+        "mount": "Superheavy",
+        "type": "Melee",
+        "source": "IPS-N",
+        "license": "ZHENG",
+        "license_level": 3,
+        "effect": "Unlike other Superheavy weapons, this weapon can be used with the basic profile to Skirmish and Overwatch.<br>You may charge this weapon as a quick action. While charged, you benefit from soft cover, but you are SLOWED, take 2 Heat at the start of your turn, and can no longer use the D/D 288 with SKIRMISH. At the start of any of your turns while it is charged, it has the Charged profile.",
+        "actions": [
+            {
+                "name": "Charge D/D 288",
+                "activation": "Quick",
+                "detail": "Charge the D/D 288. At the start of any of your turns while the D/D 288 is Charged, it uses the \"Charged\" profile. You become SLOWED, benefit from Soft Cover, and cannot use the Skirmish Profile. Additionally, gain 2 Heat at the start of your turn.<br>The \"Charged\" profile cannot be used to Skirmish."
+            }
+        ],
+        "profiles":[
+            {
+                "name":"Uncharged",
+                "damage":[{"type":"Kinetic", "val":"1d6+1"}],
+                "range":[{"type":"Threat", "val":1}],
+                "tags":[{"id":"tg_reliable", "val":3}],
+                "skirmish":true,
+                "effect": "This Profile can Skirmish and Overwatch."
+            },
+            {
+                "name":"Charged",
+                "damage":[{"type":"Explosive", "val":"4d6+10"}],
+                "range":[{"type":"Threat", "val":3}],
+                "skirmish":false,
+                "on_hit":"While charged, this weapon deals 30 AP Kinetic Damage when it hits objects or pieces of terrain. If this destroys objects and pieces of terrain, they explode, dealing 1d6 Kinetic Damage to all adjacent characters other than you and knocking them back 1 space.<br>This weapon loses its charge when you disperse its charge as a free action, or when you become STUNNED or SHUT DOWN.",
+                "tags":[{"id":"tg_reliable", "val":8}, {"id":"tg_knockback", "val":8}]
+            }
+        ],
+        "description":"The Zheng’s Devastator/Demolition Weapon 288 is legendary for its ability to breach armor and inflict total destruction on hardened targets. Originally rigged up as a last resort by Xiong Xiaoli, this fistmounted system repurposes a mech reactor’s primary heat vent into a directional, engagement-proximity weapon. The production line D/D 288 must be primed before firing, requiring a dangerous power draw from the mechs’ systems; Trunk Security’s reportage of the recovery mission assumes that using this weapons is what killed Xiong Xiaoli and cored the White Tiger’s gunboat. The D/D 288’s ability to cause enormous collateral damage and its spectacular discharge when fired have earned it the moniker ‘Shā mǎ zhǎng’ or Horse-Killing Palm among MSMC pilots."
+    }
+]

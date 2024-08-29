@@ -1,0 +1,185 @@
+[
+    {
+        "id": "lmkii_ace_mk_ii",
+        "name": "ACE MK. II",
+        "icon": "ACE",
+        "terse": "Ace Combat reboot.",
+        "description": ":)",
+        "ranks": [
+            {
+                "name": "ACROBATICS",
+                "description": "While flying, you get the following benefits:<ul><li>You make all Agility checks and saves with +1 Accuracy.</li><li>Any time an attack misses you, you may fly up to 2 spaces in any direction as a reaction.</li></ul>",
+                "synergies": [
+                    {
+                        "locations": ["agility, active_effects"],
+                        "detail": "Make all Agility checks and saves with +1 Accuracy."
+                    }
+                ],
+                "actions": [
+                    {
+                        "name": "Acrobatics",
+                        "activation": "Reaction",
+                        "trigger": "Any time an attack misses you.",
+                        "detail": "You may fly up to 2 spaces in any direction."
+                    }
+                ]
+            },
+            {
+                "name": "AFTERBURNERS",
+                "description": "When you Boost while flying, you may move an additional 2d3 spaces, but take Heat equal to half that amount.",
+                "synergies": [
+                    {
+                        "locations": ["boost"],
+                        "detail": "When you Boost while flying, you may move an additional 2d3 spaces, but take Heat equal to half that amount."
+                    }
+                ]
+            },
+            {
+                "name": "SUPERSONIC",
+                "description": "Whenever you Boost while flying, you ignore engagement and reactions and may reroll Afterburners dice, picking either result."
+            }
+        ]
+    },
+    {
+        "id": "lmkii_duelist_mk_ii",
+        "name": "DUELIST MK. II",
+        "icon": "DUELIST",
+        "terse": "A New Duelist From A New Era",
+        "description": "",
+        "ranks": [
+            {
+                "name": "PARTISAN",
+                "description": "Gain +1 Accuracy when using Main Melee weapons to attack targets within half of your Threat.",
+                "synergies": [
+                    {
+                        "locations": ["weapon"],
+                        "weapon_types": ["Melee"],
+                        "weapon_sizes": ["Main"],
+                        "detail": "Gain +1 Accuracy when using Main Melee weapons to attack targets within half of your Threat."
+                    }
+                ]
+            },
+            {
+                "name": "BLADEMASTER",
+                "description": "1/turn, when you hit with a Main Melee weapon, you gain 1 Blademaster Die – a d6 – up to a maximum of 3 Blademaster Die. They last until expended or the current scene ends. You can expend Blademaster Dice 1-for-1 for the following:<ul><li>Parry: As a reaction when you’re hit by a melee attack, you gain Resistance to all damage, heat, and Burn dealt by the attack and deal 1d3+3 damage of that attack’s type to the attacker.</li><li>Deflect: As a reaction when you’re hit by a ranged attack, you may roll any number of Blademaster Dice, expending them: if you roll a 4+ on any of these dice, you gain Resistance to all damage, heat, and Burn dealt by the attack and deal 1d3+3 damage of that attack’s type to the attacker.</li><li>Feint: Disengage as a free action.</li><li>Trip: As a quick action, choose an adjacent character: they must pass an Agility save at +1 Difficulty or fall Prone. Whatever the result, you may freely pass through their space until the end of your current turn, although you can’t end your turn in their space.</li></ul>",
+                "synergies": [
+                    {
+                      "locations": ["weapon"],
+                      "weapon_types": ["Melee"],
+                      "weapon_sizes": ["Main"],
+                      "detail": "1/turn, when you hit with a Main Melee weapon, gain 1 Blademaster Die."
+                    }
+                ],
+                "counters": [
+                    {
+                      "id": "lmkii_duelist_mk_ii",
+                      "name": "Blademaster Dice MK. II",
+                      "default_value": 0,
+                      "min": 0,
+                      "max": 3
+                    }
+                ]
+            },
+            {
+                "name": "UNSTOPPABLE",
+                "description": "Gain the following additional options for Blademaster:<ul><li>Finesse: 1/round, when you hit with a melee attack on your turn, you may spend a Blademaster Die to immediately Grapple or Ram your target after resolving the attack.</li><li>Riposte: Whenever you’re missed by a melee attack, you may spend a Blademaster Die to make a single attack against them using a Main Melee weapon.</li></ul>"
+            }
+        ]
+    },
+    {
+        "id": "lmkii_hacker_mk_ii",
+        "name": "HACKER MK. II",
+        "icon": "HACKER",
+        "terse": "ALL YOUR BASE",
+        "description": "ALL YOUR BASE ARE BELONG TO US",
+        "ranks": [
+            {
+                "name": "SNOW_CRASH",
+                "description": "When you hit with a tech attack that consumes Lock On, you may choose to have the target either take an additional 2 Heat or be pushed 3 spaces in a direction of your choice.",
+                "synergies": [
+                    {
+                        "locations": ["tech"],
+                        "detail": "When you hit with a tech attack that consumes Lock On, your target must choose to either take 2 Heat or be pushed 3 spaces in a direction of your choice."
+                    }
+                ]
+            },
+            {
+                "name": "SAFE_CRACKER",
+                "description": "Gain the following options for Invade:",
+                "actions": [
+                        {
+                            "name": "Jam Cockpit",
+                            "activation": "Invade",
+                            "detail": "The target can only draw line of sight to spaces within Range 3 and characters cannot Mount or Dismount your target until the cockpit is fixed with a successful Engineering check as a full action."
+                        },
+                        {
+                            "name": "Disable Life Support",
+                            "activation": "Invade",
+                            "detail": "Your target receives +1 Difficulty on all saves and checks until the life-support system is rebooted with a successful Systems check as a quick action."
+                        },
+                        {
+                            "name": "Hack./Slash",
+                            "activation": "Invade",
+                            "detail": "Your target cannot benefit from or take Quick or Full Tech actions until the mech is either Shut Down or its core computer is rebooted with a successful Systems save as a quick action."
+                        }
+                  ]
+            },
+            {
+                "name": "LAST ARGUMENT OF KINGS",
+                "description": "Gain the <b>Last Argument of Kings</b> Quick Tech Option",
+                "actions": [
+                    {
+                        "name": "Last Argument of Kings",
+                        "activation": "Quick Tech",
+                        "detail": "After hitting with a tech attack, you may activate this system, causing the target to take an extra 2 Heat and take AP Energy damage equal to their current Heat. If this action causes the target to overheat, it resolves before they reset their heat cap."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "lmkii_stormbringer_mk_ii",
+        "name": "STORMBRINGER MK. II",
+        "icon": "STORMBRINGER",
+        "terse": "The Earth Shall Quake",
+        "description": "",
+        "ranks": [
+            {
+                "name": "Seismic Deluge",
+                "description": "1/round, when you successfully attack with a Launcher and consume Lock On, you may also knock your target Prone.",
+                "synergies": [
+                    {
+                        "locations": ["weapon"],
+                        "weapon_types": ["Launcher"],
+                        "weapon_sizes": ["any"],
+                        "detail": "1/round, when you successfully attack with a Launcher and consume Lock On, you may also knock your target Prone."
+                    }
+                ]
+            },
+            {
+                "name": "Stormbending",
+                "description": "You have customized your mech with auxiliary concussive missile systems. 1/round, when you hit a character or object with a Launcher, you can choose one of the following effects:<ul><li><b>Lightning:</b> You fire a concentrated blast of missiles at that character. They must succeed on a Hull save or be knocked away from you by 3 spaces; the force of firing then knocks you back by 3 spaces, away from the direction of fire.</li><li><b>Thunder:</b> You fire a spray of missiles at a Burst 2 area around that target. Characters in the area must succeed on an Agility save or be knocked back by 1 space, away from the target. The primary target is unaffected.</li></ul>",
+                "synergies": [
+                    {
+                        "locations": ["weapon"],
+                        "weapon_types": ["Launcher"],
+                        "weapon_sizes": ["any"],
+                        "detail": "1/round, when you hit a character or object with a Launcher, you can choose one of the following effects:<ul><li><b>Lightning:</b> You fire a concentrated blast of missiles at that character. They must succeed on a Hull save or be knocked away from you by 3 spaces; the force of firing then knocks you back by 3 spaces, away from the direction of fire.</li><li><b>Thunder:</b> You fire a spray of missiles at a Burst 2 area around that target. Characters in the area must succeed on an Agility save or be knocked back by 1 space, away from the target. The primary target is unaffected.</li></ul>"
+                    }
+                ]
+            },
+            {
+                "name": "TORRENT",
+                "description": "Your mech is granted a micro-missile support system. Whenever you hit a character with a Launcher, roll 1d6. On a 5+, or on a 4+ if the triggering attack critically hits, a micro-missile fires at a character within the triggering weapon's Range (ignoring line of sight), dealing AP Kinetic equal to the weapon’s size (Auxiliary: 1, Main: 2, Heavy or larger: 3).",
+                "synergies": [
+                    {
+                        "locations": ["weapon"],
+                        "weapon_types": ["Launcher"],
+                        "weapon_sizes": ["any"],
+                        "detail": "Your mech is granted a micro-missile support system. Whenever you hit a character with a Launcher, roll 1d6. On a 5+, or on a 4+ if the triggering attack critically hits, a micro-missile fires at a character within the triggering weapon's Range (ignoring line of sight), dealing AP Kinetic equal to the weapon’s size (Auxiliary: 1, Main: 2, Heavy or larger: 3)."
+                    }
+                ]
+            }
+        ]
+    }
+]

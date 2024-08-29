@@ -168,6 +168,7 @@ import dustgraveData from '@massif/dustgrave-data'
 import owsData from '@massif/ows-data'
 
 //Homebrew imports
+import mk2Data from '../assets/lcp/Core_Mk_2'
 
 import TypeIt from "typeit";
 
@@ -207,10 +208,10 @@ export default {
       return `/mechs/${this.pilot.callsign}.webp`
     },
     mechWeapons() {
-      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...osrData.weapons, ...ssmrData.weapons, ...dustgraveData.weapons, ...owsData.weapons]
+      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...osrData.weapons, ...ssmrData.weapons, ...dustgraveData.weapons, ...owsData.weapons, ...mk2Data.weapons]
     },
     mechSystems() {
-      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...osrData.systems, ...ssmrData.systems, ...dustgraveData.systems, ...owsData.systems]
+      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...osrData.systems, ...ssmrData.systems, ...dustgraveData.systems, ...owsData.systems, ...mk2Data.systems]
     },
     mechManufacturerIcon() {
       if (this.activeMech.manufacturer)
@@ -270,7 +271,7 @@ export default {
         this.pilot.mechs[0] ? this.activeMech = this.pilot.mechs[0] : lancerData.frames.find((obj) => { return obj.id === 'missing_frame' })
       }
 
-      const knownFrames = [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames, ...ssmrData.frames, ...dustgraveData.frames, ...owsData.frames]
+      const knownFrames = [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames, ...ssmrData.frames, ...dustgraveData.frames, ...owsData.frames, ...mk2Data.frames]
       let frame = knownFrames.find((obj) => {
         return obj.id === this.activeMech.frame
       })

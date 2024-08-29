@@ -1,0 +1,433 @@
+[
+    {
+        "id": "lmkii_barbarossa_mk_two",
+        "variant": "Barbarossa",
+        "license_id": "mf_barbarossa",
+        "license_level": 2,
+        "source": "HA",
+        "name": "BARBAROSSA MK. II",
+        "mechtype": ["Artillery"],
+        "description": "The Barbarossa MKI was found to be one of the most incredible examples of embezzlement, stolen technology, and white collar crime Union had ever seen when an HA Internal Affairs investigative report leaked. Rumor has it, a HORUS cell got a hold of the final report, which made its way to the UIB, and then to CentComm. During an embarrassing witch hunt, the project head disappeared while on vacation. That one wasn't going to be blamed on HA, surprisingly enough. [The HORUS cell has manna on 'SSC picked them up for ExMats newest rail weapon projects.']<br><br>Enter the Barbarossa Rebuild Project. Using developments in supercapacitor technology and materials engineering, the Barbarossa was torn down to its bones and rebuilt from the ground up. Gone is the bulk, replaced with a sturdier, more agile motive system. Redesigned interior spaces and external plating slimmed its profile down but allowed it greater maneuverability. The old Apocalypse Short Spool system was replaced with an Armageddon Supercapacitor system, capable of similar amounts of damage at the cost of endurance and heat. Additional targeting support systems were installed, allowing for greater mount options. Finally, some of its 'native' subsystems were brought back to the design board and rebuilt. The end result was a more offensive orientated frame.",
+        "mounts": ["Flex", "Flex", "Heavy"],
+        "stats": {
+            "size": 3,
+            "structure": 4,
+            "stress": 4,
+            "armor": 3,
+            "hp": 8,
+            "evasion": 6,
+            "edef": 6,
+            "heatcap": 8,
+            "repcap": 3,
+            "sensor_range": 10,
+            "tech_attack": -2,
+            "save": 10,
+            "speed": 3,
+            "sp": 7
+        },
+        "traits": [
+            {
+                "name": "Superior Ballistic Computer",
+                "description": "1/round, when rolling damage for a Blast weapon, can replace a single damage die for an average damage based on the size of the die (2 for 1d3 or 4 for 1d6). This must be decided before rolling damage."
+            },
+            {
+                "name": "Active Coolant Redirection",
+                "description": "While this mech is immobilized, it's ranged weapons that have Blast gain +5 range and reduce their self-heat value by 2."
+            },
+            {
+                "name": "Advanced Anti-Munitions System",
+                "description": "While this mech is immobilized, it and adjacent allies, deployables and drones gain resistance to damage, burn, and heat from attacks with Arcing, Seeking or Smart tags."
+            },
+            {
+                "name": "Slow",
+                "description": "The Barbarossa MK II. receives +1 difficulty on Agility checks and saves.",
+                "synergies": [{
+                    "locations": ["agility", "skill_check"],
+                    "detail": "The Barbarossa MK II. receives +1 difficulty on Agility checks and saves."
+                }]
+            }
+        ],
+        "core_system": {
+            "name": "Apocalypse Rail",
+            "description": "awaiting fluff",
+            "passive_name": "Damocles Stabilization System",
+            "passive_effect": "",
+            "passive_actions": [
+                {
+                    "name": "Activate Damocles Stabilization System",
+                    "activation": "Protocol",
+                    "detail": "You cause your mech to become Immobilized until the start of your next turn."
+                }
+            ],
+            "active_name": "Armageddon Bombardment",
+            "active_effect": "Your Armageddon Supercapacitor Projector immediately gains a maximum amount of Charges. Additionally, for the rest of the scene, if you are Immobilized when your turn ends, you generate 2 Charges instead of 1 and your shots leave a cloud that provides soft cover (which you ignore) and deals 2 burn per charge to characters that start their turn with the area or move there for the first time in a round. Clouds last until the end of the scene and burn from overlapping clouds can stack.",
+            "activation": "Quick",
+            "integrated": ["lmkii_armageddon_supercapacitor_projector"]
+        }
+    },
+    {
+        "id": "lmkii_saladin_mk_two",
+        "license_level": 2,
+        "source": "HA",
+        "name": "SALADIN MK. II",
+        "mechtype": ["Defender"],
+        "description": "The Saladin is a hardy and efficient platform for full-squad support shielding. Based on early defense-oriented versions of the Genghis, the Saladin became the stuff of Armory legend following the exploits of Harrison I “Fearkiller” during the Interest War.<br>Since its first iteration, the Saladin has proved successful in a defensive and support role; it has even become a mainstay among Union Department of Justic and Human Rights liberator teams engaged in emancipation and refugee escort missions, despite the ideological (and, often, tactical) friction between the Armory and the DoJ/HR. Records from these engagements indicate that the Saladin’s massive bulk alone was a comfort and morale boost to DoJ/HR troopers and their charges, many of whom referred to the mechs as “Big Sal”. Union-flagged Saladin pilots often report null balances on bar tabs following engagements in emancipated systems.",
+        "mounts": ["Flex", "Heavy"],
+        "stats": {
+            "size": 2,
+            "structure": 4,
+            "stress": 4,
+            "armor": 2,
+            "hp": 10,
+            "evasion": 6,
+            "edef": 8,
+            "heatcap": 8,
+            "repcap": 4,
+            "sensor_range": 10,
+            "tech_attack": 0,
+            "save": 10,
+            "speed": 4,
+            "sp": 8
+        },
+        "traits": [
+            {
+                "name": "Guardian",
+                "description": "Adjacent allied characters can use the Saladin for hard cover."
+            },
+            {
+                "name": "Interjection",
+                "description": "You may use a Ram instead of your normal attack granted by Overwatch."
+            }
+        ],
+        "core_system": {
+            "name": "Tachyon Cycler",
+            "description": "Now, you stand steadfast and sure, protecting all who shelter in your shadow.",
+            "active_name": "Pre-emptive Interdiction Protocol",
+            "active_effect": "For the rest of the Scene, your Directed Hardlight shield gains Resistance to Kinetic and Explosive Damage, and when an enemy passes through your shield for the first time that round, they take 4 Burn.",
+            "use": "Encounter",
+            "activation": "Protocol",
+            "passive_name": "Directed Hardlight Interdiction Projector",
+            "passive_effect": "The Saladin has a 5 spaces long, 3 spaces high projection of Hardlight that has a number of hitpoints equal to 8 + Twice your Grit. At the start of your turn, center the shield in any space adjacent to the Saladin, it remains in that orientation but moves when the Saladin moves.<br><br>Enemy Ranged and Melee Attacks that would pass through the shield in order to strike the Saladin or their Allies automatically hit it instead, dealing their damage to the shield. If the shield’s hp is not reduced to 0, any additional effects are negated.<br><br>At the start of your turn, the Hardlight Shield regains half its HP unless it is destroyed.<br>To reform the shield, you may take 4 Heat as a Protocol.",
+            "passive_actions": [
+                {
+                    "name": "Regenerate Interdiction Projection",
+                    "activation": "Protocol",
+                    "heat_cost": 4,
+                    "detail": "Reform the shield and take 4 Heat."
+                }
+            ]
+        }
+    },
+    {
+        "id": "lmkii_minotaur_mk_two",
+        "variant": "Minotaur",
+        "license_id": "mf_minotaur",
+        "license_level": 2,
+        "source": "HORUS",
+        "name": "MINOTAUR MK. II",
+        "mechtype": ["Controller"],
+        "description": "The Minotaur was the first HORUS pattern group identified by the Union Intelligence Bureau. Previously, HORUS mechs were released as complete, identifiable models, of which the Goblin is the best and longest-lasting example. As HORUS’s decentralized organizational structure evolved, so too did its design philosophy. Pattern group designs followed beginning with the Minotaur, a schema designed to bring HORUS’s most potent invasion systems and weaponry to the field in a single, battle-ready chassis.<br>Mechs built according to the Minotaur pattern group are interdictors: formidable machines meant to lock down and overload the systems of fast-moving targets. Disassembly by Union technicians has found that Minotaurs contain a huge quantity of interior systems, occupying more physical space than should be possible by several orders of magnitude. The mechanism by which these folded systems are printed is thus far unidentified, but likely related to the Goblin’s signature recursive weave.",
+        "mounts": ["Main/Aux"],
+        "stats": {
+            "size": 1,
+            "structure": 4,
+            "stress": 4,
+            "armor": 0,
+            "hp": 12,
+            "evasion": 8,
+            "edef": 10,
+            "heatcap": 5,
+            "repcap": 4,
+            "sensor_range": 8,
+            "tech_attack": 1,
+            "save": 11,
+            "speed": 4,
+            "sp": 8
+        },
+        "traits": [
+            {
+                "name": "INVERT COCKPIT",
+                "description": "You may Mount or Dismount the Minotaur for the first time each round as a free action. Additionally, the Minotaur doesn’t become Impaired when you Eject.",
+                "use": "Round"
+            },
+            {
+                "name": "INTERNAL METAFOLD",
+                "description": "While inside the Minotaur, you can’t be harmed in any way, even if the Minotaur explodes or is destroyed."
+            },
+            {
+                "name": "LOCALIZED MAZE",
+                "description": "Hostile characters cannot pass through a space occupied by the Minotaur for any reason, are treated as being Engaged with it if they're within Burst 2, and must always stop moving when Engaged with it - regardless of Size."
+            },
+            {
+                "name": "DAEDALUS COMPLEX",
+                "description": "1/Round, as a Reaction, when an enemy begins a movement within Range 3 of your mech, you may make a Tech Attack against them. On a hit they take 2 Heat and are impaired until the end of their next turn.",
+                "use": "Round"
+            }
+        ],
+        "core_system": {
+            "name": "Metafold Maze",
+            "description": "<code class='horus'>No maze is more terrible than the one I make. I know all ends and hide them all inside this one perfect construct. What is a human mind but a program of sorts, a system that seeks order and narrative from a mess they are given?<br>I order it for them. Me. I order it for them and set them to the task of sorting it out. When they emerge, they weep in joy, in discovery. I save them, I show them that they are their own redeemers (and yet, am I not just as culpable - as worthy of credit?).<br>So, go now. Enter. Free yourself.</code>",
+            "active_name": "ENTER THE LABYRINTH",
+            "active_effect": "Choose a character within Sensors: they become Stunned as you hurl their systems into a metaphysical information trap so tangled they can do nothing but try and escape. <br><br>At the end of their next turn, they can make a Systems save at +3 difficulty. On a success, they are no longer Stunned, if they fail they become Stunned. This save can be repeated at the end of each of their turns, gaining +1 accuracy each time until successful.",
+            "activation": "Full",
+            "passive_name": "Metafold Maze",
+            "passive_effect": "Gain “The Minotaur Chargeth” as a Quick Action.",
+            "passive_actions": [
+                {
+                    "name": "The Minotaur Chargeth",
+                    "activation": "Quick",
+                    "detail": "When you hit with a tech attack, you may activate this system, causing your target to become Slowed until the end of your next turn. If they are already Slowed, they become Immobilized until the end of your next turn; if they are already Immobilized, they become Stunned until the end of your next turn. Each character can only be Stunned by this effect once per combat but can be Slowed or Immobilized any number of times."
+                }
+            ]
+        }
+    },
+    {
+        "id": "lmkii_nelson_mk_two",
+        "variant": "Nelson",
+        "license_id": "mf_nelson",
+        "license_level": 2,
+        "source": "IPS-N",
+        "name": "NELSON MK. II",
+        "mechtype": ["Striker"],
+        "description": "The IPS-N Nelson is the purest embodiment of the close-quarters doctrine espoused by its manufacturer. It is built to brawl, thriving when ordnance has been exhausted or when the environment is too volatile for firearms. With its functional size, the Nelson can strike fast and remain a difficult target to track. Layers of fractal-fold Armor-Lock plating with ceramic-analogous carbon flaking properties effectively nullify the impact of incoming ballistics by dispersing kinetic energy across a rounded hull. This null-k defense protects the pilot from impact trauma, allowing for sustained combat efficacy in high-trade scenarios.<br>The Nelson is an iconic IPS-N chassis, known across the galaxy as the favored frame of the Albatross, the nomadic order of Cosmopolitan peacekeepers. The Albatross’ distinctive white, gold, and red livery, mastery of the war pike, and apparent agelessness due to time dilation has won both them and the Nelson a venerated place in Diasporan lore – and secured an endorsement contract with IPS-N in perpetuity.",
+        "mounts": ["Main/Aux", "Heavy"],
+        "stats": {
+            "size": 1,
+            "structure": 4,
+            "stress": 4,
+            "armor": 0,
+            "hp": 10,
+            "evasion": 11,
+            "edef": 7,
+            "heatcap": 6,
+            "repcap": 5,
+            "sensor_range": 5,
+            "tech_attack": -1,
+            "save": 10,
+            "speed": 5,
+            "sp": 6
+        },
+        "traits": [
+            {
+                "name": "Momentum",
+                "description": "1/round, after you Boost, the Nelson MK. II’s next melee attack deals +1d6 bonus damage on hit.",
+                "synergies": [{
+                    "locations": ["boost"],
+                    "detail": "1/round, after you Boost, the Nelson’s next melee attack deals +1d6 bonus damage on hit."
+                }]
+            },
+            {
+                "name": "Skirmisher",
+                "description": "After attacking, the Nelson MK. II can immediately move 1 space in any direction as long as it isn’t Immobilize or Slowed. This movement ignores engagement and doesn’t provoke reactions."
+            }
+        ],
+        "core_system": {
+            "name": "Perpetual Momentum Drive",
+            "description": "IPS-N’s Perpetual Momentum Drive exploits fighter-tier nearlight spooling to capture and sustain a passive .000001 ls charge, able to be dumped into boost systems upon command. Chassis equipped with this drive require heavy reinforcement, including strengthened joints and limbs, and installation of a k-comp crash couch to protect the pilot from sudden g-force and shear.",
+            "active_name": "Engage Drive",
+            "active_effect": "For the rest of the scene, Skirmisher allows you to move 4 spaces at a time instead of 1 space.",
+            "use": "Encounter",
+            "activation": "Protocol"
+        }
+    },
+    {
+        "id": "lmkii_lancaster_mk_two",
+        "variant": "Lancaster",
+        "license_id": "mf_lancaster",
+        "license_level": 2,
+        "source": "IPS-N",
+        "name": "LANCASTER MK. II",
+        "mechtype": ["Support"],
+        "description": "The IPS-N Lancaster is a mil-spec variant of an older IPS-N civilian terrestrial, inter/outer-hull transport and maintenance chassis, streamlined for use in any theater. The Lancaster features multiple redundant systems and sophisticated interaction projectors to ensure pinpoint accuracy when engaging with delicate systems, whether damaged or intact.<br>Lancaster pilots often adopt roles as sappers and engineers in frontline support. Sometimes ridiculed for piloting the old-fashioned frame by newer, untested pilots, veteran Lancaster jockeys know the truth: the Lancaster is one of the most reliable and well-made mechs out there, indispensable on any serious long-range mission. Not every mission is won with bullets, lasers, and bombs: without the engineers and their Lannies, few of those hotshots would come home alive.",
+        "mounts": ["Main/Aux"],
+        "stats": {
+            "size": 2,
+            "structure": 4,
+            "stress": 4,
+            "armor": 2,
+            "hp": 6,
+            "evasion": 8,
+            "edef": 8,
+            "heatcap": 6,
+            "repcap": 10,
+            "sensor_range": 8,
+            "tech_attack": 1,
+            "save": 10,
+            "speed": 6,
+            "sp": 8
+        },
+        "traits": [
+            {
+                "name": "Insulated",
+                "description": "The Lancaster has Immunity to burn."
+            },
+            {
+                "name": "Combat Repair",
+                "description": "In combat, the Lancaster can use 4 Repairs to repair a destroyed mech as a full action, returning it to 1 Structure, 1 Stress, and 1 HP.",
+                "actions": [
+                    {
+                        "name": "Combat Repair",
+                        "activation": "Full",
+                        "detail": "Use 4 Repairs to repair a destroyed mech as a full action, returning it to 1 Structure, 1 Stress, and 1 HP."
+                    }
+                ]
+            },
+            {
+                "name": "Redundant Systems",
+                "description": "At your discretion, other characters adjacent to the Lancaster can spend its Repairs as their own."
+            }
+        ],
+        "core_system": {
+            "name": "Latch Drone",
+            "description": "Known colloquially as the ‘Doghouse,’ the Lancaster carries a support drone hive. Smaller, consumable drones are often called ‘bones’ while the Supercharger drone is usually referred to by some variety of junkyard animal breed.",
+            "active_name": "Supercharger",
+            "active_effect": "Choose an ally within Range 8, for the rest of the scene your target gains +1 accuracy on all attacks, checks, and saves, and Immunity to the Impaired, Jammed, Slowed, Shredded, and Immobilized conditions from characters other than itself.",
+            "activation": "Protocol",
+            "integrated": ["lmkii_lancaster_mk_two_integrated"]
+        }
+    },
+    {
+        "id": "lmkii_mourning_cloak_mk_two",
+        "variant": "Mourning Cloak",
+        "license_id": "mf_mourning_cloak",
+        "license_level": 2,
+        "source": "SSC",
+        "name": "MOURNING CLOAK MK. II",
+        "mechtype": ["Striker"],
+        "description": "The Mourning Cloak is a brand-new model from SSC’s LUX-Iconic line, and the manufacturer’s newest close-quarters combat and melee specialist frame. The Mourning Cloak emphasizes precision melee combat and is commonly outfitted with a complement of shielded microfilament wires designed to act as an anti-armor slashing weapon.<br>Designed by SSC’s Exotic Materials Group based on data from early engagements against the Ascendant Aun in Boundary Garden, the Mourning Cloak combines SSC’s harvested excerpts of DHIYED paracode with adapted Aunic Firmament-manipulation technology. The Mourning Cloak provides a prestigious and tactical option for situations where firearms are impractical and ordnance is unavailable. As part of the LUX-Iconic line, the Mourning Cloak is a popular order in the Baronies and among various high-manna VIP security firms.",
+        "mounts": ["Flex", "Flex", "Main/Aux"],
+        "stats": {
+            "size": 1,
+            "structure": 4,
+            "stress": 4,
+            "armor": 0,
+            "hp": 8,
+            "evasion": 12,
+            "edef": 6,
+            "heatcap": 5,
+            "repcap": 3,
+            "sensor_range": 15,
+            "tech_attack": 1,
+            "save": 10,
+            "speed": 5,
+            "sp": 6
+        },
+        "traits": [
+            {
+                "name": "Hunter",
+                "description": "1/round, the Mourning Cloak may deal +1d6 bonus damage on hit with a melee attack if its target has no adjacent characters, or if the Mourning Cloak is the only character adjacent to the target. If you have successfully Tech Attacked the target, you may deal 1d6 bonus damage on another melee attack if its target has no adjacent characters, or if the Mourning Cloak is the only character adjacent to the target.",
+                "synergies": [{
+                    "locations": ["weapon"],
+                    "weapon_types": ["Melee"],
+                    "weapon_sizes": ["any"],
+                    "detail": "1/round, the Mourning Cloak may deal +1d6 bonus damage on hit with a melee attack if its target has no adjacent characters, or if the Mourning Cloak is the only character adjacent to the target. If you have successfully Tech Attacked the target, you may deal 1d6 bonus damage on another melee attack if its target has no adjacent characters, or if the Mourning Cloak is the only character adjacent to the target."
+                }]
+            },
+            {
+                "name": "Death of a Thousand Cuts",
+                "description": "All Auxiliary Weapons equipped on the Mourning Cloak gain the AP tag against the last character Tech Attacked by the Mourning Cloak.",
+                "synergies": [{
+                    "locations": ["weapon"],
+                    "weapon_sizes": ["Auxiliary"],
+                    "detail": "All Auxiliary Weapons equipped on the Mourning Cloak gain the AP tag against the last character Tech Attacked by the Mourning Cloak."
+                }]
+            },
+            {
+                "name": "Between The Blink",
+                "description": "After Teleporting, you gain Resistance to all damage and heat from the next incoming attack."
+            },
+            {
+                "name": "Biotic Components",
+                "description": "The Mourning Cloak gains +1 accuracy on Agility checks and saves.",
+                "synergies": [{
+                    "locations": ["agility", "skill_check"],
+                    "detail": "The Mourning Cloak gains +1 accuracy on Agility checks and saves."
+                }]
+            }
+        ],
+        "core_system": {
+            "name": "EX Slipstream Module",
+            "description": "Open only to highly licensed pilots, the EX Slipstream program is a uniquely SSC innovation. The Ex Slipstream module itself is a miniaturized near-lightspeed drive capable of transporting the user through blinkspace with acceptable accuracy. The technology is temperamental, at best: nothing smaller than a mech can survive the stress of exposed blink travel, and the experience is traumatic to both the user and anyone in close proximity.",
+            "active_name": "Stabilize Singularity",
+            "active_effect": "For the rest of the scene, you teleport when you Boost or make a standard move.",
+            "use": "Encounter",
+            "activation": "Protocol",
+            "passive_name": "FADEJUMP Drive",
+            "passive_effect": "Gain the Fadejump Quick Action.",
+            "passive_actions": [
+                {
+                    "name": "Fadejump",
+                    "activation": "Quick",
+                    "frequency": "1/round",
+                    "detail": "Teleport to a space within range 4d3. You don’t require line of sight, but attempts to teleport to occupied spaces cause you to remain stationary and lose this action. If you roll 4 of the same number, you become Intangible or lose Intangible, as per the Fade Cloak."
+                }
+            ]
+        }
+    },
+    {
+        "id": "lmkii_atlas_mk_two",
+        "source": "SSC",
+        "name": "ATLAS MK. II",
+        "mechtype": ["Striker"],
+        "y_pos": 14,
+        "license_level": 2,
+        "description": "<p>Originally commissioned as a dueling mech by the Baronic Houses of Smoke and Order, the Atlas blurs the line between mechanized chassis and powered personal armor. Thanks to a long-running research project from SSC's Exotic Materials Group, the designers were able to employ the bleeding edge of reactor miniaturization tech: the result was a chassis that resembled a large, sleek hardsuit, almost skintight in places. While the Atlas sacrifices the durability of a larger frame, its essential systems are so closely melded with its user's movements that it offers unparalleled maneuverability.</p> <p>Although the Atlas was initially licensed only to Baronic clients, its design was leaked when a group of ExoMat personnel lost a suit to a Sparri espada in an intense game of Kapkat. Despite their initial attempt to recover the suit, SSC relented, citing the eager demand from Sparri groups for access to the full license. </p> <p>Considered the perfect warrior frame for hunting the native megafauna of Sparr, the Atlas now enjoys a dual reputation among both the Sparri peoples and Karrakin nobility. To the Sparri, the Atlas &ndash; its combat efficacy notwithstanding &ndash; is highly valued for the direct access its systems allow to their ancestral memory; Atlas frames on Sparr are the heirlooms of great warriors, tied to family (blood and chosen) and maintained by hand. Each suit on Sparr bears the history of its previous pilots in both decorations and FCA-compliant machine learning, which enables Sparri hunters to almost literally call upon their ancestors in battle. The Atlas has become so popular among the Sparri that they even developed a new martial art based on the Atlas: Jäger Kunst. </p> <p>The Karrakin nobility, on the other hand, find the Atlas to be a perfect machine for noble heroism &ndash; that the Sparri have an affinity for it only makes the chassis that much more desirable among Karrakin Sparrist scholars. Commonly decorated with purchased Sparri saga discs, Vast pelts, and saga lines, Karrakin suits blend imagined profiles of Annorum Passacaglia and Annorum Tyrannus-era heroes with profiles of Sparri warriors, daredevils, vast-hunters, and espadas.</p>",
+        "mounts": ["Flex", "Heavy"],
+        "stats": {
+            "size": 0.5,
+            "stress": 4,
+            "structure": 4,
+            "armor": 0,
+            "hp": 6,
+            "evasion": 12,
+            "edef": 6,
+            "heatcap": 5,
+            "repcap": 3,
+            "sensor_range": 3,
+            "tech_attack": -2,
+            "save": 11,
+            "speed": 6,
+            "sp": 6
+        },
+        "traits": [
+            {
+                "name": "Giantkiller",
+                "description": "The Atlas counts as SIZE 1 for RAM and GRAPPLE. It ignores engagement from larger characters and can freely move through and share the spaces they occupy (even if they’re hostile). While occupying the same spaces as any character, it gains soft cover, even from that character.",
+                "synergies": [
+                    {
+                        "locations": ["ram", "grapple"],
+                        "detail": "The Atlas counts as size 1 for the purposes of ramming and grappling."
+                    },
+                    {
+                        "locations": ["active_effects"],
+                        "detail": "The Atlas ignores engagement from actors larger than itself, can share space with larger actors (even hostile ones) and move through their spaces unimpeded. While sharing space with any character, it gains soft cover, even from that character."
+                    }
+                ]
+            },
+            {
+                "name": "Jäger Dodge",
+                "description": "1/round, when you take damage from a larger character, gain RESISTANCE to that damage and move 3 spaces in any direction as a reaction. This ignores engagement and doesn’t provoke reactions.",
+                "actions": [
+                    {
+                        "name": "Jäger Dodge",
+                        "activation": "Reaction",
+                        "trigger": "You take damage from a character larger than yourself",
+                        "detail": "Gain resistance to that damage and move 3 spaces in any direction, ignoring engagement and reactions."
+                    }
+                ]
+            },
+            {
+                "name": "Jaeger Suite",
+                "description": "The Atlas has Resistance to damage from all Saves and Checks, and Resistance to Reliable Damage."
+            }
+        ],
+        "core_system": {
+            "name": "BLOODLINE Active Assist",
+            "description": "The ATLAS extends microneedles into the musculature and ancillary nervous system of its pilot, melding flesh, machine, and the memory of all who wore it before.",
+            "active_name": "Final Hunt",
+            "active_effect": "<p>For the rest of the scene, you:</p> <ul><li>Gain +1 Speed, and may move an additional space when using other sources of movement (Jaeger Kunst, Accelerate, etc.)</li><li>You may move an additional 1 space every time when you use non-standard (Move/Boost) movement for any reason (e.g. Jager Kunst, Ace, Accelerate).</li><li>Benefit from soft cover at all times.</li><li>Can Hide anywhere, even in plain sight. In addition, you cannot be revealed through passive effects.</li></ul><li>You break Hide through the standard means; Boosting, taking a reaction, attacking, etc.</li><li>1/round: When you make a Ranged or Melee attack, your target must also succeed on a Hull save before the attack is resolved. If they fail, they are knocked Prone.</li></ul>",
+            "activation": "Protocol"
+        },
+        "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/atlas_new.png"
+    }
+]

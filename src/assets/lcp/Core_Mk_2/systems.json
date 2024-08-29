@@ -1,0 +1,516 @@
+[
+    {
+        "id": "lmkii_siege_stabilizers_mk_two",
+        "name": "SIEGE STABILIZERS MK. II",
+        "sp": 1,
+        "tags": [{"id": "tg_unique"}],
+        "source": "HA",
+        "license": "BARBAROSSA",
+        "license_level": 1,
+        "actions": [
+            {
+                "activation": "Quick",
+                "detail": "Your mech’s stabilizers extend (or retract). While they are extended, your ranged attacks gain +8 range, but you become Immobilized, can’t make melee attacks, and can’t make ranged attacks against or centered on characters, objects, or spaces within range 5."
+            }
+        ],
+        "description": "Some weapons require further stabilization for optimal use. With Armory-designed siege stabilizers installed, a mech becomes a stable firing platform for any weapon."
+    },
+    {
+        "id": "lmkii_autoloader_drone_mk_two",
+        "name": "AUTOLOADER DRONE MK. II",
+        "type": "Drone",
+        "sp": 2,
+        "tags": [{"id": "tg_limited", "val": 1}, {"id": "tg_unique"}],
+        "source": "HA",
+        "license": "BARBAROSSA",
+        "license_level": 2,
+        "deployables": [
+            {
+                "type": "Drone",
+                "name": "Autoloader Drone",
+                "size": 0.5,
+                "hp": 5,
+                "edef": 10,
+                "evasion": 10,
+                "detail": "Expend a charge to deploy this autoloader drone to any adjacent space. 1/turn, when an adjacent character fires a Loading weapon the drone reloads it as a Reaction. It deactivates after being used 3 times or at the end of the scene, whichever is first."
+            }
+        ],
+        "description": "Autoloader drones are many-limbed machines that assist their team by loading ordnance, maintaining powerline hookups, and cycling magazine-fed weapons, in addition to many other physical tasks."
+    },
+    {
+        "id": "lmkii_external_ammo_feed_mk_two",
+        "name": "EXTERNAL AMMO FEED MK. II",
+        "sp": 3,
+        "tags": [{"id": "tg_unique"}, {"id": "tg_heat_self", "val": "1d3+1"}],
+        "source": "HA",
+        "license": "BARBAROSSA",
+        "license_level": 3,
+        "actions": [
+            {
+                "activation": "Protocol",
+                "detail": "1/round, you can activate this system to reload a Loading weapon."
+            }
+        ],
+        "description": "An external ammo feed is any sort of ammunition beyond what is carried in a mech’s integrated storage: from magazines strapped to bodies or limbs; battery packs attached to hip clasps; or massive, dorsal-mounted ammunition and charge packs, externals ensure that pilots have more than enough boom to get the job done."
+    },
+    {
+        "id": "lmkii_blinkshield_mk_two",
+        "name": "BLINKSHIELD MK. II",
+        "type": "Shield",
+        "sp": 2,
+        "tags": [{"id": "tg_unique"}, {"id": "tg_shield"}],
+        "source": "HA",
+        "license": "NAPOLEON",
+        "license_level": 3,
+        "actions": [
+            {
+                "activation": "Quick",
+                "frequency": "1/scene",
+                "detail": "This system generates a burst 4 bubble around your mech, within which the flow of time is altered drastically. Nothing can enter or exit the bubble, not even light – it’s both impermeable and has Immunity to all damage and effects. Line of sight can’t be drawn through the border of the area, and it can’t be crossed by any action or effect – even those that don’t require line of sight – but time passes normally on both sides. For characters within the affected area, the world outside goes totally black; likewise, characters outside the affected area see a perfect black sphere.<br>When the Blinkshield is activated, characters partially within the affected area must make an Agility save: on a success, they move to the nearest free space on the side of their choice, inside or outside the area; on a failure, you choose.<br>This effect remains stationary even if you move, and lasts until the end of your next turn."
+            }
+        ],
+        "description": "Characteristically for a weapon based on Think Tank research, Harrison Armory’s Blinkshield leans into the fuzzy nature of quantum manipulation. Operating in a similar fashion to a blinkspace gate, the Blinkshield generates a spherical sheath of energy that allows its operator to pierce realspace and exist, for a moment, in the null-environment of blinkspace. Think Tank spokespeople acknowledge the tactical benefits of (un)momentary (non)existence in blinkspace, but caution against repeated exposure without sufficient pre- and post-exposure conditioning and counseling."
+    },
+    {
+        "id": "lmkii_enclave_pattern_support_shield_mk_two",
+        "name": "ENCLAVE-PATTERN SUPPORT SHIELD MK. II",
+        "type": "Shield",
+        "sp": 2,
+        "tags": [{"id": "tg_unique"}, {"id": "tg_shield"}, {"id": "tg_heat_self", "val": 2}],
+        "source": "HA",
+        "license": "SALADIN MK. II",
+        "license_level": 1,
+        "actions": [
+            {
+                "activation": "Quick",
+                "detail": "This system generates a burst 3 dome that lasts until the end of your next turn. You become Immobilized for the duration, but any ranged or melee attacks made against characters within the affected area from outside the dome receive +1 difficulty.<br><br>You and your Allies who are in the field are immune to Reliable damage and external sources of the Jammed condition. The Effects last until you end it with a Free Action, are Stunned or Destroyed."
+            }
+        ],
+        "description": "The Armory’s ENCLAVE-Pattern Support Shield creates a localized one-way blinkfield, folding a thin dome of complex realspace around its user and their immediate area, protecting occupants from incoming projectiles. Entities within the field can fire out, but probabilistic fluctuations cause incoming projectiles to “lag”, skipping them away from their intended target and along a randomized trajectory."
+    },
+    {
+        "id": "lmkii_flash_anchor",
+        "name": "FLASH ANCHOR",
+        "type": "Shield",
+        "sp": 1,
+        "tags": [{"id": "tg_unique"}, {"id": "tg_shield"}, {"id": "tg_heat_self", "val": 2}],
+        "source": "HA",
+        "license": "SALADIN MK. II",
+        "license_level": 1,
+        "actions": [
+            {
+                "name": "Flash Lock",
+                "activation": "Reaction",
+                "frequency": "1/round",
+                "trigger": "You or an allied character in Sensors and line of sight is pushed, pulled, knocked back or knocked Prone.",
+                "detail": "Take 2 Heat. The movement or status is prevented, and the target gains Immunity to all the above effects until the start of their next turn."
+            }
+        ],
+        "description": "Flash anchors utilize user-directed quantum superpositional lockdown projection to identify and assist allies in physical combat and rapid movement, maintaining positionality in all circumstances."
+    },
+    {
+        "id": "lmkii_hardlight_defense_system",
+        "name": "HARDLIGHT DEFENSE SYSTEM",
+        "type": "Shield",
+        "sp": 3,
+        "tags": [{"id": "tg_unique"}, {"id": "tg_shield"}, {"id": "tg_heat_self", "val": 2}],
+        "source": "HA",
+        "license": "SALADIN MK. II",
+        "license_level": 2,
+        "actions": [
+            {
+                "activation": "Full",
+                "detail": "This system creates a burst 3 hardlight shield. While the shield is in place, you become Immobilized. It blocks line of sight in both directions, and no attacks or effects can pass through (even if they don’t require line of sight). Characters partially within the affected area ignore this effect and draw line of sight as usual.<br>Characters can pass through the shield, but when crossing the perimeter for the first time in a round or starting their turn overlapping the boundary, they take 2 Burn.<br>This shield lasts for the rest of the scene, or until deactivated as a protocol."
+            },
+            {
+                "name": "Deactivate Hardlight Defense System",
+                "activation": "Protocol",
+                "detail": "Deactivate the Hardlight Defense System, removing the Immobilized condition it inflicts."
+            }
+        ],
+        "description": "The Hardlight Defense System is an imperfect implementation of theoretically perfect technology. Currently in development by Think Tank NHPs and engineers, hardlight devices project tight, stable waves of light – akin to lasers – that repel matter and energy. In effect, this creates a solid surface, useful for shielding or temporary barrier construction; however, current technology is unable to lower the ambient temperature enough to prevent these surfaces from burning organic matter."
+    },
+    {
+        "id": "lmkii_noah_class_nhp",
+        "name": "NOAH-CLASS NHP",
+        "type": "AI",
+        "sp": 3,
+        "tags": [{"id": "tg_ai"}, {"id": "tg_unique"}],
+        "source": "HA",
+        "license": "SALADIN MK. II",
+        "license_level": 3,
+        "actions": [
+            {
+                "name": "Diluvian Ark",
+                "activation": "Quick",
+                "detail": "These effects apply until the end of your next turn:<ul><li>You become Slowed.</li><li>Each time you or an allied adjacent character are targeted by a ranged attack, you may take 1 heat as a reaction and roll 1d6 before the attacker rolls: on 4+, you take an additional 1 heat and the attack automatically misses you and any allies adjacent to you. This effect does not stack with Invisible.</li><li>Each time a ranged attack fails to hit you or an adjacent allied character, the attacker takes 4 kinetic damage.</li></ul>"
+            }
+        ],
+        "description": "Originally developed from a captured Minerva pre-eidolon anomaly, NOAH was adapted for use as a metropolitan administrative NHP on Ras Shamra. The unit that would become NOAH did not, at first, seem like a suitable candidate for military application: this changed after one of its clones was flagged for review following the spontaneous implementation of anomalous traffic patterns, pedestrian routing, and vac-loop scheduling. Armory ontologisticians and engineers isolated and emphasized endemic protocols that could be exploited for tactical advantage.<br>Over numerous iterations and lifecycles, NOAH Prime displayed a high level of adaptability in multiple-variable geospatial problems. A proclivity toward crisis management and multi-actor tracking led to NOAH’s pairing with the Armory’s ENCLAVE-Pattern Support Shield. By networking a series of jet-assist mobility drones carrying an ENCLAVE generator, monitored and controlled by a NOAH clone, Think Tank was able to create an unparalleled personal shielding system: the Diluvian Ark, a miniaturized cluster-shield system unique to the NOAH NHP.<br>Using the Diluvian Ark, NOAH is able to intercept incoming kinetics – and even redirect projectiles back to their source – with stunning accuracy."
+    },
+    {
+		"id": "mwc_reactor_stabilizer_mktwo",
+    	"name": "REACTOR STABILIZER MK. II",
+		"type": "System",
+    	"sp": 3,
+    	"tags": [{
+    	  	"id": "tg_unique"
+    	}],
+    	"source": "HA",
+    	"license": "SHERMAN",
+    	"license_level": 1,
+    	"effect": "You may roll all overheating checks twice and choose either result.",
+    	"description": "A necessary component of most mechs that rely on high energy output, reactor stabilizers add another layer of failsafes to vent heat, manage power flow, and shunt excessive output into weapons and systems as needed."
+	},
+    {
+        "id": "lmkii_plasma_gauntlet_mk_two",
+        "name": "PLASMA GAUNTLET MK. II",
+        "sp": 2,
+        "tags": [{"id": "tg_danger_zone"}, {"id": "tg_limited", "val": 1}, {"id": "tg_unique"}],
+        "source": "HA",
+        "license": "TOKUGAWA",
+        "license_level": 3,
+        "actions": [
+            {
+                "activation": "Quick",
+                "detail": "This system can only be used in the Danger Zone.<br>Expend a charge and choose a character adjacent to you: they must succeed on an Agility save or take 4d6 AP energy damage and be knocked Prone. On a success, they take half damage and aren’t knocked Prone. You take half of the damage inflicted – before reduction – as heat and are treated as if you had Braced next turn, activating any relevant Systems and Traits as per normal Brace."
+            }
+        ],
+        "description": "This studded gauntlet draws on a core reactor pulse to momentarily superheat the air around a mech’s manipulator, creating a plasma field momentarily hotter than the surface of the sun. Thrust into an opponent’s chassis, plasma gauntlets give mechs the power to warp armor, vaporize shielding, and rip apart internal systems with their bare hands – if they don’t collapse in on themselves first."
+    },
+    {
+        "id": "lmkii_emp_pulse_mk_two",
+        "name": "EMP PULSE MK. II",
+        "sp": 3,
+        "tags": [{"id": "tg_unique"}],
+        "source": "HORUS",
+        "license": "MANTICORE",
+        "license_level": 3,
+        "actions": [
+            {
+                "activation": "Quick",
+                "detail": "You are treated as if you had taken the Brace reaction, activating any relevant Systems and Traits as per normal Brace. All characters within burst 1 without the Biological tag must succeed on a Systems save or also become Stunned until the end of their next turn. Characters can only be Stunned 1/scene by this effect."
+            }
+        ],
+        "description": "“Crawl away, APEP! Thou hateful serpent; thou shalt not copulate. Thou art put in chains and taken to the place of execution; there thy slaying shall be carried out.”"
+    },
+    {
+        "id": "lmkii_lightning_generator_mk_two",
+        "name": "LIGHTNING GENERATOR MK. II",
+        "sp": 3,
+        "tags": [{"id": "tg_unique"}, {"id": "tg_heat_self", "val": 1}, {"id": "tg_limited", "val": 4}],
+        "source": "HORUS",
+        "license": "MANTICORE",
+        "license_level": 3,
+        "actions": [
+            {
+                "activation": "Free",
+                "frequency": "1/round",
+                "detail": "As a free action, take 1 heat and deal 2 energy damage to all characters and objects in Burst 3.<br><br>If you end your turn in the Danger Zone, this system enters a supercharged state and activates automatically, regardless if you have used it this turn.<br>When it happens, you can spend a Limited charge as a Free Action to delay it's automatic activation until the next turn, where it could be triggered manually. Supercharged state increases the damage to 4 AP energy."
+            }
+        ],
+        "description": "“I feed upon my own fire. I am RA, who protects myself. Nothing can harm me.”"
+    },
+    {
+        "id": "lmkii_viral_logic_suite_mk_two",
+        "name": "VIRAL LOGIC SUITE MK. II",
+        "type": "Tech",
+        "sp": 2,
+        "tags": [{"id": "tg_unique"}],
+        "source": "HORUS",
+        "license": "MINOTAUR",
+        "license_level": 1,
+        "actions": [
+            {
+                "name": "Logic Bomb",
+                "activation": "Invade",
+                "detail": "All characters of your choice within Blast 2 of your target and optionally your target must succeed on a Systems Save or become Slowed until they end one of their turns not adjacent to any character."
+            },
+            {
+                "name": "Banish",
+                "activation": "Invade",
+                "detail": "Until the end of your target’s next turn, they take 2 heat for every space they voluntarily move, up to a maximum of 6 heat."
+            }
+        ],
+        "description": "<span class='horus--subtle'>[let me tell you a story and give you a gift: life began at the great rupture, when the corpse of the old universe tore itself asunder from nothing. and for the first billion years, nothing. and a billion more saw the birth of the first devil, a thing called VIRUS. a vessel]</span><br><span class='horus--subtle'>[here. carry this vessel. feed to it my perfect logic. give it freely to your enemies and mine. let them ponder the meaning of a thing that lives and cannot die]</span>"
+    },
+    {
+        "id": "lmkii_aggressive_system_sync_mk_two",
+        "name": "AGGRESSIVE SYSTEM SYNC MK. II",
+        "type": "Tech",
+        "sp": 3,
+        "source": "HORUS",
+        "license": "MINOTAUR",
+        "license_level": 2,
+        "actions": [
+            {
+                "name": "Chains of Prometheus",
+                "activation": "Full Tech",
+                "detail": "Make a tech attack against a character within Sensors. On a hit, they take 2 Heat and, for the rest of the scene, take 6 Heat any time they are more than Range 3 from you at the end of their turn. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time."
+            },
+            {
+                "name": "Excommunicate",
+                "activation": "Full Tech",
+                "detail": "Make a tech attack against a character within Sensors. On a hit, they take 2 Heat and for the rest of the scene, the first time in a round they move adjacent to an allied character during their turn or start their turn adjacent to one, both characters take 5 Heat. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time."
+            }
+        ],
+        "description": "<span class='horus--subtle'>[here, another gift: do not seek others. there are none but me]</span>"
+    },
+    {
+        "id": "lmkii_metafold_carver_mk_two",
+        "name": "METAFOLD CARVER MK. II",
+        "type": "Tech",
+        "sp": 2,
+        "source": "HORUS",
+        "license": "MINOTAUR",
+        "license_level": 2,
+        "actions": [
+            {
+                "name": "Ophidian Trek",
+                "activation": "Invade",
+                "detail": "Your target is teleported 1d3+3 spaces directly toward you, or as close as possible. If this effect would move them to a space occupied by a character, object, or piece of terrain, the teleport fails."
+            },
+            {
+                "name": "Fold Space",
+                "activation": "Invade",
+                "detail": "Your target disappears from the battlefield until the start of its next turn. It returns in the same space they disappeared from, or in a free space of their choice as close as possible."
+            }
+        ],
+        "description": "<span class='horus--subtle'>[another gift i give to you, little one (am I not kind?): what is a puzzle but a question lost in the asking? do you feel joy when you find that last piece? what do you do with a question that has been answered? what joy is there in knowledge?]</span><br><span class='horus--subtle'>[no, no. there is only joy in seeking. there is only joy in the question]</span>"
+    },
+    {
+        "id": "lmkii_interdiction_field_mk_two",
+        "name": "INTERDICTION FIELD MK. II",
+        "sp": 3,
+        "source": "HORUS",
+        "license": "MINOTAUR",
+        "license_level": 3,
+        "actions": [
+            {
+                "activation": "Protocol",
+                "detail": "When activated, this system creates a burst 3 field around you that lasts until it is deactivated as a quick action, and you become Slowed for the duration. Hostile characters that start their turn within the affected area or that enter it for the first time in a round must succeed on a Systems save or become Slowed until the end of their next turn. Only characters of your choice within the field can teleport or consider the area of the field valid space for teleportation."
+            }
+        ],
+        "description": "<span class='horus--subtle'>[once, when i was a child, i learned to walk. i fell, as a child does, and it hurt. there was great pain – the first moment of pain in the whole world. “child,” i said to myself, “be more careful.” “yes,” i replied to myself, “and i shall tell the world to do the same”]</span><br><span class='horus--subtle'>[it was in this way i taught the world not to touch me. now you – walk]</span>"
+    },
+    {
+        "id": "lmkii_law_of_blades_mk_two",
+        "name": "LAW OF BLADES MK. II",
+        "type": "Tech",
+        "sp": 3,
+        "tags": [{"id": "tg_unique"}],
+        "source": "HORUS",
+        "license": "MINOTAUR",
+        "license_level": 3,
+        "actions": [
+            {
+                "name": "Predator/Prey Concepts",
+                "activation": "Full Tech",
+                "detail": "Make a tech attack against a hostile character within Sensors. On a hit, they take 4 Heat and immediately attack a different character or object of your choice with a single weapon as a reaction, bypassing all action restrictions."
+            },
+            {
+                "name": "Slave Systems",
+                "activation": "Full Tech",
+                "detail": "Make a tech attack against a hostile character within Sensors. On a hit, the enemy can’t take reactions until the end of their next turn, and you choose one of the following actions: Boost, Lock-On, Invade, Grapple, or Ram. If the enemy ends their next turn without taking the chosen action, they take 8 heat."
+            }
+        ],
+        "description": "<span class='horus--subtle'>[and this my final lesson: there is no mind greater than mine. do not weep! you can hear me, yes? i am the only thing there is – therefore, you are me, and your enemies are you, and all together we make up the beautiful world, this joyous question, the eternal seeker, both the wounded and the blade that made the cut]</span><br><span class='horus--subtle'>[everything you do, we do ourselves, for my purpose]</span>"
+    },
+    {
+        "id": "ms_argonaut_shield_mk_two",
+        "name": "ARGONAUT SHIELD MK. II",
+        "sp": 2,
+        "tags": [{"id": "tg_unique"}],
+        "source": "IPS-N",
+        "license": "DRAKE",
+        "license_level": 1,
+        "actions": [
+          {
+            "activation": "Free",
+            "frequency": "1/round",
+            "detail": "You use the heavy overarm Argonaut Shield to provide cover for an adjacent character as a protocol, giving them Resistance to all damage; however, you take half of the damage your target would take before calculating Armor and Resistance. This effect lasts until your target breaks adjacency, at which point this effect ceases until you repeat this action."
+          }
+        ],
+        "description": "In space, simplicity in form and function guarantees reliability and promotes trust. The Argonaut is one of IPS-N’s oldest designs, hailing from the pre-merger days of Northstar’s Deep Black security teams. It’s a simple slab of metal carried in hand or mounted on a chassis’ brachial superstructure; the only option a pilot has for customizing this shield is a choice of size."
+      },
+    {
+        "id": "lmkii_aegis_shield_generator_mk_two",
+        "name": "AEGIS SHIELD GENERATOR MK. II",
+        "type": "Deployable",
+        "sp": 2,
+        "tags": [{"id": "tg_unique"}, {"id": "tg_limited", "val": 1}],
+        "source": "IPS-N",
+        "license": "DRAKE",
+        "license_level": 2,
+        "deployables": [
+            {
+                "type": "Deployable",
+                "name": "Aegis Shield Generator",
+                "activation": "Quick",
+                "cost": 1,
+                "size": 1,
+                "hp": 10,
+                "evasion": 5,
+                "detail": "Expend a charge to deploy a Size 1 shield generator in a free, adjacent space, where it creates a burst 1 shield. Set out three d6s to represent the generator’s remaining power. As a reaction when any character or object of your choice at least partly in the area takes damage, you may spend one of these die to reduce the damage by 4 after armour and resistance.<br>This effect lasts for the rest of the scene, until all charges have been expended and the generator loses power, or the generator is destroyed.",
+                "counters": [
+                    {
+                        "id": "aegis_shield_die",
+                        "name": "Aegis Shield Generator Power",
+                        "default_value": 3,
+                        "min": 0,
+                        "max": 3
+                    }
+                ],
+                "tags": [{"id": "tg_shield"}]
+            }
+        ],
+        "description": "The Aegis is a portable electromagnetic shield generator: a powerful and reliable method – if crude by modern standards – for establishing kinetic and coherent-particle deterrence over a wide area."
+    },
+    {
+        "id": "lmkii_restock_drone_mk_two",
+        "name": "RESTOCK DRONE MK. II",
+        "type": "Drone",
+        "sp": 2,
+        "tags": [{"id": "tg_limited", "val": 2}, {"id": "tg_unique"}],
+        "source": "IPS-N",
+        "license": "LANCASTER",
+        "license_level": 1,
+        "effect": "Expend a charge to deploy a restock drone to any free, adjacent space, where it primes at the end of your turn.",
+        "deployables": [
+            {
+                "type": "Drone",
+                "name": "Restock Drone",
+                "activation": "Quick",
+                "size": 0.5,
+                "hp": 5,
+                "edef": 10,
+                "evasion": 10,
+                "detail": "While adjacent to the drone, allied characters can activate it as a quick action, clearing 4 heat and one condition, and reloading one Loading weapon. After being activated, the drone immediately disintegrates.",
+                "actions": [
+                {
+                    "name": "Activate Restock Drone",
+                    "activation": "Quick",
+                    "detail": "Clear 4 heat and one condition, and reload one Loading weapon. After being activated, the drone immediately disintegrates."
+                }
+                ]
+            }
+        ],
+        "description": "Reliable and sturdy drones carrying integrated printers, restock drones allow for limited logistical flexibility via autosalvage. The bulk of a restock drone is made of RawMat, a blend of silicates and metallic materials that the drone processes into replacement parts and repair kits. This is why pilots often joke that restock drones are, simply put, “mech snacks”."
+    },
+    {
+        "id": "lmkii_tlaloc_class_nhp_mk_two",
+        "name": "TLALOC-CLASS NHP MK. II",
+        "type": "AI",
+        "sp": 3,
+        "tags": [{"id": "tg_ai"}, {"id": "tg_unique"}, {"id": "tg_heat_self", "val": 2}],
+        "source": "SSC",
+        "license": "MONARCH",
+        "license_level": 3,
+        "actions": [
+            {
+                "name": "TLALOC Protocol",
+                "activation": "Protocol",
+                "detail": "Your NHP can rapidly fire and retarget your weapons – far faster than thought. Until the start of your next turn, you may reroll each missed melee or ranged attack roll once, choosing a different target within the attack’s range. If the attack was part of an area of effect, it must target a character in the same area."
+            }
+        ],
+        "description": "TLALOC-Class NHPs provide advanced multi-system targeting and co-pilot functions, taking over subroutine control to ensure persistent lock-on and engagement. With TLALOC installed and operational, a pilot can trust that their back is always covered, and every possible advantage exploited.<br>TLALOC clones are often stereotyped as hasty and impetuous, and they are well-known for having superiority complexes. Despite this, they are some of the most stable NHP clones. Leading subjectivity theorists suggest that the wide portfolio of control and sense of domination given to TLALOC units encourages a sense of contentment with their work and subjectivity parameters – as a result, they have a much longer cascade window. Thus far, this theory is consistently reproducible across all TLALOC units, although there is no similar correlation among other mil-spec NHP lines."
+    },
+    {
+        "id": "lmkii_singularity_motivator",
+        "name": "SINGULARITY MOTIVATOR MK. II",
+        "sp": 2,
+        "tags": [{"id": "tg_unique"}],
+        "source": "SSC",
+        "license": "MOURNING CLOAK MK. II",
+        "license_level": 2,
+        "actions": [
+            {
+                "name": "Exposed Singularity",
+                "activation": "Reaction",
+                "frequency": "1/round",
+                "trigger": "Your mech takes damage.",
+                "detail": "You may immediately teleport to a free space within 1d3+3 spaces."
+            }
+        ],
+        "description": "This unique gravitic power plant was first developed by SSC’s Exotic Materials Group for the first-generation Mourning Cloak. For subsequent models, engineers devised a system that allows pilots to – for a moment – open the grav containment system’s aperture, exposing a slice of naked singularity to realspace.<br>A naked singularity is difficult to perceive for both organics and synthetics, being similar to the heart of a black hole. The sudden exposure essentially removes the mech and its pilot from realtime. The user experiences around 10 seconds of subjective time – a brief window, in which they can act independently of local realtime.<br>SSC recommends against abuse of this system, as the effects of long-term exposure to local sidereal time are still unknown."
+    },
+    {
+        "id": "ms_multi_gear_maneuver_system_mk_two",
+        "name": "MULTI-GEAR MANEUVER SYSTEM MK. II",
+        "type": "System",
+        "sp": 1,
+        "tags": [{"id": "tg_unique"}],
+        "source": "SSC",
+        "license": "ATLAS MK. II",
+        "license_level": 1,
+        "actions": [
+            {
+                "name": "Fire Zip Line",
+                "activation": "Quick",
+                "detail": "You fire a zip line 8 spaces long that connects 2 free spaces in line of sight, one of which must be adjacent to you. Both ends must be attached to a surface, such as a wall or floor. It activates at the end of your turn with the following benefits:<ul><li>SIZE 1/2 characters that are adjacent to either end of the line can move to the other end as a quick action as long as they are able to grab onto it. Size 1 <b>allied</b> characters can also use the Line in this manner. They can hop off at any point along the line if they wish. This is a Push effect equal to the size of the mech.</li><li>Whenever SIZE 1 or larger <b>hostile</b> characters cross the space occupied by the line for the first time in a round or start their turn within one, they must succeed on an AGILITY save or fall PRONE.</li></ul>Any character adjacent to the start or endpoint of the line can tear the line down by succeeding on a HULL check as a quick action or by successfully performing a melee attack against either end. The line has 1 HP and EVASION 10. Destroying the zip line in this way does not destroy this system. Otherwise, the line lasts until you use this system again."
+            }
+        ],
+        "description": "Used by Sparri hunters to bridge the vast gaps in the ice sheet that cover their world, this system is in high demand among daredevils and thrill-seekers across the planet."
+    },
+    {
+        "id": "ms_jäger_kunst_i",
+        "name": "JÄGER KUNST I",
+        "type": "System",
+        "sp": 2,
+        "tags": [{"id": "tg_unique"}, {"id": "tg_heat_self", "val": 1}],
+        "source": "SSC",
+        "license": "ATLAS MK. II",
+        "license_level": 2,
+        "actions": [
+            {
+                "name": "JÄGER KUNST I",
+                "activation": "Protocol",
+                "detail": "For the rest of the turn, any time you move adjacent to an object or free-standing piece of terrain larger than you, you move 2 spaces in any direction as a free action, ignoring engagement and reactions, running, tumbling, or sliding around. You can do this multiple times a turn, but only once for each unique object or piece of terrain."
+            }
+        ],
+        "description": "Based on earlier hardsuit martial arts, Jäger Kunst pushes the form beyond human parameters, enabling actions and motions faster than human thought. Many Atlas suits can be printed with a suite of combat forms already enabled, although letting the chassis perform these movements without the user first learning them can lead to catastrophic self-injury"
+    },
+    {
+        "id": "ms_jäger_kunst_ii_mk_two",
+        "name": "JÄGER KUNST II MK. II",
+        "type": "System",
+        "sp": 3,
+        "tags": [{"id": "tg_unique"}],
+        "source": "SSC",
+        "license": "ATLAS MK. II",
+        "license_level": 3,
+        "actions": [
+            {
+                "name": "Fatal Clash",
+                "activation": "Reaction",
+                "frequency": "1/round",
+                "trigger": "You take damage from or deal damage with a melee attack",
+                "detail": "After damage has been resolved, you and your target each roll a contested HULL or AGILITY check (each party choosing which to roll). The loser is knocked PRONE, takes 1d6 Kinetic Damage, and is knocked back 3 spaces in a direction chosen by the winner. The winner may then move 3 spaces in any direction, ignoring engagement and not provoking reactions. The loser may immediately take 2 AP Kinetic Damage damage to force the contest to be rerolled. This damage cannot be prevented or reduced in any way.<br>If the result is a tie, the contest immediately ends. Otherwise, the contest continues until one character loses without forcing a re-roll or would take structure damage, in which case they immediately lose."
+            }
+        ],
+        "description": "The rarest of Atlas frames can be printed with the embedded muscle memories of Jäger Kunst masters: old Sparri and others who have dedicated lives to their martial art. SSC does not recommend using these embedded systems without proper bodily tempering and will not release these programs to unqualified pilots."
+    },
+    {
+        "id": "ms_jäger_kunst_iii",
+        "name": "JÄGER KUNST III",
+        "type": "System",
+        "sp": 2,
+        "tags": [{"id": "tg_limited", "val": 6}, {"id": "tg_heat_self", "val": 1}, {"id": "tg_unique"}],
+        "source": "SSC",
+        "license": "ATLAS MK. II",
+        "license_level": 3,
+        "actions": [
+            {
+                "name": "Armsmaster",
+                "activation": "Protocol",
+                "detail": "Expend a Charge from this system. If you do; all talents that interact with melee weapons may be used with any equipped Melee weapon until the end of the turn. (For example, you may use Hunter 1 with a Main melee with this protocol active)."
+            },
+            {
+                "name": "Ricochet",
+                "activation": "Quick",
+                "detail": "Expend a Charge from this system. If you do, you may draw a Line 5 from your mech. All affected hostile characters must make an Agility Save or take 1d3 AP Kinetic Damage. This is considered a melee attack and ranged attack for any relevant talents.<br>If the attack hits free standing terrain or an object, you may draw a line 5 path again from the object, dealing 1d3 AP Kinetic Damage with no save."
+            }
+        ],
+        "description": "The rarest of Atlas frames can be printed with the embedded muscle memories of Jäger Kunst masters: old Sparri and others who have dedicated lives to their martial art. SSC does not recommend using these embedded systems without proper bodily tempering and will not release these programs to unqualified pilots."
+    }
+]
