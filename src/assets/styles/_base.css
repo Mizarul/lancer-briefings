@@ -691,10 +691,11 @@ section .section-header h1 {
 }
 
 .pilot-wrapper img.portrait {
-	width: 150px;
-	height: 150px;
-	object-fit: cover;
-	object-position: top;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;
+	overflow: hidden;
 }
 
 .pilot-wrapper h1 {
