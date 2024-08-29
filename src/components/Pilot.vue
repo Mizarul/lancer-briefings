@@ -172,6 +172,14 @@ import mk2WeaponData from '../assets/lcp/Core_Mk_2/weapons.json'
 import mk2SystemData from '../assets/lcp/Core_Mk_2/systems.json'
 import mk2FrameData from '../assets/lcp/Core_Mk_2/frames.json'
 
+import ecWeaponData from '../assets/lcp/EnhancedCombat/weapons.json'
+import ecFrameData from '../assets/lcp/EnhancedCombat/frames.json'
+
+import legWeaponData from '../assets/lcp/legionnaire/weapons.json'
+import legSystemData from '../assets/lcp/legionnaire/systems.json'
+import legPilotData from '../assets/lcp/legionnaire/pilot_gear.json'
+
+
 import TypeIt from "typeit";
 
 import PilotModal from '@/components/modals/PilotModal.vue'
@@ -197,7 +205,7 @@ export default {
   },
   data() {
     return {
-      knownGear: [...lancerData.pilot_gear, ...nrfawData.pilot_gear, ...ssmrData.pilot_gear, ...dustgraveData.pilot_gear],
+      knownGear: [...lancerData.pilot_gear, ...nrfawData.pilot_gear, ...ssmrData.pilot_gear, ...dustgraveData.pilot_gear, ...legPilotData],
       activeMech: {},
       bond: {},
     }
@@ -210,10 +218,10 @@ export default {
       return `/mechs/${this.pilot.callsign}.webp`
     },
     mechWeapons() {
-      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...osrData.weapons, ...ssmrData.weapons, ...dustgraveData.weapons, ...owsData.weapons, ...mk2WeaponData]
+      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...osrData.weapons, ...ssmrData.weapons, ...dustgraveData.weapons, ...owsData.weapons, ...mk2WeaponData, ...ecWeaponData, ...legWeaponData]
     },
     mechSystems() {
-      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...osrData.systems, ...ssmrData.systems, ...dustgraveData.systems, ...owsData.systems, ...mk2SystemData]
+      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...osrData.systems, ...ssmrData.systems, ...dustgraveData.systems, ...owsData.systems, ...mk2SystemData, ...legSystemData]
     },
     mechManufacturerIcon() {
       if (this.activeMech.manufacturer)
@@ -273,7 +281,7 @@ export default {
         this.pilot.mechs[0] ? this.activeMech = this.pilot.mechs[0] : lancerData.frames.find((obj) => { return obj.id === 'missing_frame' })
       }
 
-      const knownFrames = [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames, ...ssmrData.frames, ...dustgraveData.frames, ...owsData.frames, ...mk2FrameData]
+      const knownFrames = [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames, ...ssmrData.frames, ...dustgraveData.frames, ...owsData.frames, ...mk2FrameData, ...ecFrameData]
       let frame = knownFrames.find((obj) => {
         return obj.id === this.activeMech.frame
       })
