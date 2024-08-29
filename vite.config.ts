@@ -22,7 +22,8 @@ export default defineConfig({
       "@massif/lancer-data",
       "@massif/ktb-data",
       "@massif/wallflower-data",
-      "@massif/long-rim-data"
+      "@massif/long-rim-data",
+      "@massif/osr-data",
     ],
   },
   build: {
