@@ -139,6 +139,7 @@
                                 {
                                     "size": "Superheavy",
                                     "weapon": {
+                                        "id": "lmkii_plasma_thrower_mk_two",
                                         "destroyed": false,
                                         "cascading": false,
                                         "loaded": true,
