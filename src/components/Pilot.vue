@@ -28,9 +28,6 @@
           </div>
         </div>
       </div>
-      <div class="pilot-code">
-        <p id="output" ref="output" />
-      </div>
     </div>
     <div
       v-if="!pilotInfo.bondId"
@@ -228,17 +225,6 @@ export default {
         return `/faction-logos/${this.activeMech.manufacturer.toLowerCase()}.svg`
       return ''
     },
-    pilotCode() {
-      const identNameParts = this.pilot.name.split(' ')
-      const identFirstName = identNameParts[0]
-      const identLastNameParts = identNameParts.slice(1)
-      let identName = ''
-      identLastNameParts.forEach((part) => {
-        identName += `${part}.`
-      })
-      identName += identFirstName;
-			return `Union Administrative RM-4 Pilot Identification Protocol (IDENT) Record ${identName}: ${this.pilot.id} // ${this.pilot.background} // LOADOUT ${this.pilot.loadout.id} - MECH ${this.pilot.mechs[0].id} // HARDPOINTS ${this.pilot.mechs[0].loadouts[0].id}`;
-		},
     pilotInfo() {
       const info = this.pilot
 
@@ -257,7 +243,6 @@ export default {
     },
   },
   mounted() {
-    this.animatePilotCode();
     this.getActiveMech();
     this.getBond();
   },
@@ -292,24 +277,6 @@ export default {
       this.activeMech.frame_name = frame.name
       this.activeMech.manufacturer = frame.source
       this.activeMech.mechtype = frame.mechtype.join(' // ')
-    },
-    animatePilotCode() {
-      this.typer = new TypeIt(this.$refs.output, {
-        speed: 10,
-        nextStringDelay: 5,
-        lifeLike: false,
-        cursor: true,
-        startDelete: false,
-        loop:true,
-        loopDelay:10000,
-        strings: this.pilotCode,
-        beforeString: () => {
-          this.$refs.output?.scrollIntoView({ block: 'end' })
-        },
-        afterString: () => {
-          this.$refs.output?.scrollIntoView({ block: 'end' })
-        },
-      }).go();
     },
     pilotModal() {
       this.$oruga.modal.open({

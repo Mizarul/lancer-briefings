@@ -718,15 +718,6 @@ section .section-header h1 {
 	color: var(--text-pilot-value);
 }
 
-.pilot-wrapper .pilot-code {
-	font-family: "Inconsolata", monospace;
-	font-weight: 400;
-	line-height: 1.25em;
-	font-size: 11px;
-	color: var(--text-pilot-code);
-	width: 20em;
-}
-
 .pilot-wrapper .gear-column,
 .pilot-wrapper .bonds-column {
 	display: flex;
