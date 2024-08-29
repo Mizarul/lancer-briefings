@@ -679,7 +679,7 @@ section .section-header h1 {
 .pilot-wrapper .pilot-column {
 	column-gap: 1em;
   cursor: pointer;
-  min-width: 750px;
+  min-width: 650px;
 }
 .pilot-wrapper .pilot-column:hover {
 	background-color: var(--highlight-hover) !important;
