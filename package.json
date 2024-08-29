@@ -15,7 +15,7 @@
 		"@massif/lancer-data": "^3.1.7",
 		"@massif/ktb-data": "^1.2.4",
 		"@massif/long-rim-data": "^1.2.2",
-		"lancer-nrfaw-data": "^1.0.8",
+		"@massif/wallflower-data": "^2.1.0",
 		"remove-markdown": "^0.5.0",
 		"typeit": "^8.7.0",
 		"vue": "^3.2.37",

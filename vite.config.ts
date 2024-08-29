@@ -21,7 +21,7 @@ export default defineConfig({
     include: [
       "@massif/lancer-data",
       "@massif/ktb-data",
-      "lancer-nrfaw-data",
+      "@massif/wallflower-data",
       "@massif/long-rim-data"
     ],
   },
