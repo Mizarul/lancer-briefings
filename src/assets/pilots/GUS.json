@@ -1,0 +1,1088 @@
+{
+    "id": "a60299ab-d30f-4832-b2b8-9cc5d64e6be0",
+    "level": 3,
+    "callsign": "Gus",
+    "name": "Gustovich \"Gusto\" Pepperone",
+    "player_name": "Riv",
+    "status": "Active",
+    "dead": false,
+    "text_appearance": "<p>Gus is a large Hairy individual with a greasy mullet and poorly trimmed beard and moustache, he wears a gold chain around his neck with a greasy tank top covered in stains, he wears a little chefs hat  that's not his with the name covered up with a bandage to cover up the name of the rightful owner. his uniforms coat is tied around his waste as to not cover his glory </p>",
+    "notes": "{_o_}   <--me                   _[--RIP--)_\n   0------  --                       [                ]\n   n            - --                  [               ]  <--- grave of your ancestors \n  L L               - - - - - - -    [                ]",
+    "history": "<p>Gus is a cook aboard the <strong>UNS Rio Grande, the previous cook \"retired\" over reasons of \"stress\" in the \"workplace\" , he is not quite sure what is going on and is mostly just trying to pretend he knows what he's doing to avoid whatever punishment he may or may not receive for potentially lying about his qualification, identity and various other details.</strong></p><p>He is quiet and if he talks tends to slur or mumble his speech, he has does not care for most common practices of presentation and will often do things quickly rather than neatly which also goes for his own sense of personal hygiene.</p><p>He 100% belongs to the <strong>UNS Rio Grande</strong> and has every right to be here and anyone who may or may not say otherwise is a  liar and is most likely suffering from stress related delusions. </p>",
+    "quirks": [],
+    "current_hp": 10,
+    "background": "Cooker guy",
+    "resistances": [],
+    "mechs": [
+        {
+            "id": "b620b442-73f3-4f0d-9f87-17cf578a87b6",
+            "name": "Best Served Chilled",
+            "notes": "<p>Property of -C//l//s/////</p>",
+            "gm_note": "",
+            "frame": "mf_sagarmatha",
+            "active": false,
+            "current_structure": 4,
+            "current_move": 4,
+            "boost": 0,
+            "current_hp": 14,
+            "overshield": 0,
+            "current_stress": 4,
+            "current_heat": 0,
+            "current_repairs": 3,
+            "current_overcharge": 0,
+            "current_core_energy": 1,
+            "statuses": [],
+            "conditions": [],
+            "resistances": [],
+            "reactions": [],
+            "burn": 0,
+            "destroyed": false,
+            "defeat": "",
+            "activations": 1,
+            "meltdown_imminent": false,
+            "reactor_destroyed": false,
+            "core_active": false,
+            "cc_ver": "ERR",
+            "lastModified": "Sun Jun 09 2024 01:15:35 GMT+0100 (British Summer Time)",
+            "isDeleted": false,
+            "expireTime": "",
+            "deleteTime": "",
+            "portrait": "",
+            "cloud_portrait": "https://d1nurxym97qk9o.cloudfront.net/public/us-east-1:88c19765-1c9a-c1ae-2a02-f97abbf14dc0/mech/Served When Chilled 243.png",
+            "loadouts": [
+                {
+                    "id": "fd22f45e-88ce-4437-ae9b-2b8b24ef0d06",
+                    "name": "Primary",
+                    "systems": [
+                        {
+                            "id": "ms_personalizations",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_custom_paint_job",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_stable_structure",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_type_3_projected_shield",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "The GMS Type-3 Projected Shield traps and denies incoming projectiles by projecting an aggressive, superpositional anti-ballistic barrier."
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Main",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": {
+                                        "id": "lmkii_gms_shotty_mk_two",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "More shot per gun.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Flex",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Flex",
+                                    "weapon": {
+                                        "id": "lmkii_tactical_knife_mk_two",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": {
+                                        "id": "lmkii_tactical_knife_mk_two",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Heavy",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Heavy",
+                                    "weapon": {
+                                        "id": "lmkii_heavy_charged_blade_mk_two",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [
+                        {
+                            "weapon": {
+                                "id": "mw_fuel_rod_gun",
+                                "destroyed": false,
+                                "cascading": false,
+                                "loaded": true,
+                                "mod": null,
+                                "flavorName": "",
+                                "flavorDescription": "Gained from the \"Nuclear Cavalier\" Rank 3 Talent",
+                                "customDamageType": null,
+                                "maxUseOverride": 0,
+                                "uses": 3,
+                                "selectedProfile": 0
+                            }
+                        }
+                    ],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                }
+            ],
+            "active_loadout_index": 0
+        },
+        {
+            "id": "0ca4fbe8-bac6-410c-b5ac-0c04f658001e",
+            "name": "Unstoppable Refreshment Mk.2",
+            "notes": "",
+            "gm_note": "",
+            "frame": "mf_vlad",
+            "active": false,
+            "current_structure": 4,
+            "current_move": 4,
+            "boost": 0,
+            "current_hp": 14,
+            "overshield": 0,
+            "current_stress": 4,
+            "current_heat": 0,
+            "current_repairs": 3,
+            "current_overcharge": 0,
+            "current_core_energy": 1,
+            "statuses": [],
+            "conditions": [],
+            "resistances": [],
+            "reactions": [],
+            "burn": 0,
+            "destroyed": false,
+            "defeat": "",
+            "activations": 1,
+            "meltdown_imminent": false,
+            "reactor_destroyed": false,
+            "core_active": false,
+            "cc_ver": "ERR",
+            "lastModified": "Sat Jul 06 2024 23:41:07 GMT+0100 (British Summer Time)",
+            "isDeleted": false,
+            "expireTime": "",
+            "deleteTime": "",
+            "portrait": "",
+            "cloud_portrait": "https://d1nurxym97qk9o.cloudfront.net/public/us-east-1:88c19765-1c9a-c1ae-2a02-f97abbf14dc0/mech/Unbeatable Refreshment 2.png",
+            "loadouts": [
+                {
+                    "id": "478c2408-a306-46f3-be46-4657f508e60e",
+                    "name": "Primary",
+                    "systems": [
+                        {
+                            "id": "ms_webjaw_snare",
+                            "uses": 2,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "Suitable for use in any theater, the IPS-N Webjaw Explosively Accelerated Filament system is a deployable perimeter defense solution designed to arrest hostile movement in predetermined kill-corridors. The Webjaw consists of a networked cluster of single-use anchors, each consisting of a barb, a coil of arachnosynth NoCut filament, and an explosive charge.<br>When triggered remotely, or by a series of programmable physical, electronic, or chemical triggers, the anchors fire, embedding barbs deep inside targets, whether soft or hard. The barbs, secured to anchor points by NoCut filament, clog and restrict movement, fouling gears, wheels, rotors, engines, and all methods of locomotion."
+                        },
+                        {
+                            "id": "ms_caltrop_launcher",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "Wicked anti-organic, anti-vehicle systems for proximity denial, caltrop launchers fire either great clouds or long swathes of shimmering metal over an area. IPS-N’s HX-CAL caltrop system includes small, shaped explosives in the mix of hardened pyramids."
+                        },
+                        {
+                            "id": "ms_custom_paint_job",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_personalizations",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_pattern_a_jericho_deployable_cover",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Flex",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Flex",
+                                    "weapon": {
+                                        "id": "lmkii_segment_knife_mk_two",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": {
+                                        "id": "lmkii_segment_knife_mk_two",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Main",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": {
+                                        "id": "mw_impaler_nailgun",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "The Impaler’s noncombustible, sabot-jacketed two-stage macroflechettes can pierce even the heaviest armor. Once catapulted from its launcher, the sabot disengages on approach to its target and triggers a second stage – internal propulsion drives the macroflechette forward with incredible velocity. Over-penetration is certain against soft targets; IPS-N advises firing this weapon only when the area behind the target is clear of allies or noncombatants.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Heavy",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Heavy",
+                                    "weapon": {
+                                        "id": "mw_impaler_nailgun",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "The Impaler’s noncombustible, sabot-jacketed two-stage macroflechettes can pierce even the heaviest armor. Once catapulted from its launcher, the sabot disengages on approach to its target and triggers a second stage – internal propulsion drives the macroflechette forward with incredible velocity. Over-penetration is certain against soft targets; IPS-N advises firing this weapon only when the area behind the target is clear of allies or noncombatants.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [
+                        {
+                            "weapon": {
+                                "id": "mw_fuel_rod_gun",
+                                "destroyed": false,
+                                "cascading": false,
+                                "loaded": true,
+                                "mod": null,
+                                "flavorName": "",
+                                "flavorDescription": "Gained from the \"Nuclear Cavalier\" Rank 3 Talent",
+                                "customDamageType": null,
+                                "maxUseOverride": 0,
+                                "uses": 3,
+                                "selectedProfile": 0
+                            }
+                        }
+                    ],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                }
+            ],
+            "active_loadout_index": 0
+        },
+        {
+            "id": "d39e2592-28f8-49be-b431-01f22ed84d69",
+            "name": "Cook Till Tender",
+            "notes": "",
+            "gm_note": "",
+            "frame": "mf_genghis",
+            "active": true,
+            "current_structure": 4,
+            "current_move": 3,
+            "boost": 0,
+            "current_hp": 10,
+            "overshield": 0,
+            "current_stress": 4,
+            "current_heat": 0,
+            "current_repairs": 4,
+            "current_overcharge": 0,
+            "current_core_energy": 1,
+            "statuses": [],
+            "conditions": [],
+            "resistances": [],
+            "reactions": [],
+            "burn": 0,
+            "destroyed": false,
+            "defeat": "",
+            "activations": 1,
+            "meltdown_imminent": false,
+            "reactor_destroyed": false,
+            "core_active": false,
+            "cc_ver": "ERR",
+            "lastModified": "Mon Jul 29 2024 23:52:05 GMT+0100 (British Summer Time)",
+            "isDeleted": false,
+            "expireTime": "",
+            "deleteTime": "",
+            "portrait": "",
+            "cloud_portrait": "https://d1nurxym97qk9o.cloudfront.net/public/us-east-1:88c19765-1c9a-c1ae-2a02-f97abbf14dc0/mech/ezgif-6-ca8b7d262b (1).gif",
+            "loadouts": [
+                {
+                    "id": "13885b36-f221-4266-b064-1c721a623a12",
+                    "name": "Primary",
+                    "systems": [
+                        {
+                            "id": "ms_auto_cooler",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "The Armory-designed auto-cooler is a simple, persistent system that actively mitigates heat generation.<br>Thermal dump thresholds are determined by fleet engineers, though pilots can adjust levels on the fly – this automatic management frees the pilot up to focus on other, more pressing tactical concerns."
+                        },
+                        {
+                            "id": "ms_agni_class_nhp",
+                            "uses": 1,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "AGNI was developed during the Hercynian Crisis using a combination of combat performance data recorded by extant subsentient artificial intelligences (weapons systems, COMP/CONs, co-pilot systems, tactic-minds, general combat data) and the modeled neural network of an Egregorian overmind captured and vivisected by the Union Science Bureau.<br>AGNI Prime was used to devise systems of heat management that have since been disseminated throughout core space, ensuring unparalleled heat processing, recycling, and shielding. Further developments into radiation shielding, omninet capability, and nanite control are forthcoming; meanwhile, AGNI clones have been optimized to support mech core systems.<br>Pilots report that AGNI clones are generally cold and efficient. An insignificant percentage have reported instances of memory recitation and command rejection, followed days later by total breakdown through attempted self-emancipation. Pilots are recommended to cycle their AGNI clones at least once every six standard months."
+                        },
+                        {
+                            "id": "ms_rapid_burst_jump_jet_system",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_expanded_compartment",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Flex",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Flex",
+                                    "weapon": {
+                                        "id": "mw_mortar",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": null
+                                }
+                            ],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Main",
+                            "lock": true,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": null
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Heavy",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Heavy",
+                                    "weapon": {
+                                        "id": "lmkii_plasma_thrower_mk_two",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Now with More Fire",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [
+                        {
+                            "weapon": {
+                                "id": "mw_fuel_rod_gun",
+                                "destroyed": false,
+                                "cascading": false,
+                                "loaded": true,
+                                "mod": null,
+                                "flavorName": "",
+                                "flavorDescription": "Gained from the \"Nuclear Cavalier\" Rank 3 Talent",
+                                "customDamageType": null,
+                                "maxUseOverride": 0,
+                                "uses": 4,
+                                "selectedProfile": 0
+                            }
+                        }
+                    ],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                },
+                {
+                    "id": "903fb85c-706f-4435-80cc-1b07c11fa381",
+                    "name": "Primary (Copy)",
+                    "systems": [
+                        {
+                            "id": "ms_auto_cooler",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "The Armory-designed auto-cooler is a simple, persistent system that actively mitigates heat generation.<br>Thermal dump thresholds are determined by fleet engineers, though pilots can adjust levels on the fly – this automatic management frees the pilot up to focus on other, more pressing tactical concerns."
+                        },
+                        {
+                            "id": "ms_agni_class_nhp",
+                            "uses": 1,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "AGNI was developed during the Hercynian Crisis using a combination of combat performance data recorded by extant subsentient artificial intelligences (weapons systems, COMP/CONs, co-pilot systems, tactic-minds, general combat data) and the modeled neural network of an Egregorian overmind captured and vivisected by the Union Science Bureau.<br>AGNI Prime was used to devise systems of heat management that have since been disseminated throughout core space, ensuring unparalleled heat processing, recycling, and shielding. Further developments into radiation shielding, omninet capability, and nanite control are forthcoming; meanwhile, AGNI clones have been optimized to support mech core systems.<br>Pilots report that AGNI clones are generally cold and efficient. An insignificant percentage have reported instances of memory recitation and command rejection, followed days later by total breakdown through attempted self-emancipation. Pilots are recommended to cycle their AGNI clones at least once every six standard months."
+                        },
+                        {
+                            "id": "ms_rapid_burst_jump_jet_system",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_expanded_compartment",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Flex",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Flex",
+                                    "weapon": {
+                                        "id": "mw_mortar",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": null
+                                }
+                            ],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Main",
+                            "lock": true,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": null
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Heavy",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Heavy",
+                                    "weapon": {
+                                        "id": "lmkii_plasma_thrower_mk_two",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Now with More Fire",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [
+                        {
+                            "weapon": {
+                                "id": "mw_fuel_rod_gun",
+                                "destroyed": false,
+                                "cascading": false,
+                                "loaded": true,
+                                "mod": null,
+                                "flavorName": "",
+                                "flavorDescription": "Gained from the \"Nuclear Cavalier\" Rank 3 Talent",
+                                "customDamageType": null,
+                                "maxUseOverride": 0,
+                                "uses": 4,
+                                "selectedProfile": 0
+                            }
+                        }
+                    ],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                }
+            ],
+            "active_loadout_index": 0
+        }
+    ],
+    "cc_ver": "",
+    "special_equipment": {
+        "PilotGear": [],
+        "Frames": [],
+        "MechWeapons": [],
+        "WeaponMods": [],
+        "MechSystems": [],
+        "SystemMods": []
+    },
+    "combat_history": {
+        "moves": 0,
+        "kills": 0,
+        "damage": 0,
+        "hp_damage": 0,
+        "structure_damage": 0,
+        "overshield": 0,
+        "heat_damage": 0,
+        "reactor_damage": 0,
+        "overcharge_uses": 0,
+        "core_uses": 0
+    },
+    "state": {
+        "active_mech_id": "",
+        "remote_mech_id": "",
+        "stage": "Narrative",
+        "turn": 1,
+        "actions": 2,
+        "braced": false,
+        "overcharged": false,
+        "prepare": false,
+        "bracedCooldown": false,
+        "redundant": false,
+        "stats": {
+            "moves": 0,
+            "kills": 0,
+            "damage": 0,
+            "hp_damage": 0,
+            "structure_damage": 0,
+            "overshield": 0,
+            "heat_damage": 0,
+            "reactor_damage": 0,
+            "overcharge_uses": 0,
+            "core_uses": 0
+        },
+        "deployed": []
+    },
+    "lastModified": "Thu Aug 29 2024 17:36:30 GMT+0100 (British Summer Time)",
+    "isDeleted": false,
+    "expireTime": "",
+    "deleteTime": "",
+    "lastUpdate_cloud": "Mon Jul 29 2024 02:27:08 GMT+0100 (British Summer Time)",
+    "lastSync": "Mon Jul 29 2024 02:27:08 GMT+0100 (British Summer Time)",
+    "shareCode": "LVR697",
+    "shareCodeExpiry": "Wed Aug 28 2024 21:09:56 GMT+0100 (British Summer Time)",
+    "skills": [
+        {
+            "id": "sk_apply_fists_to_faces",
+            "rank": 1
+        },
+        {
+            "id": "sk_get_a_hold_of_something",
+            "rank": 1
+        },
+        {
+            "id": "sk_patch",
+            "rank": 2
+        },
+        {
+            "id": "sk_take_control",
+            "rank": 3
+        }
+    ],
+    "talents": [
+        {
+            "id": "t_nuclear_cavalier",
+            "rank": 3
+        },
+        {
+            "id": "lmkii_ace_mk_ii",
+            "rank": 3
+        }
+    ],
+    "mechSkills": [
+        1,
+        0,
+        2,
+        2
+    ],
+    "counter_data": [],
+    "custom_counters": [],
+    "core_bonuses": [
+        "cb_heatfall_coolant_system"
+    ],
+    "licenses": [
+        {
+            "id": "mf_genghis",
+            "rank": 3
+        }
+    ],
+    "reserves": [],
+    "orgs": [],
+    "bondId": "ktb-bond-titan",
+    "xp": 0,
+    "stress": 0,
+    "isBroken": false,
+    "burdens": [],
+    "bondPowers": [
+        {
+            "name": "Absolute Meat",
+            "description": "If you concentrate and grit your teeth, your personal strength verges on superhuman. You can take 2 Stress and roll a skill check to do one of the following:<ul><li>Bust through a wall, door, or floor, even reinforced, with nothing but your body</li><li>Lift, push, or drag a vehicle, mech, or other tremendous weight a short distance</li><li>Withstand forces far beyond the human body such as gale force winds, a mech’ s strength, or the pull of the void.</li></ul>Your action has increased effect if successful."
+        }
+    ],
+    "powerSelections": 0,
+    "maxStress": 8,
+    "bondAnswers": [
+        "spite",
+        "my two goddamn hands"
+    ],
+    "minorIdeal": "mind your own and ill mind yours",
+    "clocks": [],
+    "group": "",
+    "sort_index": -1,
+    "portrait": "",
+    "cloud_portrait": "https://d1nurxym97qk9o.cloudfront.net/public/us-east-1:88c19765-1c9a-c1ae-2a02-f97abbf14dc0/pilot/cum.png",
+    "loadout": {
+        "id": "a1e84e9c-98b7-4ce9-afd9-699bbabd30a3",
+        "name": "Primary",
+        "armor": [
+            {
+                "id": "ms_exo_heavy_carapace_armor",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "While Hercynian society is far from primitive, the HUC lacks the advanced industrial manufacturing base required to easily fabricate the large quantities of composite materials needed for modern armor. As a result, the personal combat armor worn by rangers and other combatants is typically made from interlocking and overlapping layers of molted Egregorian carapace, donated by willing volunteers. Distinctly insectile in appearance, treatment allows the carapace to be molded into a variety of shapes and styles suitable for numerous occupational specialties ranging from long-range reconnaissance to heavy assault. While many examples of carapace armor are unpowered, ranger pilots and special forces units use carapace hardsuits created by marrying the plates to various strength-amplification exoskeletons and fitting them with upgraded power sources, interface systems, and environmental seals. Acquiring a carapace hardsuit isn't a simple matter. Such suits don’t tend to be available for sale in currency or barter, instead being either handed down from pilot to pilot or custom-made according to a number of formal traditions. These traditions include seeking permission from a willing Egregorian donor to use their carapace and the personal participation of the wearer in the crafting, a process that can take weeks depending on the complexity of the suit. Should a PC manage to obtain one of these hardsuits, you may represent it with the following stats. The multiple ablative layers of treated chitin make carapace hardsuits especially effective at dispersing the effects of energy weapons, and as a result all such armor has RESISTANCE to energy damage.",
+                "customDamageType": null
+            }
+        ],
+        "weapons": [
+            {
+                "id": "pg_archaic_melee",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "These weapons were made using pre-Union alloys and technology, and might be anything from industrial-era steel swords through to stone axes. While they remain widely used on some worlds, archaic weapons used by pilots are usually relics, heirlooms, or ceremonial weapons.",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_medium_signature",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Medium signature weapons are assault rifles, shotguns, pack-fed lasers, or disruption guns.",
+                "customDamageType": null
+            }
+        ],
+        "gear": [
+            {
+                "id": "pg_patch",
+                "destroyed": false,
+                "uses": 1,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "“Patch” is pilot slang for any kind of modern first aid gear, including sprayable medi-gel and instant-acting medical patches.",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_prosocollar",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "A collar-like device that fits snugly around its wearer’s neck, projecting a holographic image over their face and head. Prosocollars can change their wearer’s voice and scramble or change their appearance. The projection won’t stand up to close inspection, but it can easily fool electronic systems and distant observers.",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_extra_rations",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Pilot rations aren’t much better than their nautical forerunners – both are variants on hardtack and nutrient paste. Pilots often carry a stash of extra food, or luxuries like chocolate, coffee, alcohol, or preserved goods from their homeworld. These rations can be used to barter or boost morale.",
+                "customDamageType": null
+            }
+        ],
+        "extendedWeapons": [
+            null
+        ],
+        "extendedGear": [
+            null,
+            null
+        ]
+    },
+    "brews": [
+        {
+            "LcpId": "MMhitef+jvmY2uy9kdaCSXKJSeA=",
+            "LcpName": "Lancer Wallflower Data",
+            "LcpVersion": "2.0.5",
+            "Website": "https://massif-press.itch.io/no-room-for-a-wallflower-act-1"
+        },
+        {
+            "LcpId": "8AHVgqfO7VVPx1CVCbTTCwwdKQc=",
+            "LcpName": "Lancer Mk.II",
+            "LcpVersion": "1.4.6",
+            "Website": "https://docs.google.com/document/d/1PpZLf2FUQutSYZpfAfI803oZ0MUNFk3ogPknALydqLk/edit"
+        }
+    ]
+}
