@@ -139,7 +139,6 @@
                                 {
                                     "size": "Superheavy",
                                     "weapon": {
-                                        "id": "mw_plasma_thrower",
                                         "destroyed": false,
                                         "cascading": false,
                                         "loaded": true,
