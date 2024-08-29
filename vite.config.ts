@@ -25,6 +25,7 @@ export default defineConfig({
       "@massif/long-rim-data",
       "@massif/osr-data",
       "@massif/ssmr-data",
+      "@massif/dustgrave-data",
     ],
   },
   build: {

@@ -156,6 +156,7 @@
 </template>
 
 <script>
+//First party imports
 import 'external-svg-loader'
 import lancerData from '@massif/lancer-data'
 import ktbData from '@massif/ktb-data'
@@ -163,6 +164,9 @@ import nrfawData from '@massif/wallflower-data'
 import longrimData from '@massif/long-rim-data'
 import osrData from '@massif/osr-data'
 import ssmrData from '@massif/ssmr-data'
+import dustgraveData from '@massif/dustgrave-data'
+
+//Homebrew imports
 
 import TypeIt from "typeit";
 
@@ -189,7 +193,7 @@ export default {
   },
   data() {
     return {
-      knownGear: [...lancerData.pilot_gear, ...nrfawData.pilot_gear, ...ssmrData.pilot_gear],
+      knownGear: [...lancerData.pilot_gear, ...nrfawData.pilot_gear, ...ssmrData.pilot_gear, ...dustgraveData.pilot_gear],
       activeMech: {},
       bond: {},
     }
@@ -202,10 +206,10 @@ export default {
       return `/mechs/${this.pilot.callsign}.webp`
     },
     mechWeapons() {
-      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...osrData.weapons, ...ssmrData.weapons]
+      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...osrData.weapons, ...ssmrData.weapons, ...dustgraveData.weapons]
     },
     mechSystems() {
-      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...osrData.systems, ...ssmrData.systems]
+      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...osrData.systems, ...ssmrData.systems, ...dustgraveData.systems]
     },
     mechManufacturerIcon() {
       if (this.activeMech.manufacturer)
@@ -265,7 +269,7 @@ export default {
         this.pilot.mechs[0] ? this.activeMech = this.pilot.mechs[0] : lancerData.frames.find((obj) => { return obj.id === 'missing_frame' })
       }
 
-      const knownFrames = [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames, ...ssmrData.frames]
+      const knownFrames = [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames, ...ssmrData.frames, ...dustgraveData.frames]
       let frame = knownFrames.find((obj) => {
         return obj.id === this.activeMech.frame
       })
