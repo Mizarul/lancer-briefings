@@ -23,9 +23,9 @@
             </div>
           </div>
           <div v-if="auxMounts.length > 0" class="gear-row mech-mount">
-            <div v-for="auxMounts in auxMounts" class="aux-mount">
+            <div v-for="auxMount in auxMounts" class="aux-mount">
               <h1>Auxiliary Mount</h1>
-              <h2>{{ auxMounts.flavorName }}</h2>
+              <h2>{{ auxMount.flavorName }}</h2>
             </div>
           </div>
           <div v-if="heavyMounts.length > 0" class="gear-row mech-mount">
