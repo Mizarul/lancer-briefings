@@ -184,8 +184,4 @@ div.markdown {
 	transition: 0.5s ease;
 }
 
-.mech h2{
-	animation: scroll-left 15s linear infinite;
-}
-
 /* END VIEWS CONTENT */
