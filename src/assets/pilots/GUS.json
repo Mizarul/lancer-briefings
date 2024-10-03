@@ -420,7 +420,7 @@
         "core_uses": 0
     },
     "state": {
-        "active_mech_id": "",
+        "active_mech_id": "d39e2592-28f8-49be-b431-01f22ed84d69",
         "remote_mech_id": "",
         "stage": "Narrative",
         "turn": 1,
