@@ -1,0 +1,691 @@
+{
+    "id": "95bd2d05-9c69-4867-97a9-7496ca1d7e60",
+    "level": 3,
+    "callsign": "Manjuari",
+    "name": "Cacimar Yuisa ",
+    "player_name": "",
+    "status": "ACTIVE",
+    "dead": false,
+    "text_appearance": "",
+    "notes": "One additional Talent Point from Exotic Gear",
+    "history": "<p>A warrior of the Yuisa tribe from planet Andernach. After most of the tribe was slaughtered during a war of independence against the Guantuan Empire, most of the survivors sought refuge within the Republic of Maboca, the main contact of Union within the planet of Andernach. It is not uncommon for Yuisan warriors to serve as Andernachian Lancers for Union, or for some other well paying organization. Yuisan warriors believe that there is no true death, as they simply reincarnate into the tribe once their previous body perishes, resulting in a hyper aggressive warrior culture. Now most Yuisan warriors seek deaths among the stars, so that their souls may reach higher glory than ever before.</p>",
+    "quirks": [],
+    "current_hp": 11,
+    "background": "Mercenary",
+    "resistances": [],
+    "mechs": [
+        {
+            "id": "f7b63d23-6917-44d5-ba60-e83c625abff2",
+            "name": "Declined Promotion",
+            "notes": "",
+            "gm_note": "",
+            "frame": "mf_sagarmatha",
+            "active": false,
+            "current_structure": 4,
+            "current_move": 4,
+            "boost": 0,
+            "current_hp": 12,
+            "overshield": 0,
+            "current_stress": 4,
+            "current_heat": 0,
+            "current_repairs": 4,
+            "current_overcharge": 0,
+            "current_core_energy": 1,
+            "statuses": [],
+            "conditions": [],
+            "resistances": [],
+            "reactions": [],
+            "burn": 0,
+            "destroyed": false,
+            "defeat": "",
+            "activations": 1,
+            "meltdown_imminent": false,
+            "reactor_destroyed": false,
+            "core_active": false,
+            "cc_ver": "ERR",
+            "lastModified": "Sun Jul 21 2024 13:02:38 GMT-0400 (Eastern Daylight Time)",
+            "isDeleted": false,
+            "expireTime": "",
+            "deleteTime": "",
+            "portrait": "",
+            "cloud_portrait": "",
+            "loadouts": [
+                {
+                    "id": "abb53d4e-996e-4502-bc11-25dc9b75b54b",
+                    "name": "Primary",
+                    "systems": [
+                        {
+                            "id": "ms_pattern_a_jericho_deployable_cover",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_personalizations",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_type_3_projected_shield",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "The GMS Type-3 Projected Shield traps and denies incoming projectiles by projecting an aggressive, superpositional anti-ballistic barrier."
+                        },
+                        {
+                            "id": "ms_armament_redundancy",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "By installing additional armor plating, redundant firing circuits, and enhanced insulation to magazines the longevity of a frame’s armaments can be greatly enhanced."
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Main",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": {
+                                        "id": "lmkii_gms_shotty_mk_two",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "More shot per gun.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Flex",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Flex",
+                                    "weapon": {
+                                        "id": "mw_rocket_propelled_grenade",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": null
+                                }
+                            ],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Heavy",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Heavy",
+                                    "weapon": {
+                                        "id": "lmkii_heavy_charged_blade_mk_two",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                }
+            ],
+            "active_loadout_index": 0
+        },
+        {
+            "id": "edd65978-8f09-4900-97f3-60c8c3fc82fc",
+            "name": "Blessed by the Algorithm",
+            "notes": "",
+            "gm_note": "",
+            "frame": "mf_hydra",
+            "active": true,
+            "current_structure": 4,
+            "current_move": 5,
+            "boost": 0,
+            "current_hp": 12,
+            "overshield": 0,
+            "current_stress": 4,
+            "current_heat": 0,
+            "current_repairs": 4,
+            "current_overcharge": 0,
+            "current_core_energy": 1,
+            "statuses": [],
+            "conditions": [],
+            "resistances": [],
+            "reactions": [],
+            "burn": 0,
+            "destroyed": false,
+            "defeat": "",
+            "activations": 1,
+            "meltdown_imminent": false,
+            "reactor_destroyed": false,
+            "core_active": false,
+            "cc_ver": "ERR",
+            "lastModified": "Sat Oct 05 2024 08:55:38 GMT-0400 (Eastern Daylight Time)",
+            "isDeleted": false,
+            "expireTime": "",
+            "deleteTime": "",
+            "portrait": "",
+            "cloud_portrait": "https://d1nurxym97qk9o.cloudfront.net/public/us-east-1:e9767af1-60c4-454a-8032-6b53a7e9a9bb/mech/Retrograde-Minis-Retrograde-ZAHHAK1.png",
+            "loadouts": [
+                {
+                    "id": "7bb31ab1-ec26-4e7b-b8a2-951434cc5ee1",
+                    "name": "Primary",
+                    "systems": [
+                        {
+                            "id": "ms_puppetmaster",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "Developed by HORUS collectivists, H0r_OS-Rv60 EXP PUPPETMASTER is an interesting piece of anti-drone software. It doesn’t invade a target’s main systems, instead attacking their auxiliary drone-command systems. This sideways attack evades most electronic countermeasures by targeting the subcognitive networks of enemy drones. Once inside a network, PUPPETMASTER spreads ontological-kill memes like wildfire through enemy swarms, eventually following the network traces back to their origin and corrupting the parent nexus."
+                        },
+                        {
+                            "id": "ms_assassin_drone",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "Assassin drones are used as area-denial weapons – persistent systems intended to occupy or deny an area against enemy combatants. Fired from a launcher, given simple directives, and equipped with a nearly inexhaustible power supply, assassin drones are capable of securing an area indefinitely."
+                        },
+                        {
+                            "id": "ms_tempest_drone",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "The Tempest protocol is a cunning little piece of code that can be uploaded to any broadcast-forward drone, making it – in true HORUS fashion – difficult to detect prior to activation. The protocol is a simple one: an aggressive zone-denial memetic that blasts target systems and NHPs with a strong subjective override, instilling a sharp aversion to certain subjects, areas, and ideas."
+                        },
+                        {
+                            "id": "ms_personalizations",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_adjutant_class_compcon",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "<p>A major cornerstone of GMS's advanced technology initiative is the planned development of a next-generation companion/concierge system to replace the standard EPIPHANY-Class C/C currently in use by Union pilots. For reasons both practical as well as ethical, widespread dissemination of chassis-compatible C/C systems is currently being pushed by Union CentComm over military NHP design, and the ADJUTANT is the latest model to be approved for limited field trials following First Contact Accords compliance evaluation. Utilizing a new-model ontologic bridge framework, ADJUTANT allows for the use of selected simulant/reflex architectures to be uploaded to an engrammatic matrix for compatible pilot integration along both first- and second-tier neural processes. Long-term effects of repeated engrammatic synthesis are currently unknown, but early feedback is promising with test pilots reporting minimal difficulty expressing previously unheld aptitudes.</p>"
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Main",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": {
+                                        "id": "mw_ghoul_nexus",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Ghoul nexuses command some of the largest viable drones in modern combat. These drones are slightly smaller than an average human—metal cylinders bristling with hardpoints suitable for most infantry-level anti-mech weapons. Propelled by VTOL/hover-capable jet systems, Ghoul drones are fearsome, all-theater autonomous units that are difficult to track and take down.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Heavy",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Heavy",
+                                    "weapon": {
+                                        "id": "lmkii_ghast_nexus_mk_two",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Release the GHAST.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": {
+                                    "id": "mw_nexus_light",
+                                    "destroyed": false,
+                                    "cascading": false,
+                                    "loaded": true,
+                                    "mod": null,
+                                    "flavorName": "",
+                                    "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                                    "customDamageType": null,
+                                    "maxUseOverride": 0,
+                                    "uses": 0,
+                                    "selectedProfile": 0
+                                }
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": {
+                                    "id": "mw_nexus_light",
+                                    "destroyed": false,
+                                    "cascading": false,
+                                    "loaded": true,
+                                    "mod": null,
+                                    "flavorName": "",
+                                    "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                                    "customDamageType": null,
+                                    "maxUseOverride": 0,
+                                    "uses": 0,
+                                    "selectedProfile": 0
+                                }
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                }
+            ],
+            "active_loadout_index": 0
+        }
+    ],
+    "cc_ver": "",
+    "special_equipment": {
+        "PilotGear": [],
+        "Frames": [],
+        "MechWeapons": [],
+        "WeaponMods": [],
+        "MechSystems": [
+            "ms_adjutant_class_compcon"
+        ],
+        "SystemMods": []
+    },
+    "combat_history": {
+        "moves": 0,
+        "kills": 0,
+        "damage": 0,
+        "hp_damage": 0,
+        "structure_damage": 0,
+        "overshield": 0,
+        "heat_damage": 0,
+        "reactor_damage": 0,
+        "overcharge_uses": 0,
+        "core_uses": 0
+    },
+    "state": {
+        "active_mech_id": "edd65978-8f09-4900-97f3-60c8c3fc82fc",
+        "remote_mech_id": "",
+        "stage": "Narrative",
+        "turn": 1,
+        "actions": 2,
+        "braced": false,
+        "overcharged": false,
+        "prepare": false,
+        "bracedCooldown": false,
+        "redundant": false,
+        "stats": {
+            "moves": 0,
+            "kills": 0,
+            "damage": 0,
+            "hp_damage": 0,
+            "structure_damage": 0,
+            "overshield": 0,
+            "heat_damage": 0,
+            "reactor_damage": 0,
+            "overcharge_uses": 0,
+            "core_uses": 0
+        },
+        "deployed": []
+    },
+    "lastModified": "Sat Oct 05 2024 08:55:51 GMT-0400 (Eastern Daylight Time)",
+    "isDeleted": false,
+    "expireTime": "",
+    "deleteTime": "",
+    "lastUpdate_cloud": "Sat Oct 05 2024 08:55:51 GMT-0400 (Eastern Daylight Time)",
+    "lastSync": "Sat Oct 05 2024 08:55:51 GMT-0400 (Eastern Daylight Time)",
+    "shareCode": "XVITD4",
+    "shareCodeExpiry": "Fri Jan 03 2025 08:09:43 GMT-0500 (Eastern Standard Time)",
+    "isRemoteResource": false,
+    "skills": [
+        {
+            "id": "sk_lead_or_inspire",
+            "rank": 2
+        },
+        {
+            "id": "sk_pull_rank",
+            "rank": 3
+        },
+        {
+            "id": "sk_stay_cool",
+            "rank": 1
+        },
+        {
+            "id": "sk_take_control",
+            "rank": 1
+        }
+    ],
+    "talents": [
+        {
+            "id": "t_drone_commander",
+            "rank": 3
+        },
+        {
+            "id": "t_centimane",
+            "rank": 3
+        },
+        {
+            "id": "t_gunslinger",
+            "rank": 1
+        }
+    ],
+    "mechSkills": [
+        0,
+        1,
+        2,
+        2
+    ],
+    "counter_data": [],
+    "custom_counters": [],
+    "core_bonuses": [
+        "cb_improved_armament"
+    ],
+    "licenses": [
+        {
+            "id": "mf_hydra",
+            "rank": 3
+        }
+    ],
+    "reserves": [
+        {
+            "id": "reserve_talent",
+            "type": "Bonus",
+            "name": "Talent Point",
+            "label": "Bonus",
+            "description": "Add a Talent Point to gain or improve a Pilot Talent.",
+            "resource_name": "",
+            "resource_note": "",
+            "resource_cost": "",
+            "used": false,
+            "bonuses": [
+                {
+                    "id": "talent_point",
+                    "val": 1,
+                    "damage_types": [],
+                    "range_types": [],
+                    "weapon_types": [],
+                    "weapon_sizes": []
+                }
+            ],
+            "actions": [],
+            "synergies": [],
+            "deployables": [],
+            "counters": [],
+            "integrated": [],
+            "special_equipment": []
+        }
+    ],
+    "orgs": [],
+    "bondId": "ktb-bond-titan",
+    "xp": 3,
+    "stress": 0,
+    "isBroken": false,
+    "burdens": [],
+    "bondPowers": [
+        {
+            "name": "Force of Will",
+            "frequency": "1/session",
+            "description": "Command someone to flee, stop and drop what they’re holding, or come to you. They must do so. If the GM decides they are too strong-willed for this to work on them, regain your use of this ability and clear 1 Stress."
+        }
+    ],
+    "powerSelections": 0,
+    "maxStress": 8,
+    "bondAnswers": [
+        null,
+        null
+    ],
+    "minorIdeal": "",
+    "clocks": [],
+    "group": "",
+    "sort_index": -1,
+    "portrait": "",
+    "cloud_portrait": "https://d1nurxym97qk9o.cloudfront.net/public/us-east-1:e9767af1-60c4-454a-8032-6b53a7e9a9bb/pilot/IMG_6707.png",
+    "loadout": {
+        "id": "ade92a37-d8a4-469d-a9ef-c759d8747806",
+        "name": "Primary",
+        "armor": [
+            {
+                "id": "pg_heavy_hardsuit",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "The heaviest hardsuits. They are always powered and up-armored with thick, composite armor. Heavy hardsuits often feature integrated weapons, powerful mobility suites, and – by augmenting their user’s strength – allow their user to field much heavier weapons than normal infantry can typically carry. Heavy hardsuits are in decline now that half-size chassis are popular, but they are still common among private militaries and middle-tier Diasporan armed forces.",
+                "customDamageType": null
+            }
+        ],
+        "weapons": [
+            {
+                "id": "pg_heavy_signature",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Heavy signature weapons are missile tubes, heavy lasers, light machine gun, or exotic rifles.",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_light_a_c",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Light A/C weapons might be knives, bayonets, punching daggers, and short swords.",
+                "customDamageType": null
+            }
+        ],
+        "gear": [
+            {
+                "id": "pg_smart_scope",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "A powerful electronic scope that provides high-resolution magnification up to two miles, and automatically adjusts its reticle for wind, gravity, and pressure. Smart scopes can project their field of vision and all data to the HUD of any networked user. They can also pair with other thermal, optical, or simulated-vision devices to further enhance targeting.",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_antiphoton_visor",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Designed to protect the wearer’s eyes from intense bursts of light, antiphoton visors are commonly found among breach teams and solar-forward operators. They are effective against flash weapons, intense UV light, and incidental charges from energy weapons.",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_mag_clamps",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "These clamps attach easily to any metal surface, enhancing maneuverability in zero-g environments or when repairing mechs. They can be carried or fitted to boots.",
+                "customDamageType": null
+            }
+        ],
+        "extendedWeapons": [
+            null
+        ],
+        "extendedGear": [
+            null,
+            null
+        ]
+    },
+    "brews": [
+        {
+            "LcpId": "MMhitef+jvmY2uy9kdaCSXKJSeA=",
+            "LcpName": "Lancer Wallflower Data",
+            "LcpVersion": "2.0.5",
+            "Website": "https://massif-press.itch.io/no-room-for-a-wallflower-act-1"
+        },
+        {
+            "LcpId": "8AHVgqfO7VVPx1CVCbTTCwwdKQc=",
+            "LcpName": "Lancer Mk.II",
+            "LcpVersion": "1.4.6",
+            "Website": "https://docs.google.com/document/d/1PpZLf2FUQutSYZpfAfI803oZ0MUNFk3ogPknALydqLk/edit"
+        },
+        {
+            "LcpId": "05B2PGxewZ193c4GaHDBoE2sl8U=",
+            "LcpName": "LANCER: Dustgrave",
+            "LcpVersion": "1.4.0",
+            "Website": "https://massif-press.itch.io/dustgrave"
+        },
+        {
+            "LcpId": "GWG3TKHfJGNXeO3U3Q+CgjhS/Os=",
+            "LcpName": "Operation Solstice Rain Data",
+            "LcpVersion": "1.0.0",
+            "Website": "https://massif-press.itch.io/operation-solstice-rain"
+        }
+    ]
+}
