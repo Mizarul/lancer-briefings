@@ -532,6 +532,9 @@ section .section-header h1 {
 .mission .start {
 	background-color: var(--mission-start);
 }
+.mission .in-progress {
+	background-color: var(--mission-in-progress);
+}
 .mission .partial-success {
 	background-color: var(--mission-partial);
 }
