@@ -1,8 +1,8 @@
 [
 	{
-		"type": "Type",
-		"name": "Name",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam sem mi, vitae pharetra lorem dictum consectetur.",
+		"type": "Funds",
+		"name": "A Black Credit Card",
+		"description": "A credit card given to you by The Informant. It should be able to pay for any expenses within reason. Has an overcharge limit, but you'll have to pay for it",
 		"label": "Label",
 		"cost": "Cost",
 		"notes": "Notes",
