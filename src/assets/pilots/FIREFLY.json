@@ -790,8 +790,8 @@
     "reserves": [],
     "orgs": [],
     "bondId": "ktb-bond-builder",
-    "xp": 5,
-    "stress": 0,
+    "xp": 0,
+    "stress": 1,
     "isBroken": false,
     "burdens": [],
     "bondPowers": [

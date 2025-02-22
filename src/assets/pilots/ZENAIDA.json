@@ -735,8 +735,8 @@
     "reserves": [],
     "orgs": [],
     "bondId": "ktb-bond-magus",
-    "xp": 6,
-    "stress": 3,
+    "xp": 1,
+    "stress": 5,
     "isBroken": false,
     "burdens": [],
     "bondPowers": [

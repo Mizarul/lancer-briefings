@@ -568,8 +568,8 @@
     ],
     "orgs": [],
     "bondId": "ktb-bond-titan",
-    "xp": 6,
-    "stress": 0,
+    "xp": 1,
+    "stress": 6,
     "isBroken": false,
     "burdens": [],
     "bondPowers": [

@@ -3,9 +3,36 @@
 		"type": "Story",
 		"result": "Positive",
 		"name": "The Missing Agent",
-		"description": "Eyes and ears gone silent, find out what happened. For further infos ask on-site personel.",
+		"description": "A foggy case, mysteries piling up.",
 		"color": "#bb7dbb",
-		"value": 0,
+		"value": 2,
 		"max": 12
+	},
+	{
+		"type": "Rapport",
+		"result": "Status",
+		"name": "IPS",
+		"description": "Helping establish new frontiers!",
+		"color": "#7DBBBB",
+		"value": 6,
+		"max": 10
+	},
+	{
+		"type": "Rapport",
+		"result": "Status",
+		"name": "Rhine Lab LLC",
+		"description": "Fudging the numbers, together.",
+		"color": "#FD7777",
+		"value": 6,
+		"max": 10
+	},
+	{
+		"type": "Rapport",
+		"result": "Status",
+		"name": "Farmers Guild",
+		"description": "An opportunity, perhaps? Or maybe a different viewpoint entirely?",
+		"color": "#16ebc6",
+		"value": 0,
+		"max": 8
 	}
 ]
