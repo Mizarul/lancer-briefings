@@ -7,5 +7,61 @@
 		"cost": "Cost",
 		"notes": "Notes",
 		"callsign": ""
+	},
+	{
+		"type": "Bar",
+		"name": "Name Pending",
+		"description": "Fixed up and operational, ready to host a great number of guests, or at least the party",
+		"label": "Label",
+		"cost": "Cost",
+		"notes": "Notes",
+		"callsign": ""
+	},
+	{
+		
+		"type": "Partner",
+		"name": "Adric Wyse",
+		"description": "Currently looking for insider info. Said to check in at maximum 3 days",
+		"label": "Label",
+		"cost": "Cost",
+		"notes": "Notes",
+		"callsign": ""
+	},
+	{
+		"type": "Samples",
+		"name": "Lab Samples and Data",
+		"description": "Unsorted data and samples from the lab, as well as the remains of *something*.",
+		"label": "Label",
+		"cost": "Cost",
+		"notes": "Notes",
+		"callsign": ""
+	},
+	{
+		"type": "Samples",
+		"name": "Meteorite Fragment?",
+		"description": "A simple rock to the untrained eye.",
+		"label": "Label",
+		"cost": "Cost",
+		"notes": "Notes",
+		"callsign": ""
+	},
+	{
+		"type": "Samples",
+		"name": "Remains of the strange creature",
+		"description": "The corralized remains of the creature that assaulted Cacimar, whilst on the RL mission.",
+		"label": "Label",
+		"cost": "Cost",
+		"notes": "Notes",
+		"callsign": ""
+	},	
+	{
+		"type": "Information",
+		"name": "Locked Box",
+		"description": "A dead drop you've *very quickly* searched for and absconed with.",
+		"label": "Label",
+		"cost": "Cost",
+		"notes": "Notes",
+		"callsign": ""
 	}
+	
 ]
