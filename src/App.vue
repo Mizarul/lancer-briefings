@@ -140,7 +140,7 @@ export default {
 				this.pilots = [...this.pilots, pilot];
 				pilot.clocks.forEach(content => {
 					let clock = {};
-					clock["type"] = `Pilot Project // ${pilot.callsign}`;
+					clock["type"] = `Burden // ${pilot.callsign}`;
 					clock["result"] = "";
 					clock["name"] = content.title;
 					clock["description"] = content.description;
