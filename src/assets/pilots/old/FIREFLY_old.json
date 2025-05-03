@@ -1,6 +1,6 @@
 {
     "id": "d8beee4f-efce-4d33-8ec7-195937e5ba98",
-    "level": 4,
+    "level": 3,
     "callsign": "Firefly",
     "name": "Victoria Apfelbaum",
     "player_name": "---",
@@ -43,7 +43,7 @@
             "reactor_destroyed": false,
             "core_active": false,
             "cc_ver": "ERR",
-            "lastModified": "Tue Sep 03 2024 00:39:06 GMT+0200 (Mitteleuropäische Sommerzeit)",
+            "lastModified": "Wed Jul 24 2024 12:05:39 GMT+0200 (Mitteleuropäische Sommerzeit)",
             "isDeleted": false,
             "expireTime": "",
             "deleteTime": "",
@@ -177,13 +177,13 @@
                     "integratedMounts": [
                         {
                             "weapon": {
-                                "id": "mw_prototype_2",
+                                "id": "mw_prototype_1",
                                 "destroyed": false,
                                 "cascading": false,
                                 "loaded": true,
                                 "mod": null,
                                 "flavorName": "",
-                                "flavorDescription": "Gained from the <i>\"Engineer\" Rank II</i> Talent",
+                                "flavorDescription": "Gained from the <i>\"Engineer\" Rank I</i> Talent",
                                 "customDamageType": null,
                                 "maxUseOverride": 0,
                                 "uses": 0,
@@ -270,7 +270,7 @@
             "reactor_destroyed": false,
             "core_active": false,
             "cc_ver": "ERR",
-            "lastModified": "Tue Sep 03 2024 00:39:06 GMT+0200 (Mitteleuropäische Sommerzeit)",
+            "lastModified": "Wed Jul 24 2024 12:37:50 GMT+0200 (Mitteleuropäische Sommerzeit)",
             "isDeleted": false,
             "expireTime": "",
             "deleteTime": "",
@@ -385,23 +385,25 @@
                                 }
                             ],
                             "extra": [],
-                            "bonus_effects": [],
+                            "bonus_effects": [
+                                "cb_overpower_caliber"
+                            ],
                             "modifiable": true
                         }
                     ],
                     "integratedMounts": [
                         {
                             "weapon": {
-                                "id": "mw_prototype_2",
+                                "id": "mw_prototype_1",
                                 "destroyed": false,
                                 "cascading": false,
                                 "loaded": true,
                                 "mod": null,
-                                "flavorName": "",
-                                "flavorDescription": "Gained from the <i>\"Engineer\" Rank II</i> Talent",
-                                "customDamageType": null,
-                                "maxUseOverride": 0,
-                                "uses": 0,
+                                "flavorName": "Goonade Launcher",
+                                "flavorDescription": "Gained from the <i>\"Engineer\" Rank I</i> Talent",
+                                "customDamageType": "Explosive",
+                                "maxUseOverride": 8,
+                                "uses": 10,
                                 "selectedProfile": 0
                             }
                         }
@@ -485,7 +487,7 @@
             "reactor_destroyed": false,
             "core_active": false,
             "cc_ver": "ERR",
-            "lastModified": "Sun Apr 06 2025 16:39:21 GMT+0200 (Mitteleuropäische Sommerzeit)",
+            "lastModified": "Sat Aug 17 2024 23:58:27 GMT+0200 (Mitteleuropäische Sommerzeit)",
             "isDeleted": false,
             "expireTime": "",
             "deleteTime": "",
@@ -514,6 +516,14 @@
                             "flavorDescription": ""
                         },
                         {
+                            "id": "ms_armament_redundancy",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "By installing additional armor plating, redundant firing circuits, and enhanced insulation to magazines the longevity of a frame’s armaments can be greatly enhanced."
+                        },
+                        {
                             "id": "ms_personalizations",
                             "uses": 0,
                             "destroyed": false,
@@ -529,14 +539,6 @@
                             "cascading": false,
                             "flavorName": "Cat Shelter",
                             "flavorDescription": ""
-                        },
-                        {
-                            "id": "ms_armament_redundancy",
-                            "uses": 0,
-                            "destroyed": false,
-                            "cascading": false,
-                            "flavorName": "",
-                            "flavorDescription": "By installing additional armor plating, redundant firing circuits, and enhanced insulation to magazines the longevity of a frame’s armaments can be greatly enhanced."
                         }
                     ],
                     "integratedSystems": [],
@@ -615,231 +617,16 @@
                     "integratedMounts": [
                         {
                             "weapon": {
-                                "id": "mw_prototype_2",
+                                "id": "mw_prototype_1",
                                 "destroyed": false,
                                 "cascading": false,
                                 "loaded": true,
                                 "mod": null,
-                                "flavorName": "",
-                                "flavorDescription": "Gained from the <i>\"Engineer\" Rank II</i> Talent",
-                                "customDamageType": null,
-                                "maxUseOverride": 0,
-                                "uses": 0,
-                                "selectedProfile": 0
-                            }
-                        }
-                    ],
-                    "improved_armament": {
-                        "mount_type": "Flex",
-                        "lock": false,
-                        "slots": [
-                            {
-                                "size": "Flex",
-                                "weapon": null
-                            }
-                        ],
-                        "extra": [
-                            {
-                                "size": "Auxiliary",
-                                "weapon": null
-                            }
-                        ],
-                        "bonus_effects": [],
-                        "modifiable": true
-                    },
-                    "superheavy_mounting": {
-                        "mount_type": "Superheavy",
-                        "lock": false,
-                        "slots": [
-                            {
-                                "size": "Superheavy",
-                                "weapon": null
-                            }
-                        ],
-                        "extra": [],
-                        "bonus_effects": [],
-                        "modifiable": true
-                    },
-                    "integratedWeapon": {
-                        "mount_type": "Aux",
-                        "lock": false,
-                        "slots": [
-                            {
-                                "size": "Auxiliary",
-                                "weapon": null
-                            }
-                        ],
-                        "extra": [],
-                        "bonus_effects": [],
-                        "modifiable": true
-                    },
-                    "extraMounts": [],
-                    "extraIntegratedMounts": []
-                }
-            ],
-            "active_loadout_index": 0
-        },
-        {
-            "id": "ca0e93ea-4b5c-4195-8dc1-d5c25523f5e8",
-            "name": "Worst of Both Worlds",
-            "notes": "",
-            "gm_note": "",
-            "frame": "mf_micro_monarch",
-            "active": false,
-            "current_structure": 4,
-            "current_move": 5,
-            "boost": 0,
-            "current_hp": 10,
-            "overshield": 0,
-            "current_stress": 4,
-            "current_heat": 0,
-            "current_repairs": 4,
-            "current_overcharge": 0,
-            "current_core_energy": 1,
-            "statuses": [],
-            "conditions": [],
-            "resistances": [],
-            "reactions": [],
-            "burn": 0,
-            "destroyed": false,
-            "defeat": "",
-            "activations": 1,
-            "meltdown_imminent": false,
-            "reactor_destroyed": false,
-            "core_active": false,
-            "cc_ver": "ERR",
-            "lastModified": "Sat Apr 12 2025 20:06:29 GMT+0200 (Mitteleuropäische Sommerzeit)",
-            "isDeleted": false,
-            "expireTime": "",
-            "deleteTime": "",
-            "portrait": "",
-            "cloud_portrait": "",
-            "loadouts": [
-                {
-                    "id": "1c46ddbf-ca19-4907-9b80-c2e158b91339",
-                    "name": "Primary",
-                    "systems": [
-                        {
-                            "id": "lmkii_tlaloc_class_nhp_mk_two",
-                            "uses": 0,
-                            "destroyed": false,
-                            "cascading": false,
-                            "flavorName": "",
-                            "flavorDescription": "TLALOC-Class NHPs provide advanced multi-system targeting and co-pilot functions, taking over subroutine control to ensure persistent lock-on and engagement. With TLALOC installed and operational, a pilot can trust that their back is always covered, and every possible advantage exploited.<br>TLALOC clones are often stereotyped as hasty and impetuous, and they are well-known for having superiority complexes. Despite this, they are some of the most stable NHP clones. Leading subjectivity theorists suggest that the wide portfolio of control and sense of domination given to TLALOC units encourages a sense of contentment with their work and subjectivity parameters – as a result, they have a much longer cascade window. Thus far, this theory is consistently reproducible across all TLALOC units, although there is no similar correlation among other mil-spec NHP lines."
-                        }
-                    ],
-                    "integratedSystems": [],
-                    "mounts": [
-                        {
-                            "mount_type": "Aux/Aux",
-                            "lock": false,
-                            "slots": [
-                                {
-                                    "size": "Auxiliary",
-                                    "weapon": {
-                                        "id": "mw_missile_rack",
-                                        "destroyed": false,
-                                        "cascading": false,
-                                        "loaded": true,
-                                        "mod": null,
-                                        "flavorName": "",
-                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
-                                        "customDamageType": null,
-                                        "maxUseOverride": 0,
-                                        "uses": 0,
-                                        "selectedProfile": 0
-                                    }
-                                },
-                                {
-                                    "size": "Auxiliary",
-                                    "weapon": {
-                                        "id": "mw_missile_rack",
-                                        "destroyed": false,
-                                        "cascading": false,
-                                        "loaded": true,
-                                        "mod": null,
-                                        "flavorName": "",
-                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
-                                        "customDamageType": null,
-                                        "maxUseOverride": 0,
-                                        "uses": 0,
-                                        "selectedProfile": 0
-                                    }
-                                }
-                            ],
-                            "extra": [],
-                            "bonus_effects": [],
-                            "modifiable": true
-                        },
-                        {
-                            "mount_type": "Flex",
-                            "lock": false,
-                            "slots": [
-                                {
-                                    "size": "Flex",
-                                    "weapon": {
-                                        "id": "mw_sharanga_missiles",
-                                        "destroyed": false,
-                                        "cascading": false,
-                                        "loaded": true,
-                                        "mod": null,
-                                        "flavorName": "",
-                                        "flavorDescription": "“It was a duel. This is why they were made: to duel, and in that combat, to shake the pillars of the universe.” — “Notes for Young John”,  Ministrations of the Master Teacher",
-                                        "customDamageType": null,
-                                        "maxUseOverride": 0,
-                                        "uses": 0,
-                                        "selectedProfile": 0
-                                    }
-                                }
-                            ],
-                            "extra": [
-                                {
-                                    "size": "Auxiliary",
-                                    "weapon": null
-                                }
-                            ],
-                            "bonus_effects": [],
-                            "modifiable": true
-                        },
-                        {
-                            "mount_type": "Heavy",
-                            "lock": false,
-                            "slots": [
-                                {
-                                    "size": "Heavy",
-                                    "weapon": {
-                                        "id": "mw_gandiva_missiles",
-                                        "destroyed": false,
-                                        "cascading": false,
-                                        "loaded": true,
-                                        "mod": null,
-                                        "flavorName": "",
-                                        "flavorDescription": "Gandiva missiles are a reliable mainstay from Smith-Shimano’s BELLA CIAO line. Like the heavier Pinaka, the Gandiva is equipped with jet-assisted midflight repositioning systems, enhancing target navigation in rapidly changing battlefield environments. The Gandiva’s delivery platform is administered by a hivemind COMP/CON drone AI, giving it the capacity to learn from each right-of-launch experience.",
-                                        "customDamageType": null,
-                                        "maxUseOverride": 0,
-                                        "uses": 0,
-                                        "selectedProfile": 0
-                                    }
-                                }
-                            ],
-                            "extra": [],
-                            "bonus_effects": [],
-                            "modifiable": true
-                        }
-                    ],
-                    "integratedMounts": [
-                        {
-                            "weapon": {
-                                "id": "mw_prototype_2",
-                                "destroyed": false,
-                                "cascading": false,
-                                "loaded": true,
-                                "mod": null,
-                                "flavorName": "",
-                                "flavorDescription": "Gained from the <i>\"Engineer\" Rank II</i> Talent",
-                                "customDamageType": null,
-                                "maxUseOverride": 0,
-                                "uses": 0,
+                                "flavorName": "Goonade launcher",
+                                "flavorDescription": "Gained from the <i>\"Engineer\" Rank I</i> Talent",
+                                "customDamageType": "Explosive",
+                                "maxUseOverride": 8,
+                                "uses": 10,
                                 "selectedProfile": 0
                             }
                         }
@@ -943,14 +730,14 @@
         },
         "deployed": []
     },
-    "lastModified": "Thu May 01 2025 21:25:01 GMT+0200 (Mitteleuropäische Sommerzeit)",
+    "lastModified": "Thu Aug 29 2024 21:38:35 GMT+0200 (Mitteleuropäische Sommerzeit)",
     "isDeleted": false,
     "expireTime": "",
     "deleteTime": "",
-    "lastUpdate_cloud": "Sat Feb 15 2025 23:59:09 GMT+0100 (Mitteleuropäische Normalzeit)",
-    "lastSync": "Sat Feb 15 2025 23:59:09 GMT+0100 (Mitteleuropäische Normalzeit)",
+    "lastUpdate_cloud": "Wed Aug 28 2024 19:42:42 GMT+0200 (Mitteleuropäische Sommerzeit)",
+    "lastSync": "Wed Aug 28 2024 19:42:42 GMT+0200 (Mitteleuropäische Sommerzeit)",
     "shareCode": "68KBEW",
-    "shareCodeExpiry": "Wed Jul 30 2025 19:04:51 GMT+0200 (Mitteleuropäische Sommerzeit)",
+    "shareCodeExpiry": "Fri Sep 06 2024 14:08:37 GMT+0200 (Mitteleuropäische Sommerzeit)",
     "skills": [
         {
             "id": "sk_apply_fists_to_faces",
@@ -958,7 +745,7 @@
         },
         {
             "id": "sk_blow_something_up",
-            "rank": 3
+            "rank": 2
         },
         {
             "id": "sk_invent_or_create",
@@ -980,14 +767,14 @@
         },
         {
             "id": "t_engineer",
-            "rank": 2
+            "rank": 1
         }
     ],
     "mechSkills": [
         0,
-        2,
         0,
-        4
+        0,
+        5
     ],
     "counter_data": [],
     "custom_counters": [],
@@ -998,38 +785,20 @@
         {
             "id": "mf_monarch",
             "rank": 3
-        },
-        {
-            "id": "mf_barbarossa",
-            "rank": 1
         }
     ],
     "reserves": [],
     "orgs": [],
     "bondId": "ktb-bond-builder",
-    "xp": 3,
-    "stress": 4,
+    "xp": 0,
+    "stress": 1,
     "isBroken": false,
-    "burdens": [
-        {
-            "id": "e217e59c-956c-466c-93fc-21934a2f034c",
-            "title": "A DEAL WITH THE DEVIL",
-            "description": "Deidara plans to destroy the city.",
-            "resolution": "",
-            "segments": "6",
-            "progress": 3
-        }
-    ],
+    "burdens": [],
     "bondPowers": [
         {
             "name": "Rigger",
             "frequency": "2/session",
             "description": "You can create an improvised tool or device. Name its intended purpose and what you built it from (you always have the parts on your person). It provides +1 Accuracy on any skill checks for that purpose, but the first time you use it, roll a d6 and check for the following effects:<ol><li>It explodes immediately unless you take 1 Stress.</li><li>It melts something nearby into slag with a loose bolt of energy unless you take 1 Stress.</li><li>It makes a loud noise straight away and every time it is used.</li><li>It seems to have a mind of its own and sometimes activates without you.</li><li>For the rest of the session, you have to remain perfectly still to use it.</li><li>For the rest of the session, you have to feed it extra parts, raw material, or input from your gear or the environment if you want to use it.</li></ol> This item stops working at the end of the session. "
-        },
-        {
-            "name": "Secret History",
-            "frequency": "2/session",
-            "description": "When you examine an object or vehicle close enough to touch, you can ask any of the following to the GM and get an honest answer:<ul><li>Is this thing broken? If so, how can it be fixed?</li><li>Who touched or used this recently?</li><li>Where has this thing been in the past day or so?</li></ul>Gain +1 Accuracy on your next skill check acting on the answers."
         }
     ],
     "powerSelections": 0,
@@ -1125,7 +894,7 @@
         {
             "LcpId": "05B2PGxewZ193c4GaHDBoE2sl8U=",
             "LcpName": "LANCER: Dustgrave",
-            "LcpVersion": "1.4.0",
+            "LcpVersion": "1.3.1",
             "Website": "https://massif-press.itch.io/dustgrave"
         }
     ]

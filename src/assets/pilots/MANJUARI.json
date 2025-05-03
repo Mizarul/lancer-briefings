@@ -1,0 +1,873 @@
+{
+    "id": "95bd2d05-9c69-4867-97a9-7496ca1d7e60",
+    "level": 4,
+    "callsign": "Manjuari",
+    "name": "Cacimar Yuisa ",
+    "player_name": "Raxoid",
+    "status": "ACTIVE",
+    "dead": false,
+    "text_appearance": "",
+    "notes": "One additional Talent Point from Exotic Gear",
+    "history": "<p>A warrior of the Yuisa tribe from planet Andernach. After most of the tribe was slaughtered during a war of independence against the Guantuan Empire, most of the survivors sought refuge within the Republic of Maboca, the main contact of Union within the planet of Andernach. It is not uncommon for Yuisan warriors to serve as Andernachian Lancers for Union, or for some other well paying organization. Yuisan warriors believe that there is no true death, as they simply reincarnate into the tribe once their previous body perishes, resulting in a hyper aggressive warrior culture. Now most Yuisan warriors seek deaths among the stars, so that their souls may reach higher glory than ever before.</p>",
+    "quirks": [],
+    "current_hp": 11,
+    "background": "Mercenary",
+    "resistances": [],
+    "mechs": [
+        {
+            "id": "f7b63d23-6917-44d5-ba60-e83c625abff2",
+            "name": "Declined Promotion",
+            "notes": "",
+            "gm_note": "",
+            "frame": "mf_sagarmatha",
+            "active": false,
+            "current_structure": 4,
+            "current_move": 4,
+            "boost": 0,
+            "current_hp": 20,
+            "overshield": 0,
+            "current_stress": 4,
+            "current_heat": 0,
+            "current_repairs": 6,
+            "current_overcharge": 0,
+            "current_core_energy": 1,
+            "statuses": [],
+            "conditions": [],
+            "resistances": [],
+            "reactions": [],
+            "burn": 0,
+            "destroyed": false,
+            "defeat": "",
+            "activations": 1,
+            "meltdown_imminent": false,
+            "reactor_destroyed": false,
+            "core_active": false,
+            "cc_ver": "ERR",
+            "lastModified": "Sat May 03 2025 06:15:39 GMT-0400 (Eastern Daylight Time)",
+            "isDeleted": false,
+            "expireTime": "",
+            "deleteTime": "",
+            "portrait": "",
+            "cloud_portrait": "",
+            "loadouts": [
+                {
+                    "id": "abb53d4e-996e-4502-bc11-25dc9b75b54b",
+                    "name": "Primary",
+                    "systems": [
+                        {
+                            "id": "ms_pattern_a_jericho_deployable_cover",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_personalizations",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_type_3_projected_shield",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "The GMS Type-3 Projected Shield traps and denies incoming projectiles by projecting an aggressive, superpositional anti-ballistic barrier."
+                        },
+                        {
+                            "id": "ms_armament_redundancy",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "By installing additional armor plating, redundant firing circuits, and enhanced insulation to magazines the longevity of a frame’s armaments can be greatly enhanced."
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Main",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": {
+                                        "id": "lmkii_gms_shotty_mk_two",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "More shot per gun.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Flex",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Flex",
+                                    "weapon": {
+                                        "id": "mw_rocket_propelled_grenade",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": null
+                                }
+                            ],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Heavy",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Heavy",
+                                    "weapon": {
+                                        "id": "lmkii_heavy_charged_blade_mk_two",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                }
+            ],
+            "active_loadout_index": 0
+        },
+        {
+            "id": "edd65978-8f09-4900-97f3-60c8c3fc82fc",
+            "name": "Blessed by the Algorithm",
+            "notes": "",
+            "gm_note": "",
+            "frame": "mf_hydra",
+            "active": false,
+            "current_structure": 4,
+            "current_move": 5,
+            "boost": 0,
+            "current_hp": 20,
+            "overshield": 0,
+            "current_stress": 4,
+            "current_heat": 0,
+            "current_repairs": 6,
+            "current_overcharge": 0,
+            "current_core_energy": 1,
+            "statuses": [],
+            "conditions": [],
+            "resistances": [],
+            "reactions": [],
+            "burn": 0,
+            "destroyed": false,
+            "defeat": "",
+            "activations": 1,
+            "meltdown_imminent": false,
+            "reactor_destroyed": false,
+            "core_active": false,
+            "cc_ver": "ERR",
+            "lastModified": "Sat May 03 2025 06:15:39 GMT-0400 (Eastern Daylight Time)",
+            "isDeleted": false,
+            "expireTime": "",
+            "deleteTime": "",
+            "portrait": "",
+            "cloud_portrait": "",
+            "loadouts": [
+                {
+                    "id": "7bb31ab1-ec26-4e7b-b8a2-951434cc5ee1",
+                    "name": "Primary",
+                    "systems": [
+                        {
+                            "id": "ms_hive_drone",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "It looks, at first, like a roiling cloud of gray fog, churning and fizzing – smoking soda water spilled across concrete. It advances with curious motion, stretching and snapping back. A confusion of snakes, writhing forward with speed that betrays intent.<br>Color flashes across the gray cloud, a swarm-luminescence – the light created by millions of nanites glowing with heat as they consume whatever they cross.<br>This is greywash, and it is never sated."
+                        },
+                        {
+                            "id": "ms_swarm_body",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "What must it have been like for him? For the man who called himself Maw? For all of his followers? Certainly they had families before. Memories. Loves. Fears. Private thoughts. All gone. All of their bodies shattered. All of their minds spread across a billion lesser forms. Translated from the singular – all of its imperfections and lesser-lesser-thans – to become as air, and the clouds that fill it, and the wind that shapes the world."
+                        },
+                        {
+                            "id": "ms_comp_con_class_assistant_unit",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "The GMS Companion/Concierge-Class Assistant Unit conforms to all galaxy-wide standards. These virtual assistants pass even the most rigid Turing-Null assessment criteria and are cleared to operate even in the absence of a pilot."
+                        },
+                        {
+                            "id": "ms_personalizations",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_tempest_drone",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "The Tempest protocol is a cunning little piece of code that can be uploaded to any broadcast-forward drone, making it – in true HORUS fashion – difficult to detect prior to activation. The protocol is a simple one: an aggressive zone-denial memetic that blasts target systems and NHPs with a strong subjective override, instilling a sharp aversion to certain subjects, areas, and ideas."
+                        },
+                        {
+                            "id": "ms_custom_paint_job",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Main",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": {
+                                        "id": "lmkii_charged_blade_mk_two",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Heavy",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Heavy",
+                                    "weapon": {
+                                        "id": "mw_ghast_nexus",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "The Ghast is an up-armored, up-armed version of the smaller Ghoul drone; Ghast drones boast an upgraded flight system capable of wielding mech-tier weapons within optimum parameters, and can operate independently from their host chassis or as an integrated weapon. In Hydras, Ghast drones generally act as thoracic segments, providing armor to core systems: powerplant, cockpit, NHP caskets, etc.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                }
+            ],
+            "active_loadout_index": 0
+        },
+        {
+            "id": "95890f2e-2312-433b-91d0-04340f95b9d8",
+            "name": "Herald of Tomorrow",
+            "notes": "",
+            "gm_note": "",
+            "frame": "mf_balor",
+            "active": false,
+            "current_structure": 4,
+            "current_move": 3,
+            "boost": 0,
+            "current_hp": 22,
+            "overshield": 0,
+            "current_stress": 4,
+            "current_heat": 0,
+            "current_repairs": 6,
+            "current_overcharge": 0,
+            "current_core_energy": 1,
+            "statuses": [],
+            "conditions": [],
+            "resistances": [],
+            "reactions": [],
+            "burn": 0,
+            "destroyed": false,
+            "defeat": "",
+            "activations": 1,
+            "meltdown_imminent": false,
+            "reactor_destroyed": false,
+            "core_active": false,
+            "cc_ver": "ERR",
+            "lastModified": "Sat May 03 2025 06:23:35 GMT-0400 (Eastern Daylight Time)",
+            "isDeleted": false,
+            "expireTime": "",
+            "deleteTime": "",
+            "portrait": "",
+            "cloud_portrait": "",
+            "loadouts": [
+                {
+                    "id": "ba69b43f-309d-47f9-8f0e-de460c01bb62",
+                    "name": "Primary",
+                    "systems": [
+                        {
+                            "id": "ms_swarm_body",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "What must it have been like for him? For the man who called himself Maw? For all of his followers? Certainly they had families before. Memories. Loves. Fears. Private thoughts. All gone. All of their bodies shattered. All of their minds spread across a billion lesser forms. Translated from the singular – all of its imperfections and lesser-lesser-thans – to become as air, and the clouds that fill it, and the wind that shapes the world."
+                        },
+                        {
+                            "id": "ms_accelerate",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "Guillermo, no es suficiente saber caminar; Debes saber dónde y dónde no pisar. El lugar incorrecto, y te perderás. Es en un plano de telaraña donde construimos nuestro hogar: pise ligeramente cuando vaya.<br>[Guillermo, it is not enough to know how to walk; you must know where and where not to step; the incorrect spot, and you will be lost. It is on a plane of gossamer that we make our home: tread lightly when you go.]"
+                        },
+                        {
+                            "id": "ms_comp_con_class_assistant_unit",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "The GMS Companion/Concierge-Class Assistant Unit conforms to all galaxy-wide standards. These virtual assistants pass even the most rigid Turing-Null assessment criteria and are cleared to operate even in the absence of a pilot."
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Main",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": {
+                                        "id": "mw_swarm_hive_nanites",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "SWARM/HIVE nanites are among the more insidious weapons produced by HORUS: dispatched in maniples – single “swarm” units carrying enough nanites to fill a square meter – SWARM/HIVE nanites combine the systemic invasion properties of BOOST/HIVE code with the aggressive consumption of a CONSUME/HIVE maniple. Launched from mounted blisters, SWARM/HIVE nanite maniples fall upon their targets as great clouds of teeth, infiltrating sensitive compartments and modules before consuming any organic and inorganic material they touch.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Heavy",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Heavy",
+                                    "weapon": {
+                                        "id": "lmkii_nanobot_whip_mk_two",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Using swarm-coding and legion directives, HORUS collectivists created a framework to organize a swarm of nanites into a whip-like weapon. Nanobot whips can retract into their base blister for stowing, detach in melee combat to restrain nearby enemies, and return to their base unit when summoned.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [
+                                "cb_overpower_caliber"
+                            ],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                }
+            ],
+            "active_loadout_index": 0
+        }
+    ],
+    "cc_ver": "",
+    "special_equipment": {
+        "PilotGear": [],
+        "Frames": [],
+        "MechWeapons": [],
+        "WeaponMods": [],
+        "MechSystems": [],
+        "SystemMods": []
+    },
+    "combat_history": {
+        "moves": 0,
+        "kills": 0,
+        "damage": 0,
+        "hp_damage": 0,
+        "structure_damage": 0,
+        "overshield": 0,
+        "heat_damage": 0,
+        "reactor_damage": 0,
+        "overcharge_uses": 0,
+        "core_uses": 0
+    },
+    "state": {
+        "active_mech_id": "95890f2e-2312-433b-91d0-04340f95b9d8",
+        "remote_mech_id": "",
+        "stage": "Narrative",
+        "turn": 1,
+        "actions": 2,
+        "braced": false,
+        "overcharged": false,
+        "prepare": false,
+        "bracedCooldown": false,
+        "redundant": false,
+        "stats": {
+            "moves": 0,
+            "kills": 0,
+            "damage": 0,
+            "hp_damage": 0,
+            "structure_damage": 0,
+            "overshield": 0,
+            "heat_damage": 0,
+            "reactor_damage": 0,
+            "overcharge_uses": 0,
+            "core_uses": 0
+        },
+        "deployed": []
+    },
+    "lastModified": "Sat May 03 2025 06:31:37 GMT-0400 (Eastern Daylight Time)",
+    "isDeleted": false,
+    "expireTime": "",
+    "deleteTime": "",
+    "lastUpdate_cloud": "Fri Dec 27 2024 17:29:11 GMT-0500 (Eastern Standard Time)",
+    "lastSync": "Fri Dec 27 2024 17:29:11 GMT-0500 (Eastern Standard Time)",
+    "shareCode": "U2LQXE",
+    "shareCodeExpiry": "Thu Mar 27 2025 17:29:18 GMT-0400 (Eastern Daylight Time)",
+    "isRemoteResource": false,
+    "skills": [
+        {
+            "id": "sk_lead_or_inspire",
+            "rank": 2
+        },
+        {
+            "id": "sk_pull_rank",
+            "rank": 3
+        },
+        {
+            "id": "sk_stay_cool",
+            "rank": 2
+        },
+        {
+            "id": "sk_take_control",
+            "rank": 1
+        }
+    ],
+    "talents": [
+        {
+            "id": "t_executioner",
+            "rank": 3
+        },
+        {
+            "id": "t_brawler",
+            "rank": 3
+        },
+        {
+            "id": "t_tactician",
+            "rank": 1
+        },
+        {
+            "id": "t_pankrati",
+            "rank": 1
+        }
+    ],
+    "mechSkills": [
+        4,
+        0,
+        0,
+        2
+    ],
+    "counter_data": [
+        {
+            "id": "ctr_brawler",
+            "name": "Brawler Die",
+            "default_value": 6,
+            "min": 1,
+            "max": 6
+        }
+    ],
+    "custom_counters": [],
+    "core_bonuses": [
+        "cb_overpower_caliber"
+    ],
+    "licenses": [
+        {
+            "id": "mf_balor",
+            "rank": 3
+        },
+        {
+            "id": "mf_sunzi",
+            "rank": 1
+        }
+    ],
+    "reserves": [
+        {
+            "id": "reserve_talent",
+            "type": "Bonus",
+            "name": "Talent Point",
+            "label": "Bonus",
+            "description": "Add a Talent Point to gain or improve a Pilot Talent.",
+            "resource_name": "",
+            "resource_note": "",
+            "resource_cost": "",
+            "used": false,
+            "bonuses": [
+                {
+                    "id": "talent_point",
+                    "val": 1,
+                    "damage_types": [],
+                    "range_types": [],
+                    "weapon_types": [],
+                    "weapon_sizes": []
+                }
+            ],
+            "actions": [],
+            "synergies": [],
+            "deployables": [],
+            "counters": [],
+            "integrated": [],
+            "special_equipment": []
+        }
+    ],
+    "orgs": [],
+    "bondId": "ktb-bond-titan",
+    "xp": 0,
+    "stress": 5,
+    "isBroken": false,
+    "burdens": [],
+    "bondPowers": [
+        {
+            "name": "Force of Will",
+            "frequency": "1/session",
+            "description": "Command someone to flee, stop and drop what they’re holding, or come to you. They must do so. If the GM decides they are too strong-willed for this to work on them, regain your use of this ability and clear 1 Stress."
+        },
+        {
+            "name": "Absolute Meat",
+            "description": "If you concentrate and grit your teeth, your personal strength verges on superhuman. You can take 2 Stress and roll a skill check to do one of the following:<ul><li>Bust through a wall, door, or floor, even reinforced, with nothing but your body</li><li>Lift, push, or drag a vehicle, mech, or other tremendous weight a short distance</li><li>Withstand forces far beyond the human body such as gale force winds, a mech’ s strength, or the pull of the void.</li></ul>Your action has increased effect if successful."
+        }
+    ],
+    "powerSelections": 1,
+    "maxStress": 8,
+    "bondAnswers": [
+        "Years of training, sweat, blood, and discipline.",
+        "My own flesh and sinews."
+    ],
+    "minorIdeal": "I led from the front.",
+    "clocks": [
+        {
+            "id": "090887b0-f0ef-4607-b663-5c2cf2262790",
+            "title": "The Touch of We Many",
+            "description": "",
+            "resolution": "",
+            "segments": 6,
+            "progress": 2
+        }
+    ],
+    "group": "",
+    "sort_index": -1,
+    "portrait": "",
+    "cloud_portrait": "https://d1nurxym97qk9o.cloudfront.net/public/us-east-1:e9767af1-60c4-454a-8032-6b53a7e9a9bb/pilot/IMG_6707.png",
+    "loadout": {
+        "id": "ade92a37-d8a4-469d-a9ef-c759d8747806",
+        "name": "Primary",
+        "armor": [
+            {
+                "id": "pg_heavy_hardsuit",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "The heaviest hardsuits. They are always powered and up-armored with thick, composite armor. Heavy hardsuits often feature integrated weapons, powerful mobility suites, and – by augmenting their user’s strength – allow their user to field much heavier weapons than normal infantry can typically carry. Heavy hardsuits are in decline now that half-size chassis are popular, but they are still common among private militaries and middle-tier Diasporan armed forces.",
+                "customDamageType": null
+            }
+        ],
+        "weapons": [
+            {
+                "id": "pg_heavy_signature",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Heavy signature weapons are missile tubes, heavy lasers, light machine gun, or exotic rifles.",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_light_a_c",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Light A/C weapons might be knives, bayonets, punching daggers, and short swords.",
+                "customDamageType": null
+            }
+        ],
+        "gear": [
+            {
+                "id": "pg_smart_scope",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "A powerful electronic scope that provides high-resolution magnification up to two miles, and automatically adjusts its reticle for wind, gravity, and pressure. Smart scopes can project their field of vision and all data to the HUD of any networked user. They can also pair with other thermal, optical, or simulated-vision devices to further enhance targeting.",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_antiphoton_visor",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Designed to protect the wearer’s eyes from intense bursts of light, antiphoton visors are commonly found among breach teams and solar-forward operators. They are effective against flash weapons, intense UV light, and incidental charges from energy weapons.",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_mag_clamps",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "These clamps attach easily to any metal surface, enhancing maneuverability in zero-g environments or when repairing mechs. They can be carried or fitted to boots.",
+                "customDamageType": null
+            }
+        ],
+        "extendedWeapons": [
+            null
+        ],
+        "extendedGear": [
+            null,
+            null
+        ]
+    },
+    "brews": [
+        {
+            "LcpId": "MMhitef+jvmY2uy9kdaCSXKJSeA=",
+            "LcpName": "Lancer Wallflower Data",
+            "LcpVersion": "2.0.5",
+            "Website": "https://massif-press.itch.io/no-room-for-a-wallflower-act-1"
+        },
+        {
+            "LcpId": "8AHVgqfO7VVPx1CVCbTTCwwdKQc=",
+            "LcpName": "Lancer Mk.II",
+            "LcpVersion": "1.4.6",
+            "Website": "https://docs.google.com/document/d/1PpZLf2FUQutSYZpfAfI803oZ0MUNFk3ogPknALydqLk/edit"
+        },
+        {
+            "LcpId": "05B2PGxewZ193c4GaHDBoE2sl8U=",
+            "LcpName": "LANCER: Dustgrave",
+            "LcpVersion": "1.4.0",
+            "Website": "https://massif-press.itch.io/dustgrave"
+        },
+        {
+            "LcpId": "eK3m5/lSUgllpz12ZjWcfL/TC2c=",
+            "LcpName": "Lancer Long Rim Data",
+            "LcpVersion": "1.2.1",
+            "Website": "https://massif-press.itch.io/the-long-rim"
+        }
+    ]
+}

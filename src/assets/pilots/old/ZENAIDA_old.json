@@ -1,6 +1,6 @@
 {
     "id": "41966b26-c396-4855-95f0-2cd40360d070",
-    "level": 4,
+    "level": 3,
     "callsign": "Zenaida",
     "name": "Shinnosuke Lofman",
     "player_name": "Cruzie",
@@ -639,7 +639,7 @@
         "core_uses": 0
     },
     "state": {
-        "active_mech_id": "",
+        "active_mech_id": "1bf0fbe8-98ef-4692-9c2c-6581ad3917ef",
         "remote_mech_id": "",
         "stage": "Narrative",
         "turn": 1,
@@ -663,14 +663,14 @@
         },
         "deployed": []
     },
-    "lastModified": "Fri May 02 2025 19:16:43 GMT-0400 (Eastern Daylight Time)",
+    "lastModified": "Thu Oct 03 2024 14:39:27 GMT-0400 (Eastern Daylight Time)",
     "isDeleted": false,
     "expireTime": "",
     "deleteTime": "",
-    "lastUpdate_cloud": "Sat Nov 23 2024 13:42:04 GMT-0500 (Eastern Standard Time)",
-    "lastSync": "Sat Nov 23 2024 13:42:04 GMT-0500 (Eastern Standard Time)",
+    "lastUpdate_cloud": "Fri Jun 28 2024 23:29:56 GMT-0400 (Eastern Daylight Time)",
+    "lastSync": "Fri Jun 28 2024 23:29:56 GMT-0400 (Eastern Daylight Time)",
     "shareCode": "8FN9OL",
-    "shareCodeExpiry": "Thu Jul 31 2025 19:16:43 GMT-0400 (Eastern Daylight Time)",
+    "shareCodeExpiry": "Wed Jan 01 2025 14:39:27 GMT-0500 (Eastern Standard Time)",
     "skills": [
         {
             "id": "sk_investigate",
@@ -686,26 +686,30 @@
         },
         {
             "id": "sk_stay_cool",
-            "rank": 3
+            "rank": 2
         }
     ],
     "talents": [
         {
             "id": "t_technophile",
-            "rank": 3
+            "rank": 2
         },
         {
             "id": "t_field_analyst",
             "rank": 2
         },
         {
+            "id": "t_spotter",
+            "rank": 1
+        },
+        {
             "id": "t_leader",
-            "rank": 2
+            "rank": 1
         }
     ],
     "mechSkills": [
         0,
-        2,
+        1,
         4,
         0
     ],
@@ -726,17 +730,13 @@
         {
             "id": "mf_goblin",
             "rank": 3
-        },
-        {
-            "id": "mf_swallowtail",
-            "rank": 1
         }
     ],
     "reserves": [],
     "orgs": [],
     "bondId": "ktb-bond-magus",
-    "xp": 4,
-    "stress": 7,
+    "xp": 1,
+    "stress": 5,
     "isBroken": false,
     "burdens": [],
     "bondPowers": [
@@ -744,13 +744,9 @@
             "name": "Plunder the Void",
             "frequency": "1/session",
             "description": "When you strike out alone and enter a dark and distant place, nobody – PC or NPC – can find you and you may ask the GM one question about a situation at hand. They must answer truthfully with “yes”, “no”, or “unclear”. Whether this is merely a mental space or a different realm entirely is up to you and your GM. You return to reality where you left it at the start of the next scene."
-        },
-        {
-            "name": "Eyes of the Void",
-            "description": "You can see perfectly well in even pitch darkness, fog, or poor weather conditions. Gain +1 Accuracy and increased effect on checks that rely on surveying or observing your surroundings. You can see even fine detail up to a mile away unaided."
         }
     ],
-    "powerSelections": 1,
+    "powerSelections": 0,
     "maxStress": 8,
     "bondAnswers": [
         "Esoteric technology, implanted in your cortex",
@@ -759,9 +755,9 @@
     "minorIdeal": "I questioned my own senses, beliefs, or sense of self.",
     "clocks": [],
     "group": "Active",
-    "sort_index": -1,
+    "sort_index": 0,
     "portrait": "",
-    "cloud_portrait": "https://d1nurxym97qk9o.cloudfront.net/public/us-east-1:9190d348-4b84-4304-887a-fab8c5a91a7a/pilot/shinno3_icon.jpg",
+    "cloud_portrait": "https://d1nurxym97qk9o.cloudfront.net/public/us-east-1:9190d348-4b84-4304-887a-fab8c5a91a7a/pilot/Shinnosuke_Lofman.png",
     "loadout": {
         "id": "9eda53d6-f2eb-4379-9c14-e90cdd8bbc88",
         "name": "Primary",
@@ -843,10 +839,10 @@
             "Website": "https://massif-press.itch.io/operation-solstice-rain"
         },
         {
-            "LcpId": "05B2PGxewZ193c4GaHDBoE2sl8U=",
+            "LcpId": "kMGdq/FMOML1wDv7caB6BbicXJM=",
             "LcpName": "LANCER: Dustgrave",
-            "LcpVersion": "1.4.0",
-            "Website": "https://massif-press.itch.io/dustgrave"
+            "LcpVersion": "3.0",
+            "Website": ""
         }
     ]
 }
