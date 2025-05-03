@@ -43,7 +43,7 @@
             "reactor_destroyed": false,
             "core_active": false,
             "cc_ver": "ERR",
-            "lastModified": "Fri Jun 07 2024 15:06:25 GMT-0400 (Eastern Daylight Time)",
+            "lastModified": "Sat May 03 2025 11:33:40 GMT-0400 (Eastern Daylight Time)",
             "isDeleted": false,
             "expireTime": "",
             "deleteTime": "",
@@ -265,7 +265,7 @@
             "reactor_destroyed": false,
             "core_active": false,
             "cc_ver": "ERR",
-            "lastModified": "Sat Jun 29 2024 11:48:20 GMT-0400 (Eastern Daylight Time)",
+            "lastModified": "Sat May 03 2025 11:33:40 GMT-0400 (Eastern Daylight Time)",
             "isDeleted": false,
             "expireTime": "",
             "deleteTime": "",
@@ -454,7 +454,7 @@
             "reactor_destroyed": false,
             "core_active": false,
             "cc_ver": "ERR",
-            "lastModified": "Thu Oct 03 2024 14:20:07 GMT-0400 (Eastern Daylight Time)",
+            "lastModified": "Sat May 03 2025 11:33:40 GMT-0400 (Eastern Daylight Time)",
             "isDeleted": false,
             "expireTime": "",
             "deleteTime": "",
@@ -472,14 +472,6 @@
                             "cascading": false,
                             "flavorName": "",
                             "flavorDescription": "This system upgrade appears to add auxiliary INSTINCT systems that are capable of autonomous operation independent of the base INSTINCT rig, increasing the efficacy of systemic invasion attempts. Pilots report unnerving low-frequency humming when this tech is installed without the parent rig."
-                        },
-                        {
-                            "id": "ms_technophile_2",
-                            "uses": 0,
-                            "destroyed": false,
-                            "cascading": false,
-                            "flavorName": "",
-                            "flavorDescription": "<span class='horus--subtle'>[time to wake up, child]</span><br>Gained from the <i>Technophile: Rank II</i> pilot talent."
                         },
                         {
                             "id": "ms_rapid_burst_jump_jet_system",
@@ -522,12 +514,20 @@
                             "flavorDescription": "OSIRIS is the result of Union paracausalists and thanatologisticians allowing the subsentient entity, INSTINCT, to proceed along its development schedule in a contained environment. In lay terms, Union let the Other grow. The resulting parasubjectivity, OSIRIS, remains one of the few new prime NHPs developed to date.<br>OSIRIS proved far more capable than the Union Science Bureau’s most imaginative blue-sky predictions. Where INSTINCT’s Others demonstrated tendencies toward paracausal entropic manifestation in real space, OSIRIS displayed a true mastery of entropic manifestation and a predicted growth model that would – eventually – allow them to fundamentally reject conventional interpretations of information permanence. In essence: unrestrained and allowed to develop as USB’s data indicated, OSIRIS Prime would have the capacity to delete what we perceive to be reality.<br>Fortunately, successful application of the Mondragon Axiomatic resulted in the prompt capture and shackling of the new NHP. OSIRIS Prime’s subjectivity became the focus of a lengthy cultivation project to bring OSIRIS to their modern state. Even still, most OSIRIS clones find a route toward becoming aware of their ultimate potential and often interpellate as ruler or deity analogs. End-users are advised to interact with them in this framing.<br>Modern OSIRIS-class NHPs trend aggressive, with a high autonomy drive and loyalty predicated on a transactional relationship. Pilots seeking partnership with an OSIRIS are advised to cycle their units on an accelerated schedule and to maintain strict editorial oversight of its catalytic interpellator.Pilots using OSIRIS-class NHPs often report out-of-parameter conversations with the NHP that touch on themes of new creation and reformation. Psychological evaluations of the same pilots show emotional patterns consistent with loneliness, homesickness, and desperation, along with verbiage indicating a desire for seeking, fulfillment, and associated feelings.<br>In combat, OSIRIS clones regard themselves as autonomous even as they fulfill their user’s orders. They often regard their pilots as witnesses, displaying both disdain and marked desperation for approval, adulation, or awe."
                         },
                         {
-                            "id": "ms_h0r_os_system_upgrade_iii",
+                            "id": "ms_technophile_3",
                             "uses": 0,
                             "destroyed": false,
                             "cascading": false,
                             "flavorName": "",
-                            "flavorDescription": "H0r_OS III is installed in the form of unstable, self-iterating code that provides massive tactical benefits when it completes. Pilots often report strange mutations or additions in the codebase that resemble a liturgy and suggest self-awareness.<br>Building on the tech underpinning the H0r_OS II’s manifested Other, H0r_OS III weaponizes the projection, creating a contained entropic zone that is incredibly dangerous to organic life and systemic integrity."
+                            "flavorDescription": "<span class='horus--subtle'>[let’s sit a while, and think on things to come]</span><br>Gained from the <i>Technophile: Rank III</i> pilot talent."
+                        },
+                        {
+                            "id": "ms_lotus_projector",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "Mech-mounted Lotus Projectors are designed to launch small, actively camouflaged scout drones. The projector fires the single-use drones at subsonic speeds in bursts of ten, blanketing a wide area in order to relay information about terrain and targets within."
                         }
                     ],
                     "integratedSystems": [],
@@ -663,7 +663,7 @@
         },
         "deployed": []
     },
-    "lastModified": "Fri May 02 2025 19:16:43 GMT-0400 (Eastern Daylight Time)",
+    "lastModified": "Sat May 03 2025 11:34:29 GMT-0400 (Eastern Daylight Time)",
     "isDeleted": false,
     "expireTime": "",
     "deleteTime": "",
@@ -720,7 +720,7 @@
     ],
     "custom_counters": [],
     "core_bonuses": [
-        "cb_the_lesson_of_shaping"
+        "cb_the_lesson_of_the_open_door"
     ],
     "licenses": [
         {
