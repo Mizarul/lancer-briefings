@@ -639,7 +639,7 @@
         "core_uses": 0
     },
     "state": {
-        "active_mech_id": "",
+        "active_mech_id": "1bf0fbe8-98ef-4692-9c2c-6581ad3917ef",
         "remote_mech_id": "",
         "stage": "Narrative",
         "turn": 1,
