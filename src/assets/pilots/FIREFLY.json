@@ -1039,7 +1039,16 @@
         "Your gut."
     ],
     "minorIdeal": "I invent, upgrade, or deconstruct (explode) to forge new paths forward.",
-    "clocks": [],
+    "clocks": [
+        {
+            "id": "e217e59c-956c-466c-93fc-21934a2f034c",
+            "title": "A DEAL WITH THE DEVIL",
+            "description": "Deidra wants to be impressed.",
+            "resolution": "",
+            "segments": 6,
+            "progress": 3
+        }
+    ],
     "group": "",
     "sort_index": -1,
     "portrait": "",
