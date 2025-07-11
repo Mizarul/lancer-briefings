@@ -17,7 +17,7 @@
 				<h3>Mission List</h3>
 				<div class="mission-list-container">
 					<Mission
-					  v-for="item in missions"
+					  v-for="item in missions.slice().reverse()"
 					  :key="item.slug"
 					  :mission="item"
 					  :selected="missionSlug"
