@@ -17,7 +17,7 @@
 				<h3>Mission List</h3>
 				<div class="mission-list-container">
 					<Mission
-					  v-for="item in missions.slice().reverse()"
+					  v-for="item in missions"
 					  :key="item.slug"
 					  :mission="item"
 					  :selected="missionSlug"
@@ -33,7 +33,7 @@
 			<div class="section-content-container">
 				<div class="events-list-container">
 					<Event
-					  v-for="item in $props.events"
+					  v-for="item in $props.events.slice().reverse()"
 					  :key="item.title"
 					  :event="item" />
 				</div>
