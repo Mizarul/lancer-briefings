@@ -443,12 +443,12 @@
             "reactor_destroyed": false,
             "core_active": false,
             "cc_ver": "ERR",
-            "lastModified": "Sat May 03 2025 06:23:35 GMT-0400 (Eastern Daylight Time)",
+            "lastModified": "Fri Jul 11 2025 15:41:01 GMT-0400 (Eastern Daylight Time)",
             "isDeleted": false,
             "expireTime": "",
             "deleteTime": "",
             "portrait": "",
-            "cloud_portrait": "",
+            "cloud_portrait": "https://d1nurxym97qk9o.cloudfront.net/public/us-east-1:e9767af1-60c4-454a-8032-6b53a7e9a9bb/mech/WIP-ezgif.com-gif-maker.gif",
             "loadouts": [
                 {
                     "id": "ba69b43f-309d-47f9-8f0e-de460c01bb62",
@@ -488,13 +488,13 @@
                                 {
                                     "size": "Main",
                                     "weapon": {
-                                        "id": "mw_swarm_hive_nanites",
+                                        "id": "lmkii_gms_shotty_mk_two",
                                         "destroyed": false,
                                         "cascading": false,
                                         "loaded": true,
                                         "mod": null,
                                         "flavorName": "",
-                                        "flavorDescription": "SWARM/HIVE nanites are among the more insidious weapons produced by HORUS: dispatched in maniples – single “swarm” units carrying enough nanites to fill a square meter – SWARM/HIVE nanites combine the systemic invasion properties of BOOST/HIVE code with the aggressive consumption of a CONSUME/HIVE maniple. Launched from mounted blisters, SWARM/HIVE nanite maniples fall upon their targets as great clouds of teeth, infiltrating sensitive compartments and modules before consuming any organic and inorganic material they touch.",
+                                        "flavorDescription": "More shot per gun.",
                                         "customDamageType": null,
                                         "maxUseOverride": 0,
                                         "uses": 0,
@@ -632,14 +632,14 @@
         },
         "deployed": []
     },
-    "lastModified": "Sat May 03 2025 06:31:37 GMT-0400 (Eastern Daylight Time)",
+    "lastModified": "Fri Jul 11 2025 15:41:49 GMT-0400 (Eastern Daylight Time)",
     "isDeleted": false,
     "expireTime": "",
     "deleteTime": "",
-    "lastUpdate_cloud": "Fri Dec 27 2024 17:29:11 GMT-0500 (Eastern Standard Time)",
-    "lastSync": "Fri Dec 27 2024 17:29:11 GMT-0500 (Eastern Standard Time)",
-    "shareCode": "U2LQXE",
-    "shareCodeExpiry": "Thu Mar 27 2025 17:29:18 GMT-0400 (Eastern Daylight Time)",
+    "lastUpdate_cloud": "Fri Jul 11 2025 15:41:43 GMT-0400 (Eastern Daylight Time)",
+    "lastSync": "Fri Jul 11 2025 15:41:43 GMT-0400 (Eastern Daylight Time)",
+    "shareCode": "WM9Y3Y",
+    "shareCodeExpiry": "Thu Oct 09 2025 15:41:49 GMT-0400 (Eastern Daylight Time)",
     "isRemoteResource": false,
     "skills": [
         {
@@ -763,10 +763,10 @@
         {
             "id": "090887b0-f0ef-4607-b663-5c2cf2262790",
             "title": "The Touch of We Many",
-            "description": "A touch, a connection, possibilites mounting, will it result in the rekindling of strife or resolution.",
+            "description": "Kinship Established",
             "resolution": "",
             "segments": 6,
-            "progress": 2
+            "progress": 3
         }
     ],
     "group": "",
